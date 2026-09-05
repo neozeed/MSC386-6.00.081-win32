@@ -1,0 +1,10 @@
+Modern Win32 structural validation
+
+C3_386-WIN32.EXE SHA-256: 3cf70c25377c8a5c514aab8dccd5f15c2fbc26002b8b44a4a702872369ae4c96
+C3_386COMPAT.DLL SHA-256: 6a2b73830013506734f5e3a0350f56c4e97bc2c6fecf497a8d46c66c1bca6779
+EXE imported names: 25
+DLL declared exports: 25
+Missing imports from DLL export list: []
+objdump parses modernized EXE: yes
+objdump parses compatibility DLL: yes
+runtime execution tested: no (no Windows/Wine runtime in environment)

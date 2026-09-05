@@ -1,0 +1,590 @@
+id	class	text
+1000	fatal	UNKNOWN FATAL ERROR\n\t\tContact Microsoft Product Support Services
+1001	fatal	Internal Compiler Error\n\t\t(compiler file '%s', line %d)\n\t\tContact Microsoft Product Support Services
+1003	fatal	error count exceeds %d; stopping compilation
+1004	fatal	unexpected end-of-file found
+1005	fatal	string too big for buffer
+1006	fatal	write error on compiler-generated file
+1007	fatal	unrecognized flag '%s' in '%s'
+1008	fatal	no input file specified
+1009	fatal	compiler limit : macros nested too deeply
+1010	fatal	compiler limit : macro expansion too big
+1011	fatal	compiler limit : '%s': macro definition too big
+1012	fatal	unmatched parenthesis - missing '%c'
+1014	fatal	too many include files
+1016	fatal	#if[n]def expected an identifier
+1017	fatal	invalid integer constant expression
+1018	fatal	unexpected '#elif'
+1019	fatal	unexpected '#else'
+1020	fatal	unexpected '#endif'
+1021	fatal	invalid preprocessor command '%s'
+1022	fatal	expected '#endif'
+1023	fatal	cannot open source file '%Fs'
+1024	fatal	cannot open include file '%Fs'
+1025	fatal	compiler terminated by user
+1026	fatal	parser stack overflow, please simplify your program
+1027	fatal	DGROUP data allocation exceeds 64K
+1028	fatal	'%s' : segment allocation exceeds 64K
+1031	fatal	compiler limit : function calls nested too deeply
+1032	fatal	cannot open object listing file '%s'
+1035	fatal	expression too complex, please simplify
+1037	fatal	cannot open object file '%s'
+1041	fatal	cannot open compiler intermediate file - no more files
+1042	fatal	cannot open compiler intermediate file - no such file or directory
+1043	fatal	cannot open compiler intermediate file
+1044	fatal	out of disk space for compiler intermediate file
+1046	fatal	compiler limit : %s nested too deeply
+1047	fatal	limit of %s exceeded at '%s'
+1048	fatal	unknown option '%c' in '%s'
+1049	fatal	invalid numerical argument '%s'
+1052	fatal	compiler limit : #if/#ifdef blocks nested too deeply
+1053	fatal	compiler limit : struct/union nested too deeply
+1054	fatal	compiler limit : initializers nested too deeply
+1055	fatal	compiler limit : out of keys
+1056	fatal	compiler limit : out of macro expansion space
+1057	fatal	unexpected end-of-file in macro expansion (missing ')'?)
+1058	fatal	compiler limit : too many formal arguments
+1059	fatal	compiler is out of near heap space
+1060	fatal	compiler is out of far heap space
+1061	fatal	compiler limit : blocks nested too deeply
+1062	fatal	error writing to preprocessor output file
+1063	fatal	compiler limit : compiler stack overflow
+1064	fatal	compiler limit : token overflowed internal buffer
+1068	fatal	cannot open file '%s'
+1069	fatal	write error on file '%s'
+1070	fatal	mismatched #if/#endif pair in file '%Fs'
+1071	fatal	unexpected end-of-file found in comment
+1072	fatal	'%Fs' : cannot read file
+1126	fatal	'%Fs' : automatic allocation exceeds %s
+1127	fatal	'%Fs' : segment redefinition
+1500	fatal	'%Fs' : cannot open inline function definition file
+1501	fatal	compiler limit : too many temporary variables
+1502	fatal	the inline member function definition starting on this line found an end-of-file before a matched '}'
+2000	error	UNKNOWN ERROR\n\t\tContact Microsoft Product Support Services
+2001	error	newline in constant
+2003	error	expected 'defined id'
+2004	error	expected 'defined(id)'
+2005	error	#line expected a line number, found '%s'
+2006	error	#include expected a file name, found '%s'
+2007	error	#define syntax
+2008	error	'%c' : unexpected in macro definition
+2009	error	reuse of macro formal '%Fs'
+2010	error	'%c' : unexpected in macro formal-parameter list
+2011	error	'%s' : %s type redefinition
+2012	error	missing name following '<'
+2013	error	missing '>'
+2014	error	preprocessor command must start as first non-white-space
+2015	error	too many characters in constant
+2016	error	no closing single quotation mark
+2017	error	illegal escape sequence
+2018	error	unknown character '0x%x'
+2019	error	expected preprocessor directive, found '%c'
+2020	error	'%Fs' : %s member redefinition
+2021	error	expected exponent value, not '%c'
+2022	error	'%ld' : too big for character
+2023	error	divide by 0
+2024	error	mod by 0
+2025	error	'%s' : enum/struct/union type redefinition
+2026	error	'%s' : member of enum redefinition
+2027	error	use of undefined type '%Fs'
+2028	error	struct/union member must be inside a struct/union
+2029	error	left of '%s' specifies undefined class/struct/union '%Fs'
+2030	error	'%Fs' : struct/union member redefinition
+2031	error	'%Fs' : function cannot be struct/union member
+2032	error	'%Fs' : function cannot be member of %s '%Fs'
+2033	error	'%Fs' : bit field cannot have indirection
+2034	error	'%Fs' : type of bit field too small for number of bits
+2035	error	struct/union '%Fs' : unknown size
+2036	error	%s '%Fs' : unknown size
+2037	error	left of '%s' specifies undefined struct/union '%Fs'
+2038	error	'%s' : not struct/union member
+2039	error	'%s' : not %s member
+2041	error	illegal digit '%c' for base %d
+2042	error	signed/unsigned keywords mutually exclusive
+2043	error	illegal break
+2044	error	illegal continue
+2045	error	'%s' : label redefined
+2046	error	illegal case
+2047	error	illegal default
+2048	error	more than one default
+2049	error	case value '%ld' already used
+2050	error	nonintegral switch expression
+2051	error	case expression not constant
+2052	error	case expression not integral
+2054	error	expected '(' to follow '%Fs'
+2055	error	expected formal-parameter list, not a type list
+2056	error	illegal expression
+2057	error	expected constant expression
+2058	error	constant expression is not integral
+2059	error	syntax error : '%s'
+2060	error	syntax error : end-of-file found
+2061	error	syntax error : identifier '%s'
+2062	error	type '%s' unexpected
+2063	error	'%s' : not a function
+2064	error	term does not evaluate to a function
+2065	error	'%s' : undefined
+2066	error	cast to function type is illegal
+2067	error	cast to array type is illegal
+2068	error	illegal cast
+2069	error	cast of void term to nonvoid
+2070	error	illegal sizeof operand
+2071	error	'%Fs' : illegal storage class
+2072	error	'%Fs' : initialization of a function
+2075	error	'%Fs' : array initialization needs curly braces
+2076	error	'%Fs' : struct/union initialization needs curly braces
+2077	error	nonscalar field initializer '%Fs'
+2078	error	too many initializers
+2079	error	'%Fs' uses undefined struct/union '%Fs'
+2080	error	illegal far _fastcall function
+2082	error	redefinition of formal parameter '%Fs'
+2083	error	%s comparison illegal
+2084	error	function '%Fs' already has a body
+2085	error	'%Fs' : not in formal-parameter list
+2086	error	'%Fs' : redefinition
+2087	error	'%Fs' : missing subscript
+2088	error	'%s' : illegal for %s
+2089	error	'%Fs' : %s too large
+2090	error	function returns array
+2091	error	function returns function
+2092	error	array element type cannot be function
+2093	error	cannot use address of automatic variable as static initializer
+2094	error	label '%Fs' was undefined
+2095	error	'%Fs' : actual has type void : parameter %d
+2096	error	struct/union comparison illegal
+2097	error	illegal initialization
+2098	error	nonaddress expression
+2099	error	nonconstant initializer
+2100	error	illegal indirection
+2101	error	'&' on constant
+2102	error	'&' requires lvalue
+2103	error	'&' on register variable
+2104	error	'&' on bit field ignored
+2105	error	'%s' needs lvalue
+2106	error	'%s' : left operand must be lvalue
+2107	error	illegal index, indirection not allowed
+2108	error	nonintegral index
+2109	error	subscript on nonarray
+2110	error	pointer + pointer
+2111	error	pointer + nonintegral value
+2112	error	illegal pointer subtraction
+2113	error	pointer subtracted from nonpointer
+2114	error	'%s' : pointer on left; needs integral right
+2115	error	'%s' : incompatible types
+2117	error	'%s' : illegal for struct/union
+2118	error	negative subscript
+2119	error	typedef types both define indirection
+2120	error	void illegal with all types
+2121	error	'%s' : bad %Fs operand
+2124	error	divide or mod by zero
+2125	error	'%Fs' : allocation exceeds 64K
+2127	error	parameter allocation exceeds 32K
+2130	error	#line expected a string containing the file name, found '%s'
+2131	error	more than one memory attribute
+2132	error	syntax error : unexpected identifier
+2133	error	'%Fs' : unknown size
+2134	error	'%Fs' : struct/union too large
+2136	error	'%Fs' : prototype must have parameter types
+2137	error	empty character constant
+2139	error	type following '%s' is illegal
+2140	error	argument cannot be function type
+2141	error	value out of range for enum constant
+2143	error	syntax error : missing '%s' before '%s'
+2144	error	syntax error : missing '%s' before type '%Fs'
+2145	error	syntax error : missing '%s' before identifier
+2146	error	syntax error : missing '%s' before identifier '%s'
+2147	error	unknown size
+2148	error	array too large
+2149	error	'%Fs' : named bit field cannot have 0 width
+2150	error	'%Fs' : bit field must have type int, signed int, or unsigned int
+2151	error	more than one language attribute
+2152	error	'%s' : pointers to functions with different attributes
+2153	error	hex constants must have at least 1 hex digit
+2154	error	'%Fs' : does not refer to a segment name
+2156	error	pragma must be outside function
+2157	error	'%s' : must be declared before use in pragma list
+2158	error	'%s' : is a function
+2159	error	more than one storage class specified
+2160	error	## cannot occur at the beginning of a macro definition
+2161	error	## cannot occur at the end of a macro definition
+2162	error	expected macro formal parameter
+2163	error	'%s' : not available as an intrinsic function
+2164	error	'%s' : intrinsic function not declared
+2165	error	'%s' : cannot modify pointers to data
+2166	error	lvalue specifies const object
+2167	error	'%Fs' : too many actual parameters for intrinsic
+2168	error	'%Fs' : too few actual parameters for intrinsic
+2169	error	'%Fs' : intrinsic function, cannot be defined
+2170	error	'%s' : not declared as a function, cannot be intrinsic
+2171	error	'%s' : illegal operand
+2172	error	'%Fs' : actual is not a pointer : parameter %d
+2173	error	'%Fs' : actual is not a pointer : parameter %d, parameter list %d
+2174	error	'%Fs' : actual has type void : parameter %d, parameter list %d
+2175	error	'%Fs' : unresolved external
+2176	error	static huge data not supported by /qc
+2177	error	constant too big
+2178	error	'%s' : storage class for same_seg variables must be extern
+2179	error	'%Fs' : was used in same_seg, but storage class is no longer extern
+2180	error	controlling expression has type void
+2182	error	'%Fs' : has type void
+2183	error	pragma requires command line option '%Fs'
+2185	error	'%Fs' : illegal _based allocation
+2187	error	cast of near function pointer to far function pointer
+2189	error	#error : %Fs
+2193	error	'%Fs' : already in a segment
+2194	error	'%Fs' : is a text segment
+2195	error	'%Fs' : is a data segment
+2196	error	/ML cannot be used with floating point
+2200	error	'%Fs' : function has already been defined
+2201	error	'%Fs' : storage class must be extern
+2205	error	'%Fs' : cannot initialize extern block-scoped variables
+2206	error	'%Fs' : typedef cannot be used for function definition
+2207	error	'%Fs' in struct/union '%Fs' has a zero-sized array
+2208	error	no members defined using this type
+2209	error	type cast in _based construct must be (_segment)
+2210	error	'%Fs' : must be near/far data pointer
+2211	error	(_segment) applied to function identifier '%s'
+2212	error	'%Fs' : _based not available for functions/pointers to functions
+2213	error	'%s' : illegal argument to _based
+2214	error	pointers based on void require the use of :>
+2215	error	:> operator only for objects based on void
+2216	error	'%Fs' may not be used with '%Fs'
+2217	error	'%Fs' must be used with '%Fs'
+2218	error	type in _based construct must be void
+2219	error	syntax error : type qualifier must be after '*'
+2220	error	warning treated as error - no object file generated
+2221	error	'.' : left operand points to struct/union, use '->'
+2222	error	'->' : left operand has struct/union type, use '.'
+2223	error	left of '->%Fs' must point to struct/union
+2224	error	left of '.%Fs' must have struct/union type
+2225	error	'%Fs' : first member of struct is unnamed
+2226	error	syntax error : unexpected type '%Fs'
+2227	error	left of '->%Fs' must point to class/struct/union
+2228	error	left of '.%Fs' must have class/struct/union type
+2229	error	'%Fs' in %s '%Fs' has a zero-sized array
+2230	error	'%Fs' : first member of %s is unnamed
+2231	error	'.' : left operand points to %s, use '->'
+2232	error	'->' : left operand has %s type, use '.'
+2400	error	in-line syntax error in '%s', found '%Fs'
+2401	error	'%s' : register must be base in '%s'
+2402	error	'%s' : register must be index in '%s'
+2403	error	'%s' : register must be base/index in '%s'
+2404	error	'%s' : illegal register in '%s'
+2405	error	illegal short forward reference with offset
+2406	error	'%s' : name undefined in '%s'
+2407	error	illegal float register in '%s'
+2408	error	illegal type on PTR operator in '%s'
+2409	error	illegal type used as operator in '%s'
+2410	error	'%s' : ambiguous member name in '%s'
+2411	error	'%s' : illegal struct/union member in '%s'
+2412	error	'%Fs' : case insensitive label redefined
+2413	error	'%s' : illegal align size
+2414	error	illegal number of operands
+2415	error	improper operand type
+2416	error	'%s' : illegal opcode for processor
+2417	error	divide by zero in '%s'
+2418	error	'%Fs' : not in a register
+2419	error	mod by zero in '%s'
+2420	error	'%s' : illegal symbol in %s
+2421	error	PTR operator used with register in '%s'
+2422	error	illegal segment override in '%s'
+2423	error	'%ld' : illegal scale
+2424	error	'%Fs' : improper expression in '%s'
+2425	error	'%Fs' : nonconstant expression in '%s'
+2426	error	'%Fs' : illegal operator in '%s'
+2427	error	'%Fs' : jump referencing label is out of range
+2428	error	'%Fs' : segment redefinition
+2429	error	'%Fs' : illegal far label reference
+2430	error	more than one index register in '%s'
+2431	error	illegal index register in '%s'
+2432	error	illegal reference to 16-bit data in '%s'
+2500	error	'%Fs' is already a direct base class
+2501	error	'%Fs' : non-function missing decl-specifiers
+2502	error	too many access modifiers on the base class
+2503	error	'%Fs' : base classes may not contain zero sized arrays
+2504	error	'%Fs' : base class undefined
+2505	error	'%s' : expected a class name
+2506	error	'%Fs::%Fs' : ambiguous
+2507	error	'%Fs' : cannot change access specifiers inside unions
+2508	error	'%Fs' : access denied
+2509	error	'%Fs' : member function not found in class
+2510	error	'%Fs' : left of '::' must be a class
+2511	error	member function not found in class
+2512	error	'%Fs' : no default constructor available
+2513	error	'%Fs' : default constructor takes no actual arguments
+2514	error	'%Fs' : class has no constructors
+2515	error	'%Fs' : not in class '%Fs'. Do not use '::'
+2516	error	use of non-class type as constructor inside class definition
+2517	error	'%Fs' : cannot define this constructor inside class '%Fs'
+2518	error	'%Fs' : class has no constructors, cannot initialize '%Fs'
+2519	error	no conversion (%Fs *)<%Fs *>
+2520	error	ambiguous conversion (%Fs *)<%Fs *>
+2521	error	'%Fs' : constructor/destructor syntax without formal parameters
+2522	error	'%Fs' : class already has a destructor
+2523	error	'%Fs' : cannot define this destructor inside class '%Fs'
+2524	error	'%Fs' : destructors must have a void formal parameter list
+2525	error	left of '->' does not have '%Fs' as a baseclass
+2526	error	left of '.' does not have '%Fs' as a baseclass
+2527	error	array of references is illegal
+2528	error	pointer to reference is illegal
+2529	error	reference of a reference is illegal
+2530	error	'%Fs' : references must be initialized
+2531	error	'%Fs' : reference to a bitfield illegal
+2532	error	'%s' : cannot modify references
+2533	error	'%Fs' : constructors not allowed a return type
+2534	error	'%Fs' : constructor cannot return a value
+2535	error	'%Fs::%Fs' : call to overloaded function is ambiguous
+2536	error	'%Fs::%Fs' : no match for call to overloaded function
+2537	error	'%Fs' : illegal linkage specification
+2538	error	new : cannot init arrays
+2539	error	new : '%Fs' needs default ctor to init arrays of objects
+2540	error	<array type> non-constant expression as array bound
+2541	error	operator delete : cannot delete non-pointer objects
+2542	error	'%Fs' : class object has no ctor for initializing
+2543	error	expected ']' for operator '[]'
+2544	error	expected ')' for operator '()'
+2545	error	'%Fs' : unable to find overloaded operator
+2546	error	'%Fs::%Fs' : wrong number of parameters
+2547	error	'%Fs::%Fs' : different types : parameter %d
+2548	error	'%Fs::%Fs' : missing default argument : parameter %d
+2549	error	'%s' : cannot overload this operator
+2550	error	operator is not member function and has no class type operand
+2551	error	void type to User Defined Type illegal without an explicit cast
+2552	error	'%Fs' : non-aggregates cannot be initialized with initializer list
+2553	error	no legal conversion of return value to return type '%Fs'
+2554	error	argument '%d' of type '%Fs' has a copy constructor
+2555	error	'%Fs' : virtual functions only differ by return type
+2556	error	'%Fs' : overloaded functions only differ by return type
+2557	error	'%Fs' : non-public members cannot be initialized without a ctor
+2558	error	'%Fs' : already contains '%Fs' as a member function
+2559	error	'%Fs' : already contains '%Fs' as a member
+2560	error	no default constructor for class %Fs : function must return a value
+2561	error	function must return a value
+2562	error	void function returning a value
+2563	error	function/pointer to function mismatch in formal argument list
+2564	error	call through pointer to function formal/actuals mismatch
+2565	error	'::%Fs' was previously declared as a global function
+2566	error	'%Fs' : constructors cannot be virtual
+2567	error	'%Fs' : expected a type or a function declaration/definition
+2568	error	'%s' : unable to resolve function overload
+2569	error	'%Fs' : is a union. Cannot use it as a base class
+2570	error	'%Fs' : is a union under definition. Cannot have base classes
+2571	error	'%Fs' : is a union. Cannot have virtual function '%Fs'
+2572	error	'%Fs::%Fs' : previous default argument cannot be redefined : parameter %d
+2573	error	static constructors are illegal
+2574	error	static destructors are illegal
+2575	error	'%Fs' : keyword 'virtual' applies only to member functions
+2576	error	'%Fs' : 'virtual' does not apply to static member functions
+2577	error	'%Fs' : destructor cannot return a value
+2578	error	declaration as only statement after '%s'
+2579	error	'%Fs::%Fs(%s)' : argument list not sufficiently different from '%Fs::%Fs(%s)'
+2580	error	type used in conjunction with %s '%Fs' is illegal
+2581	error	static operator= function is illegal
+2582	error	virtual operator= function is illegal
+2583	error	no operator= function available
+2584	error	'%Fs' already occurs as an indirect base class
+2585	error	a base class of '%Fs' already occurs as a direct base class
+2599	error	'%Fs' : Not Yet Implemented
+2600	error	NYI : virtual base classes
+2601	error	NYI : local function definitions
+2602	error	NYI : arbitrary paren'd expression init of non-objects
+2603	error	NYI : '%Fs' virtual function replacement requiring thunks
+2604	error	NYI : thunk '%Fs'
+2605	error	NYI : adding default args in subsequent declaration/definition
+2701	error	'%Fs' : _oldcall function defined with varargs
+2702	error	'%Fs' : _try may not appear in termination block
+2703	error	'%Fs' : definition may not have '%Fs' modifier
+2704	error	'%Fs' : _va_start intrinsic only allowed in varargs
+2705	error	'%Fs' : illegal jump into _try scope
+2706	error	no function prototype on _stdcall function
+2800	error	'operator %s' cannot be overloaded
+2801	error	'operator %s' must be a member
+2802	error	'operator %s' has no arguments, and is not a non-static member
+2803	error	'operator %s' must have at least one argument of class type
+2804	error	binary 'operator %s' has too many arguments
+2805	error	binary 'operator %s' has too few arguments
+2806	error	'operator %s' has too many arguments
+2807	error	the second argument to postfix 'operator %s' must be 'int'
+2808	error	unary 'operator %s' has too many arguments
+2809	error	'operator %s' has no arguments
+2810	error	extra argument to alternative form of 'operator delete' must be 'unsigned int'
+2811	error	too many arguments to '_segment' form of 'operator delete'
+2812	error	second argument expected for 'operator delete(_segment)'
+2813	error	too many arguments to 'operator delete'
+2814	error	bad second argument to 'operator delete(_segment'. Expected 'void _based(void)*'
+2815	error	bad first argument to 'operator delete'. Expected 'void*'
+2816	error	alternative form of 'operator delete' must be a member
+2817	error	bad return type for 'operator delete'. Expected 'void'
+2820	error	second argument expected for 'operator new(_segment)'
+2821	error	bad first argument to 'operator new'. Expected 'unsigned int'
+2822	error	bad second argument to 'operator new(_segment'. Expected 'unsigned int'
+2823	error	bad return type for 'operator new'.  Expected 'void _based(void)*'
+2824	error	bad return type for 'operator new'.  Expected 'void*'
+2830	error	only placement arguments to 'operator new' may default
+2831	error	'operator %Fs' may not have default arguments
+2901	error	too many symbols predefined with /D
+2902	error	conflict in memory-model specification
+2903	error	missing source file name
+2908	error	limit of %s exceeded at '%s'
+2911	error	only one floating-point option allowed
+2912	error	too many linker flags on command line
+2913	error	incomplete model specification
+2916	error	'%s' and '%s' are incompatible
+2918	error	cannot open linker response file
+2919	error	cannot overwrite the source/object file, '%s'
+2920	error	%s option requires extended keywords to be enabled (/Ze)
+2921	error	invalid numerical argument '%s'
+2922	error	cannot open help file, '%s'
+2927	error	could not execute '%s', status %d
+2928	error	too many open files, cannot redirect '%s'
+2930	error	INTERNAL COMPILER ERROR in '%s'\n\t\tContact Microsoft Product Support Services
+2931	error	too many flags/files on command line
+4000	warning	UNKNOWN WARNING\n\t\tContact Microsoft Product Support Services
+4001	warning	nonstandard extension used - '%Fs'
+4002	warning	too many actual parameters for macro '%s'
+4003	warning	not enough actual parameters for macro '%s'
+4004	warning	missing ')' after 'defined'
+4005	warning	'%s' : macro redefinition
+4006	warning	#undef expected an identifier
+4007	warning	'%Fs' : must be '%Fs'
+4008	warning	'%Fs' : '%Fs' attribute on data ignored
+4009	warning	string too big, trailing characters truncated
+4011	warning	identifier truncated to '%Fs'
+4012	warning	float constant in a cross compilation
+4015	warning	'%Fs' : type of bit field must be integral
+4016	warning	'%s' : no function return type, using int as default
+4017	warning	cast of int expression to far pointer
+4018	warning	'%Fs' : signed/unsigned mismatch
+4020	warning	'%Fs' : too many actual parameters
+4021	warning	'%Fs' : too few actual parameters
+4022	warning	'%Fs' : pointer mismatch : parameter %d
+4023	warning	'%Fs' : _based pointer passed to unprototyped function : parameter %d
+4024	warning	'%Fs' : different types : parameter %d
+4026	warning	function declared with formal argument list
+4027	warning	function declared without formal argument list
+4028	warning	parameter %d declaration different
+4029	warning	declared parameter list different from definition
+4030	warning	first parameter list longer than the second
+4031	warning	second parameter list longer than the first
+4032	warning	unnamed struct/union as parameter
+4033	warning	function must return a value
+4034	warning	sizeof returns 0
+4035	warning	'%Fs' : no return value
+4036	warning	unnamed %s as parameter
+4040	warning	memory attribute on '%Fs' ignored
+4042	warning	'%Fs' : has bad storage class
+4044	warning	_huge on '%Fs' ignored, must be an array
+4045	warning	'%s' : array bounds overflow
+4047	warning	'%s' : different levels of indirection
+4048	warning	array's declared subscripts different
+4049	warning	'%s' : indirection to different types
+4050	warning	'%s' : different code attributes
+4051	warning	type conversion - possible loss of data
+4053	warning	at least one void operand
+4056	warning	overflow in constant arithmetic
+4058	warning	address of automatic (local) variable taken, DS != SS
+4059	warning	segment lost in conversion
+4061	warning	long/short mismatch in argument : conversion supplied
+4062	warning	near/far mismatch in argument : conversion supplied
+4067	warning	unexpected characters following '%s' directive - newline expected
+4068	warning	unknown pragma
+4069	warning	conversion of near pointer to long integer
+4071	warning	'%Fs' : no function prototype given
+4072	warning	'%Fs' : no function prototype on _fastcall function
+4076	warning	'%s' : may be used on integral types only
+4077	warning	unknown check_stack option
+4078	warning	case constant '%ld' too big for the type of switch expression
+4079	warning	unexpected token '%s'
+4080	warning	expected identifier for segment name, found '%s'
+4081	warning	expected a comma, found '%s'
+4082	warning	expected an identifier, found '%s'
+4083	warning	expected '(', found '%s'
+4084	warning	expected a pragma directive, found '%s'
+4085	warning	expected [on | off]
+4086	warning	expected [1 | 2 | 4]
+4087	warning	'%Fs' : declared with void parameter list
+4088	warning	'%Fs' : pointer mismatch : parameter %d, parameter list %d
+4089	warning	'%Fs' : different types : parameter %d, parameter list %d
+4090	warning	different 'const/volatile' qualifiers
+4091	warning	no symbols were declared
+4092	warning	untagged enum/struct/union declared no symbols
+4093	warning	unescaped newline in character constant in inactive code
+4094	warning	untagged %s declared no symbols
+4095	warning	expected ')', found '%s'
+4096	warning	'%Fs' must be used with '%Fs'
+4098	warning	void function returning a value
+4100	warning	'%Fs' : unreferenced formal parameter
+4101	warning	'%Fs' : unreferenced local variable
+4102	warning	'%Fs' : unreferenced label
+4104	warning	'%s' : near data in same_seg pragma, ignored
+4105	warning	'%Fs' : code modifiers only on function or pointer to function
+4106	warning	pragma requires integer between 1 and 127
+4107	warning	pragma requires integer between 15 and 255
+4108	warning	pragma requires integer between 79 and 132
+4109	warning	unexpected identifier '%s'
+4110	warning	unexpected token 'int constant'
+4111	warning	unexpected token 'string'
+4112	warning	macro name '%s' is reserved, '%s' ignored
+4113	warning	function parameter lists differed
+4114	warning	same type qualifier used more than once
+4115	warning	'%Fs' : type definition in formal parameter list
+4116	warning	(no tag) : type definition in formal parameter list
+4118	warning	pragma not supported
+4119	warning	different bases '%Fs' and '%Fs' specified
+4120	warning	_based/unbased mismatch
+4123	warning	different base expressions specified
+4124	warning	_fastcall with stack checking is inefficient
+4125	warning	decimal digit terminates octal escape sequence
+4126	warning	'%c' : unknown memory model flag
+4127	warning	conditional expression is constant
+4128	warning	storage-class specifier after type
+4129	warning	'%c' : unrecognized character escape sequence
+4130	warning	'%Fs' : logical operation on address of string constant
+4131	warning	'%Fs' : uses old-style declarator
+4132	warning	'%Fs' : const object should be initialized
+4135	warning	conversion between different integral types
+4136	warning	conversion between different floating types
+4137	warning	'%Fs' : no return value from floating-point function
+4138	warning	'*/' found outside of comment
+4139	warning	'0x%x' : hex escape sequence is out of range
+4140	warning	'%Fs' : redefined, preceding references may be invalid
+4185	warning	near call to '%Fs' in different segment
+4206	warning	assignment within conditional expression
+4401	warning	'%s' : member is bit field
+4402	warning	must use PTR operator
+4403	warning	illegal PTR operator
+4404	warning	period on directive ignored
+4405	warning	'%s' : identifier is reserved word
+4406	warning	operand on directive ignored
+4407	warning	operand size conflict
+4409	warning	illegal instruction size
+4410	warning	illegal size for operand
+4411	warning	'%s' : symbol resolves to displacement register
+4412	warning	'%s' : identifier is also assembler mnemonic
+4414	warning	'%Fs' : short jump to function converted to near
+4500	warning	'%Fs' : class has private/protected members, needs user defined ctor
+4501	warning	'%Fs' : use of '::' unnecessary here
+4502	warning	'linkage' requires use of keyword 'extern'
+4503	warning	'linkage' has no type
+4504	warning	'%s' : unable to remove Inline Function file
+4506	warning	'%Fs' : 'virtual/inline' do not apply to data/data members
+4508	warning	function must return a value
+4509	warning	'%Fs': default copy ctor not provided
+4510	warning	'%Fs': default operator= not provided
+4701	warning	'%Fs' : bad context for intrinsic function
+4702	warning	bad #pragma syntax, pragma ignored
+4703	warning	'%Fs' : class of segment cannot be changed
+4704	warning	'%Fs' : varargs parameters with this type were promoted
+4705	warning	no function prototype on _stdcall function
+4901	warning	listing overrides assembly output
+4902	warning	ignoring unknown flag '%s'
+4903	warning	different processors selected for code generation
+4905	warning	could not locate '%s';\nPlease enter new file name (full path) or Ctrl-C to quit: 
+4907	warning	/C ignored (must also specify /P or /E or /EP)
+4909	warning	threshold only for far/huge data, ignored
+4911	warning	preprocessing overrides source listing
+4912	warning	function declarations override source listing
+4913	warning	combined listing overrides object listing
+4914	warning	invalid value '%d' for '%s'; default '%d' is used
+4918	warning	.DEF files supported in protected mode only
+4919	warning	string too long; truncated to '%d' characters
+4920	warning	unsupported switch '%s'

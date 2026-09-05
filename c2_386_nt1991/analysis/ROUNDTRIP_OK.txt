@@ -1,0 +1,11 @@
+The reversible annotated .text listing was parsed by tools/assemble_listing.py,
+inserted into the zeroed image template by tools/rebuild_original.py, and the
+result was compared byte-for-byte with the supplied C2_386.EXE.
+
+Original SHA-256:
+64aa0b3bbd0ef4d691515b7d56d62f6403f08c2af36b9712d13c7e847f7eae7a
+
+Rebuilt SHA-256:
+64aa0b3bbd0ef4d691515b7d56d62f6403f08c2af36b9712d13c7e847f7eae7a
+
+Result: BYTE-EXACT MATCH

@@ -1,0 +1,37 @@
+call_rva	function	low	full	text	evidence
+0x0001006e	_fatal	7	1007	unrecognized flag '%s' in '%s'	nearest immediate push 0x7
+0x000101dd	_fatal	32	1032	cannot open object listing file '%s'	nearest immediate push 0x20
+0x00010296	_fatal	13	1013	cannot open source file '%s'	nearest immediate push 0xd
+0x000102ca	_fatal	13	1013	cannot open source file '%s'	nearest immediate push 0xd
+0x000102fe	_fatal	36	1036	cannot open source listing file '%s'	nearest immediate push 0x24
+0x0001050f	_fatal	37	1037	cannot open object file '%s'	nearest immediate push 0x25
+0x00010afa	_fatal	13	1013	cannot open source file '%s'	nearest immediate push 0xd
+0x00010d31	_warning	63	4063	'%s' : function too large for post-optimizer	push 0x3f then warning-level push 0x2
+0x00010eb2	_fatal	39	1039	unrecoverable heap overflow in Pass 3	nearest immediate push 0x27
+0x00011478	_fatal	127	1127	'%s': segment redefinition	nearest immediate push 0x7f
+0x0001206a	_error	129	2129	static function '%s' not found	nearest immediate push 0x81
+0x000126de	_warning	186	4186	string too long - truncated to %d characters	push 0xba then warning-level push 0x1
+0x00013166	_fatal	40	1040	unexpected end-of-file in source file '%s'	nearest immediate push 0x28
+0x0001640a	_warning				
+0x000185f8	_warning	65	4065	recoverable heap overflow in post-optimizer - some optimizations may be missed	push 0x41 then warning-level push 0x2
+0x00018eba	_error	129	2129	static function '%s' not found	nearest immediate push 0x81
+0x000197ce	_error	427	2427	'%s' : jump referencing label is out of range	nearest immediate push 0x1ab
+0x0001b0b1	_warning	72	4072		push 0x48 then warning-level push 0x1
+0x0001b0f3	_warning	73	4073	scoping too deep, deepest scoping merged when debugging	push 0x49 then warning-level push 0x1
+0x0001b82f	_warning	301	4301	loss of debugging information caused by optimization	push 0x12d then warning-level push 0x2
+0x0001b8a4	_warning	73	4073	scoping too deep, deepest scoping merged when debugging	push 0x49 then warning-level push 0x1
+0x0001cdc2	_warning				
+0x0001e00c	_warning				
+0x0001eb48	_warning				
+0x0001fa2d	_fatal	40	1040	unexpected end-of-file in source file '%s'	nearest immediate push 0x28
+0x00020008	_warning				
+0x00026c27	_fatal	5	1005	string too big for buffer	nearest immediate push 0x5
+0x00026cde	_fatal	41	1041	cannot open compiler intermediate file - no more files	nearest immediate push 0x29
+0x00026d3e	_fatal	44	1044	out of disk space for compiler intermediate file	nearest immediate push 0x2c
+0x00026d8f	_fatal	3	1003	error count exceeds %d; stopping compilation	nearest immediate push 0x3
+0x00026e32	_error	220	2220	warning treated as error - no object file generated	nearest immediate push 0xdc
+0x00029fa3	_fatal	1	1001	Internal Compiler Error\n\t\t(compiler file '%s', line %d)\n\t\tContact Microsoft Product Support Services	nearest immediate push 0x1
+0x0002a33d	_fatal	47	1047	too many '%s' flags, '%s'	nearest immediate push 0x2f
+0x0002a386	_fatal	46	1046	bad '%s' flag, would overwrite '%s' with '%s'	nearest immediate push 0x2e
+0x0002a42c	_fatal	48	1048	unknown option '%c' in '%s'	nearest immediate push 0x30
+0x0002a48b	_fatal	49	1049	invalid numerical argument '%s'	nearest immediate push 0x31

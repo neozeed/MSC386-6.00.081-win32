@@ -1,0 +1,58 @@
+call_rva	function	low	full	text	evidence
+0x00010082	_fatal	2	1002	compiler is out of heap space in Pass 2	nearest immediate push 0x2
+0x00010100	_warning	208	4208	Ran out of heap at: %s	push 0xd0 then warning-level push 0x0
+0x00010142	_fatal	7	1007	unrecognized flag '%s' in '%s'	nearest immediate push 0x7
+0x0001054d	_warning	207	4207	'%s' : function too large for global optimizations (%s)	push 0xcf then warning-level push 0x0
+0x000106f7	_warning	204	4204	'%s' : in-line assembler precludes global optimizations	push 0xcc then warning-level push 0x3
+0x00010c8f	_fatal	1	1001	Internal Compiler Error\n\t\t(compiler file '%s', line %d)\n\t\tContact Microsoft Product Support Services	nearest immediate push 0x1
+0x0001a234	_warning	201	4201	local variable '%s' may be used without having been initialized	push 0xc9 then warning-level push 0x4
+0x0001d0e2	_warning	58	4058	address of automatic (local) variable taken, DS != SS	push 0x3a then warning-level push 0x1
+0x0001d5ab	_error	125	2125	'%s' : allocation exceeds 64K	nearest immediate push 0x7d
+0x0001d63a	_fatal	126	1126	'%s' : automatic allocation exceeds %s	nearest immediate push 0x7e
+0x0001d6de	_warning	46	4046		push 0x2e then warning-level push 0x3
+0x0001d92f	_warning	46	4046		push 0x2e then warning-level push 0x3
+0x0001da85	_error	127	2127	parameter allocation exceeds 32K	nearest immediate push 0x7f
+0x0001dd24	_error	418	2418	'%s' : not in a register	nearest immediate push 0x1a2
+0x0001e16d	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0001e1a5	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0001e4e3	_fatal	90	1090	'%s' data allocation exceeds 64K	nearest immediate push 0x5a
+0x00024372	_warning	127	4127	conditional expression is constant	push 0x7f then warning-level push 0x3
+0x00028368	_warning	202	4202	unreachable code	push 0xca then warning-level push 0x4
+0x0002a3c0	_fatal				
+0x0002a9a1	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0002a9e9	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0002aa45	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0002aa91	_warning	324	4324	potential mod by 0	push 0x144 then warning-level push 0x3
+0x0002aecd	_warning	323	4323	potential divide by 0	push 0x143 then warning-level push 0x3
+0x0002af4e	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0002b033	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0002b110	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0002b13a	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0002b1a9	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x0002b1d3	_warning	56	4056	overflow in constant arithmetic	push 0x38 then warning-level push 0x2
+0x000309d7	_warning	205	4205	statement has no effect	push 0xcd then warning-level push 0x4
+0x00030ed8	_warning	209	4209	comma operator within array index expression	push 0xd1 then warning-level push 0x4
+0x00031787	_warning	206	4206	assignment within conditional expression	push 0xce then warning-level push 0x4
+0x00031817	_warning	206	4206	assignment within conditional expression	push 0xce then warning-level push 0x4
+0x00031867	_warning	206	4206	assignment within conditional expression	push 0xce then warning-level push 0x4
+0x0003187e	_warning	206	4206	assignment within conditional expression	push 0xce then warning-level push 0x4
+0x0003543e	_fatal	46	1046	bad '%s' flag, would overwrite '%s' with '%s'	nearest immediate push 0x2e
+0x000354c2	_fatal	47	1047	too many '%s' flags, '%s'	nearest immediate push 0x2f
+0x000354ef	_fatal	48	1048	unknown option '%c' in '%s'	nearest immediate push 0x30
+0x000355d5	_fatal	49	1049	invalid numerical argument '%s'	nearest immediate push 0x31
+0x000458f1	_fatal	3	1003	error count exceeds %d; stopping compilation	nearest immediate push 0x3
+0x00045aa6	_fatal				
+0x00046022	_fatal	35	1035	expression too complex, please simplify	nearest immediate push 0x23
+0x0004a1bb	_fatal	5	1005	string too big for buffer	nearest immediate push 0x5
+0x0004a23a	_fatal	41	1041	cannot open compiler intermediate file - no more files	nearest immediate push 0x29
+0x0004a2a6	_fatal	6	1006	write error on compiler intermediate file	nearest immediate push 0x6
+0x0004bfa7	_warning	187	4187	unprototyped function '%s' called in exception	push 0xbb then warning-level push 0x1
+0x0004c010	_warning	187	4187	unprototyped function '%s' called in exception	push 0xbb then warning-level push 0x1
+0x0004c574	_fatal	3	1003	error count exceeds %d; stopping compilation	nearest immediate push 0x3
+0x0004c61a	_error	220	2220	warning treated as error - no object file generated	nearest immediate push 0xdc
+0x00058325	_warning	59	4059	segment lost in conversion	push 0x3b then warning-level push 0x2
+0x00058ada	_warning	59	4059	segment lost in conversion	push 0x3b then warning-level push 0x2
+0x00058c53	_warning	62	4062	near/far mismatch in argument : conversion supplied	push 0x3e then warning-level push 0x1
+0x00058cb6	_warning	69	4069	conversion of near pointer to long integer	push 0x45 then warning-level push 0x2
+0x00059327	_warning	62	4062	near/far mismatch in argument : conversion supplied	push 0x3e then warning-level push 0x1
+0x00062568	_warning	323	4323	potential divide by 0	push 0x143 then warning-level push 0x3

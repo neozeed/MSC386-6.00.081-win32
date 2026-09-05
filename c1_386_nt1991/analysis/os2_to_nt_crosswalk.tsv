@@ -1,0 +1,14 @@
+os2_segment	os2_offset	os2_name	os2_confidence	nt_name	nt_rva	nt_source	note
+2	82E2	_cstart	high				
+3	335A	main	high	_main	0x10501	main.c	
+3	33EA	compiler_driver_body	medium	MAIN_COMPILE	0x105B2	main.c	
+3	396A	lookup_diagnostic_message	high	get_msg			NT split/naming differs: get_err opens/positions file; get_msg performs scan/lookup.
+3	3A10	scan_diagnostic_file	high	get_msg			Closest named NT helper is get_msg; exact factoring differs from OS/2 build.
+3	3ABD	get_message	high	get_message			
+3	3B24	get_unsigned	high	get_int			NT original static symbol is get_int; behavior is decimal integer parsing.
+3	3B62	cache_diagnostic_position	medium	mark_pos			
+3	3BA5	find_cached_diagnostic_position	medium	nearest			
+3	3C27	error	high	_error	0x2C457	Common\error.c	
+3	3C71	fatal	high	_fatal	0x2C4A4	Common\error.c	
+3	3D2E	warning	high	_warning	0x2C55D	Common\error.c	
+3	3D80	emit_diagnostic	medium	_message	0x2C5AD	Common\error.c	NT public _message is central severity/message formatter; _format/_do_format are subordinate.

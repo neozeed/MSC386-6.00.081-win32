@@ -1,0 +1,201 @@
+name	c2_rva	c3_rva	c2_source	c3_source
+_$I10_OUTPUT	0x0004e41a	0x0002770e	D:\nt\private\fp32st\conv\x10fout.c	D:\nt\private\fp32st\conv\x10fout.c
+_CloseHandle	0x0004cd80	0x00027190		
+_CreateFileA	0x0005e248	0x0002ae48		
+_DbgPrint	0x0004d0be	0x000291c2		
+_DeleteFileA	0x0005dd82	0x0002a8f2		
+_ExitProcess	0x0004cfac	0x0002738c		
+_FlushFileBuffers	0x0004f194	0x00029614		
+_GetCommandLineA	0x0004ec8a	0x0002907e		
+_GetEnvironmentStrings	0x0004ec90	0x00029084		
+_GetFileAttributesA	0x0005e24e	0x0002ae4e		
+_GetFileType	0x0004cfb2	0x00027392		
+_GetLastError	0x0004cd86	0x00027196		
+_GetModuleFileNameA	0x0004f75c	0x00029bdc		
+_GetStartupInfoA	0x0004ec96	0x0002908a		
+_GetStdHandle	0x0004cfb8	0x00027398		
+_GetVersion	0x0004ec9c	0x00029090		
+_ReadFile	0x0004f536	0x000299b6		
+_RtlUnwind	0x0004d0c4	0x000291c8		
+_SetEndOfFile	0x0005e254	0x0002ae54		
+_SetFilePointer	0x0004f2f0	0x00029770		
+_SetStdHandle	0x0004ef6e	0x000293ee		
+_UnhandledExceptionFilter	0x0004eca2	0x00029096		
+_VirtualAlloc	0x0004f22a	0x000296aa		
+_VirtualFree	0x00064390	0x0002c9ca		
+_WriteFile	0x0004ed48	0x0002913c		
+__FF_MSGBANNER	0x0004eca8	0x0002909c	D:\nt\private\crt32st\startup\crt0msg.c	D:\nt\private\crt32st\startup\crt0msg.c
+__NMSG_WRITE	0x0004ecd4	0x000290c8	D:\nt\private\crt32st\startup\crt0msg.c	D:\nt\private\crt32st\startup\crt0msg.c
+___STRINGTOLD	0x0004d87a	0x0002886e	D:\nt\private\fp32st\conv\strgtold.c	D:\nt\private\fp32st\conv\strgtold.c
+___add_12	0x0004de86	0x00027b0a	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+___addl	0x0004de3a	0x00027abe	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+___dtold	0x0004e7ca	0x00027d3e	D:\nt\private\fp32st\conv\ldtod.c	D:\nt\private\fp32st\conv\ldtod.c
+___ld12mul	0x0004e0ba	0x00027fae	D:\nt\private\fp32st\conv\tenpow.c	D:\nt\private\fp32st\conv\tenpow.c
+___ldtod	0x0004e8d6	0x00027e4a	D:\nt\private\fp32st\conv\ldtod.c	D:\nt\private\fp32st\conv\ldtod.c
+___mtold12	0x0004dfb2	0x00027c36	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+___multtenpow12	0x0004e326	0x0002821a	D:\nt\private\fp32st\conv\tenpow.c	D:\nt\private\fp32st\conv\tenpow.c
+___shl_12	0x0004df06	0x00027b8a	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+___shr_12	0x0004df56	0x00027bda	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+__access	0x0005e25a	0x0002ae5a	D:\nt\private\crt32st\dos\access.c	D:\nt\private\crt32st\dos\access.c
+__alloc_osfhnd	0x0004ed4e	0x000291ce	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+__amsg_exit	0x0004ec66	0x0002905a	D:\nt\private\crt32st\startup\crt0.c	D:\nt\private\crt32st\startup\crt0.c
+__atold	0x0004d84a	0x0002883e	D:\nt\private\fp32st\conv\i386\atold.c	D:\nt\private\fp32st\conv\i386\atold.c
+__c_exit	0x0004cf04	0x000272e4	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+__cexit	0x0004cef4	0x000272d4	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+__cfltcvt	0x0004d7c6	0x000287ba	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+__cfltcvt_init	0x0004d2b6	0x000282aa	D:\nt\private\fp32st\conv\fpinit.c	D:\nt\private\fp32st\conv\fpinit.c
+__cftoe	0x0004d432	0x00028426	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+__cftof	0x0004d5b6	0x000285aa	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+__cftog	0x0004d706	0x000286fa	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+__chkstk	0x0004ccd0	0x0002719c	i386\chkstk.asm	i386\chkstk.asm
+__chsize	0x0005e2ba	0x0002aeba	D:\nt\private\crt32st\lowio\chsize.c	D:\nt\private\crt32st\lowio\chsize.c
+__cinit	0x0004cdec	0x000271cc	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+__close	0x0004cd00	0x00027110	D:\nt\private\crt32st\lowio\close.c	D:\nt\private\crt32st\lowio\close.c
+__commit	0x0004f124	0x000295a4	D:\nt\private\crt32st\lowio\commit.c	D:\nt\private\crt32st\lowio\commit.c
+__cropzeros	0x0004d35e	0x00028352	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+__dosmaperr	0x0004cfbe	0x0002739e	D:\nt\private\crt32st\dos\dosmap.c	D:\nt\private\crt32st\dos\dosmap.c
+__endstdio	0x0004f10c	0x0002958c	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+__except_handler	0x0004d03e	0x00029142	i386\crtexcpt.asm	i386\crtexcpt.asm
+__exit	0x0004cee0	0x000272c0	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+__fassign	0x0004d3ee	0x000283e2	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+__fcloseall	0x0004f19a	0x0002961a	D:\nt\private\crt32st\stdio\closeall.c	D:\nt\private\crt32st\stdio\closeall.c
+__filbuf	0x0004d0ca	0x000274be	D:\nt\private\crt32st\stdio\_filbuf.c	D:\nt\private\crt32st\stdio\_filbuf.c
+__flsbuf	0x0004d17a	0x0002756e	D:\nt\private\crt32st\stdio\_flsbuf.c	D:\nt\private\crt32st\stdio\_flsbuf.c
+__fltin	0x0004fb52	0x0002a002	D:\nt\private\fp32st\conv\cfin.c	D:\nt\private\fp32st\conv\cfin.c
+__fltout	0x0004e3aa	0x0002769e	D:\nt\private\fp32st\conv\cfout.c	D:\nt\private\fp32st\conv\cfout.c
+__flush	0x0004f010	0x00029490	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+__flushall	0x0004f084	0x00029504	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+__forcdecpt	0x0004d2ea	0x000282de	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+__fpclear	0x0004d2b2	0x000282a6	D:\nt\private\fp32st\conv\fpinit.c	D:\nt\private\fp32st\conv\fpinit.c
+__fpmath	0x0004d2aa	0x0002829e	D:\nt\private\fp32st\conv\fpinit.c	D:\nt\private\fp32st\conv\fpinit.c
+__fptostr	0x0004ea3a	0x00028e2e	D:\nt\private\crt32st\convert\_fptostr.c	D:\nt\private\crt32st\convert\_fptostr.c
+__fptrap	0x0004eaca	0x00028ebe	D:\nt\private\crt32st\startup\crt0fp.c	D:\nt\private\crt32st\startup\crt0fp.c
+__free_osfhnd	0x0004ee0a	0x0002928a	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+__freebuf	0x0005dc22	0x0002a792	D:\nt\private\crt32st\stdio\_freebuf.c	D:\nt\private\crt32st\stdio\_freebuf.c
+__fsopen	0x0005dd88	0x0002a988	D:\nt\private\crt32st\stdio\fopen.c	D:\nt\private\crt32st\stdio\fopen.c
+__ftbuf	0x0005e572	0x0002b172	D:\nt\private\crt32st\stdio\_sftbuf.c	D:\nt\private\crt32st\stdio\_sftbuf.c
+__get_osfhandle	0x0004ee8e	0x0002930e	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+__getbuf	0x0004ef74	0x000293f4	D:\nt\private\crt32st\stdio\_getbuf.c	D:\nt\private\crt32st\stdio\_getbuf.c
+__getstream	0x0005ddc8	0x0002a9c8	D:\nt\private\crt32st\stdio\stream.c	D:\nt\private\crt32st\stdio\stream.c
+__global_unwind	0x0004d0a0	0x000291a4	i386\crtexcpt.asm	i386\crtexcpt.asm
+__heap_abort	0x0004f230	0x000296b0	D:\nt\private\crt32st\heap\hpabort.c	D:\nt\private\crt32st\heap\hpabort.c
+__heap_addblock	0x000643c2	0x0002c9fc	D:\nt\private\crt32st\heap\heapadd.c	D:\nt\private\crt32st\heap\heapadd.c
+__heap_findaddr	0x00064636	0x0002cc70	D:\nt\private\crt32st\heap\findaddr.c	D:\nt\private\crt32st\heap\findaddr.c
+__heap_free_region	0x00064334	0x0002c96e	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+__heap_grow	0x00064160	0x0002c79a	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+__heap_grow_emptylist	0x0004f1de	0x0002965e	D:\nt\private\crt32st\heap\heapinit.c	D:\nt\private\crt32st\heap\heapinit.c
+__heap_grow_region	0x00064260	0x0002c89a	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+__heap_init	0x0004f1ca	0x0002964a	D:\nt\private\crt32st\heap\heapinit.c	D:\nt\private\crt32st\heap\heapinit.c
+__heap_search	0x000646b6	0x0002ccf0	D:\nt\private\crt32st\heap\heapsrch.c	D:\nt\private\crt32st\heap\heapsrch.c
+__heap_split_block	0x000640f8	0x0002c732	D:\nt\private\crt32st\heap\malloc.c	D:\nt\private\crt32st\heap\malloc.c
+__heapadd	0x00064396	0x0002c9d0	D:\nt\private\crt32st\heap\heapadd.c	D:\nt\private\crt32st\heap\heapadd.c
+__isatty	0x0004f240	0x000296c0	D:\nt\private\crt32st\lowio\isatty.c	D:\nt\private\crt32st\lowio\isatty.c
+__itoa	0x0005dcbe	0x0002a82e	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+__local_unwind	0x0004d0a0	0x000291a4	i386\crtexcpt.asm	i386\crtexcpt.asm
+__lseek	0x0004f270	0x000296f0	D:\nt\private\crt32st\lowio\lseek.c	D:\nt\private\crt32st\lowio\lseek.c
+__ltoa	0x0005dcea	0x0002a85a	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+__open	0x0005df38	0x0002ab38	D:\nt\private\crt32st\lowio\open.c	D:\nt\private\crt32st\lowio\open.c
+__open_osfhandle	0x0004eeca	0x0002934a	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+__openfile	0x0005de08	0x0002aa08	D:\nt\private\crt32st\stdio\_open.c	D:\nt\private\crt32st\stdio\_open.c
+__output	0x0005e5ca	0x0002b1ca	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+__positive	0x0004d3ce	0x000283c2	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+__read	0x0004f2f6	0x00029776	D:\nt\private\crt32st\lowio\read.c	D:\nt\private\crt32st\lowio\read.c
+__set_osfhnd	0x0004ed8e	0x0002920e	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+__setargv	0x0004f53c	0x000299bc	D:\nt\private\crt32st\startup\stdargv.c	D:\nt\private\crt32st\startup\stdargv.c
+__setenvp	0x0004f762	0x00029be2	D:\nt\private\crt32st\startup\stdenvp.c	D:\nt\private\crt32st\startup\stdenvp.c
+__setmode	0x0005e40a	0x0002b00a	D:\nt\private\crt32st\lowio\setmode.c	D:\nt\private\crt32st\lowio\setmode.c
+__sopen	0x0005df50	0x0002ab50	D:\nt\private\crt32st\lowio\open.c	D:\nt\private\crt32st\lowio\open.c
+__stbuf	0x0005e4da	0x0002b0da	D:\nt\private\crt32st\stdio\_sftbuf.c	D:\nt\private\crt32st\stdio\_sftbuf.c
+__strdup	0x0004f872	0x0002a5e2	D:\nt\private\crt32st\string\strdup.c	D:\nt\private\crt32st\string\strdup.c
+__strupr	0x0004f8d2	0x00029d62	D:\nt\private\crt32st\string\strupr.c	D:\nt\private\crt32st\string\strupr.c
+__ultoa	0x0005dd1a	0x0002a88a	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+__unlink	0x0005dd6e	0x0002a8de	D:\nt\private\crt32st\dos\unlink.c	D:\nt\private\crt32st\dos\unlink.c
+__write	0x0004f902	0x00029d92	D:\nt\private\crt32st\lowio\write.c	D:\nt\private\crt32st\lowio\write.c
+_add_label	0x00026d54	0x00014a04	compiler_contribution_008 [_flow, _find_label, _add_caller...]	pgo.c
+_assert	0x000458fc	0x00029f92	compiler_contribution_033 [_dumpn, _setc, _perr...]	debug.c
+_atof	0x0004fb02	0x00029fb2	D:\nt\private\crt32st\convert\atof.c	D:\nt\private\crt32st\convert\atof.c
+_atoi	0x0004fc9a	0x0002a14a	D:\nt\private\crt32st\convert\atox.c	D:\nt\private\crt32st\convert\atox.c
+_atol	0x0004fc22	0x0002a0d2	D:\nt\private\crt32st\convert\atox.c	D:\nt\private\crt32st\convert\atox.c
+_before	0x00064596	0x0002cbd0	D:\nt\private\crt32st\heap\heapadd.c	D:\nt\private\crt32st\heap\heapadd.c
+_buff_check	0x0004a1b0	0x00026c1c	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_c_size	0x00064ad6	0x0001bf50	compiler_contribution_133 [_op_size, _c_size, _ea_size...]	csize.c
+_cftoe_g	0x0004d58e	0x00028582	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+_cftof_g	0x0004d6e2	0x000286d6	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+_chread	0x00049de0	0x00026890	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_close_all	0x0004c90c	0x000270dc	compiler_contribution_041 [_error, _fatal, _warning...]	error.c
+_cpybuf	0x00043ff8	0x000110e4	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	memallo.c
+_crack_cmd	0x000352a0	0x0002a162	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	getflags.c
+_do_format	0x0004c834	0x00026fcc	compiler_contribution_041 [_error, _fatal, _warning...]	error.c
+_doinitterm	0x0004cf80	0x00027360	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+_doread	0x0004a034	0x00026ab8	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_ea_size	0x000654b2	0x0001c8dc	compiler_contribution_133 [_op_size, _c_size, _ea_size...]	csize.c
+_emit_label	0x00066fdc	0x0001bacc	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]
+_error	0x0004c530	0x00026d50	compiler_contribution_041 [_error, _fatal, _warning...]	error.c
+_exit	0x0004cecc	0x000272ac	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+_fatal	0x0004c57c	0x00026d9c	compiler_contribution_041 [_error, _fatal, _warning...]	error.c
+_fclose	0x0005db42	0x0002a6b2	D:\nt\private\crt32st\stdio\fclose.c	D:\nt\private\crt32st\stdio\fclose.c
+_fflush	0x0004efc4	0x00029444	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+_fgets	0x0005f56a	0x0002a8f8	D:\nt\private\crt32st\stdio\fgets.c	D:\nt\private\crt32st\stdio\fgets.c
+_findseg	0x0001e344	0x000124e8	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	omf.c
+_flread	0x0004a014	0x00026a98	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_fopen	0x0005dda8	0x0002a9a8	D:\nt\private\crt32st\stdio\fopen.c	D:\nt\private\crt32st\stdio\fopen.c
+_fprintf	0x0005e49a	0x0002b09a	D:\nt\private\crt32st\stdio\fprintf.c	D:\nt\private\crt32st\stdio\fprintf.c
+_fread	0x0005ee0a	0x0002ba6a	D:\nt\private\crt32st\stdio\fread.c	D:\nt\private\crt32st\stdio\fread.c
+_free	0x0005ef2a	0x0002bb8a	D:\nt\private\crt32st\heap\free.c	D:\nt\private\crt32st\heap\free.c
+_freelst	0x00043f54	0x00011068	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	memallo.c
+_freemem	0x00043ed8	0x00010ec0	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	memallo.c
+_fseek	0x0005ef9a	0x0002bc5a	D:\nt\private\crt32st\stdio\fseek.c	D:\nt\private\crt32st\stdio\fseek.c
+_ftell	0x0005f02a	0x0002bcea	D:\nt\private\crt32st\stdio\ftell.c	D:\nt\private\crt32st\stdio\ftell.c
+_fwrite	0x0005f18a	0x0002be4a	D:\nt\private\crt32st\stdio\fwrite.c	D:\nt\private\crt32st\stdio\fwrite.c
+_get_err	0x0005f2da	0x0002bf9a	compiler_contribution_118 [_get_err, _get_msg, _get_message...]	get_err.c
+_getenv	0x0005fdea	0x0002c1ea	D:\nt\private\crt32st\misc\getenv.c	D:\nt\private\crt32st\misc\getenv.c
+_getmem	0x00043cc4	0x00010f38	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	memallo.c
+_heap_new_region	0x000641d4	0x0002c80e	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+_il_file	0x0004a1c4	0x00026c30	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_imm_size	0x000655ca	0x0001c9f4	compiler_contribution_133 [_op_size, _c_size, _ea_size...]	csize.c
+_keyread	0x00049e08	0x000268b8	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_loop_type	0x00050022	0x00016b9c	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]
+_loread	0x00049f18	0x000269b0	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_lsignore	0x0004a164	0x00026bdc	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_lsread	0x0004a0f8	0x00026b6c	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_main	0x00010c10	0x00010024	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	main.c
+_mainCRTStartup	0x0004eada	0x00028ece	D:\nt\private\crt32st\startup\crt0.c	D:\nt\private\crt32st\startup\crt0.c
+_malloc	0x00064060	0x0002c69a	D:\nt\private\crt32st\heap\malloc.c	D:\nt\private\crt32st\heap\malloc.c
+_memchr	0x000647e6	0x0002ce10	D:\nt\private\crt32st\string\memchr.c	D:\nt\private\crt32st\string\memchr.c
+_memmove	0x00064856	0x0002ce50	D:\nt\private\crt32st\string\memmove.c	D:\nt\private\crt32st\string\memmove.c
+_memset	0x000648b6	0x0002ceb0	D:\nt\private\crt32st\string\memset.c	D:\nt\private\crt32st\string\memset.c
+_message	0x0004c624	0x00026e40	compiler_contribution_041 [_error, _fatal, _warning...]	error.c
+_nextword	0x00010000	0x00010000	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	main.c
+_our_ltoa	0x00065616	0x0002cee0	compiler_contribution_134 [_our_ltoa]	ltoa.c
+_preg	0x000455f0	0x00016080	compiler_contribution_032 [_preg]	MD.c
+_printf	0x00065696	0x0002d000	D:\nt\private\crt32st\stdio\printf.c	D:\nt\private\crt32st\stdio\printf.c
+_prof_end	0x000459a4	0x00029fae	compiler_contribution_033 [_dumpn, _setc, _perr...]	debug.c
+_prof_start	0x000459a0	0x00029faa	compiler_contribution_033 [_dumpn, _setc, _perr...]	debug.c
+_pstrdup	0x00043fc8	0x00011094	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	memallo.c
+_remove	0x0005dd32	0x0002a8a2	D:\nt\private\crt32st\dos\unlink.c	D:\nt\private\crt32st\dos\unlink.c
+_rtread	0x0004a068	0x00026ae8	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_setvbuf	0x000663ec	0x0002d090	D:\nt\private\crt32st\stdio\setvbuf.c	D:\nt\private\crt32st\stdio\setvbuf.c
+_shift	0x0004d816	0x0002880a	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+_shread	0x00049e74	0x00026918	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_sign_extend	0x000655f2	0x0001ca1c	compiler_contribution_133 [_op_size, _c_size, _ea_size...]	csize.c
+_sprintf	0x000664bc	0x0002d160	D:\nt\private\crt32st\stdio\sprintf.c	D:\nt\private\crt32st\stdio\sprintf.c
+_strcat	0x00066e3c	0x0002d200	D:\nt\private\crt32st\string\strcat.c	D:\nt\private\crt32st\string\strcat.c
+_strcpy	0x00066e64	0x0002d228	D:\nt\private\crt32st\string\strcat.c	D:\nt\private\crt32st\string\strcat.c
+_strlen	0x00066edc	0x0002d250	D:\nt\private\crt32st\string\strlen.c	D:\nt\private\crt32st\string\strlen.c
+_strncmp	0x00066efc	0x0002d270	D:\nt\private\crt32st\string\strncmp.c	D:\nt\private\crt32st\string\strncmp.c
+_substr	0x0003539c	0x0002a26e	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	getflags.c
+_unconcat	0x000356bc	0x0002a54e	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	getflags.c
+_warning	0x0004c5c8	0x00026de4	compiler_contribution_041 [_error, _fatal, _warning...]	error.c
+_werr	0x0004a254	0x00026cf0	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+_zsread	0x0004a09c	0x00026b18	compiler_contribution_037 [_chread, _keyread, _shread...]	ioin.c
+doexit	0x0004cf14	0x000272f4	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+flsall	0x0004f090	0x00029510	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+get_int_arg	0x0005ede6	0x0002b9e6	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+get_long_arg	0x0005edf6	0x0002b9f6	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+inherit	0x0004ebfe	0x00028ff2	D:\nt\private\crt32st\startup\crt0.c	D:\nt\private\crt32st\startup\crt0.c
+parse_cmdline	0x0004f5e0	0x00029a60	D:\nt\private\crt32st\startup\stdargv.c	D:\nt\private\crt32st\startup\stdargv.c
+write_char	0x0005ed0a	0x0002b90a	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+write_multi_char	0x0005ed56	0x0002b956	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+write_string	0x0005ed82	0x0002b982	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+write_wstring	0x0005edb2	0x0002b9b2	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+xtoa	0x0005dc52	0x0002a7c2	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c

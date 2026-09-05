@@ -1,0 +1,580 @@
+rva	va	name	storage	source	source_raw
+0x00010000	0x00020000	_nextword	external	main.c	main.c
+0x00010024	0x00020024	_main	external	main.c	main.c
+0x00010900	0x00020900	_final	external	main.c	main.c
+0x00010bd0	0x00020bd0	_GetSourceLine	external	main.c	main.c
+0x00010bec	0x00020bec	_mingle	external	main.c	main.c
+0x00010c84	0x00020c84	_fin_mingle	external	main.c	main.c
+0x00010cf0	0x00020cf0	_recover	external	main.c	main.c
+0x00010e38	0x00020e38	_code_bias	external	main.c	main.c
+0x00010e58	0x00020e58	_get_node	external	main.c	main.c
+0x00010eb0	0x00020eb0	_heap_overflow	external	main.c	main.c
+0x00010ec0	0x00020ec0	_freemem	external	memallo.c	memallo.c
+0x00010f38	0x00020f38	_getmem	external	memallo.c	memallo.c
+0x00010fd8	0x00020fd8	_pcheck	external	memallo.c	memallo.c
+0x00011028	0x00021028	_adjust_code_pool	external	memallo.c	memallo.c
+0x0001103c	0x0002103c	_clear	external	memallo.c	memallo.c
+0x00011068	0x00021068	_freelst	external	memallo.c	memallo.c
+0x00011094	0x00021094	_pstrdup	external	memallo.c	memallo.c
+0x000110e4	0x000210e4	_cpybuf	external	memallo.c	memallo.c
+0x00011104	0x00021104	_CheckFarHeap	external	memallo.c	memallo.c
+0x0001112c	0x0002112c	_CheckNearHeap	external	memallo.c	memallo.c
+0x00011160	0x00021160	_read_seginfo	external	compiler_contribution_004 [_read_seginfo, _init_obj, _set_class...]	c:\c6\\cmerge\
+0x000114c4	0x000214c4	_init_obj	external	compiler_contribution_004 [_read_seginfo, _init_obj, _set_class...]	c:\c6\\cmerge\
+0x00011cb0	0x00021cb0	_set_class	external	compiler_contribution_004 [_read_seginfo, _init_obj, _set_class...]	c:\c6\\cmerge\
+0x00011d44	0x00021d44	_calc_fixes	external	compiler_contribution_004 [_read_seginfo, _init_obj, _set_class...]	c:\c6\\cmerge\
+0x00011ec4	0x00021ec4	_fix_symbol	external	compiler_contribution_004 [_read_seginfo, _init_obj, _set_class...]	c:\c6\\cmerge\
+0x000120dc	0x000220dc	_symbol_fixup	external	compiler_contribution_004 [_read_seginfo, _init_obj, _set_class...]	c:\c6\\cmerge\
+0x0001222c	0x0002222c	_eGRPDEF	external	compiler_contribution_004 [_read_seginfo, _init_obj, _set_class...]	c:\c6\\cmerge\
+0x00012270	0x00022270	_emit_comment	external	compiler_contribution_004 [_read_seginfo, _init_obj, _set_class...]	c:\c6\\cmerge\
+0x00012434	0x00022434	_emit_huge_array	external	compiler_contribution_004 [_read_seginfo, _init_obj, _set_class...]	c:\c6\\cmerge\
+0x000124c0	0x000224c0	_getnew	external	omf.c	omf.c
+0x000124e8	0x000224e8	_findseg	external	omf.c	omf.c
+0x00012520	0x00022520	_eFIXLIST	external	omf.c	omf.c
+0x00012558	0x00022558	_emitc	external	omf.c	omf.c
+0x00012590	0x00022590	_emitw	external	omf.c	omf.c
+0x000125bc	0x000225bc	_emitl	external	omf.c	omf.c
+0x000125dc	0x000225dc	_emitlp	external	omf.c	omf.c
+0x000125fc	0x000225fc	_emitn	external	omf.c	omf.c
+0x00012648	0x00022648	_StripDname	external	omf.c	omf.c
+0x000126a8	0x000226a8	_emitname	external	omf.c	omf.c
+0x0001272c	0x0002272c	_emitlongname	external	omf.c	omf.c
+0x0001279c	0x0002279c	_emitz	external	omf.c	omf.c
+0x000127dc	0x000227dc	_emitindex	external	omf.c	omf.c
+0x0001281c	0x0002281c	_emit_leafdescriptor	external	omf.c	omf.c
+0x0001288c	0x0002288c	_emit_comdeflength	external	omf.c	omf.c
+0x00012904	0x00022904	_init_rec	external	omf.c	omf.c
+0x000129e0	0x000229e0	_emit_init	external	omf.c	omf.c
+0x00012a3c	0x00022a3c	_uppercasify	external	omf.c	omf.c
+0x00012a5c	0x00022a5c	_put_data	external	omf.c	omf.c
+0x00012ae8	0x00022ae8	_makename	external	omf.c	omf.c
+0x00012d58	0x00022d58	_add_segment	external	omf.c	omf.c
+0x00012d98	0x00022d98	_init_seg	external	omf.c	omf.c
+0x00012de0	0x00022de0	_beginrec	external	omf_ms.c	omf_ms.c
+0x00012e84	0x00022e84	_flushn	external	omf_ms.c	omf_ms.c
+0x00012e9c	0x00022e9c	_newrec	external	omf_ms.c	omf_ms.c
+0x000130cc	0x000230cc	_endrec	external	omf_ms.c	omf_ms.c
+0x00013198	0x00023198	_eTHEADR	external	omf_ms.c	omf_ms.c
+0x000131b4	0x000231b4	_eCOMENT	external	omf_ms.c	omf_ms.c
+0x0001322c	0x0002322c	_eLLNAME	external	omf_ms.c	omf_ms.c
+0x00013254	0x00023254	_eLNAME	external	omf_ms.c	omf_ms.c
+0x0001327c	0x0002327c	_eSEGDEF	external	omf_ms.c	omf_ms.c
+0x00013364	0x00023364	_eCOMDEF	external	omf_ms.c	omf_ms.c
+0x00013408	0x00023408	_eEXTDEF	external	omf_ms.c	omf_ms.c
+0x00013424	0x00023424	_eLEXTDEF	external	omf_ms.c	omf_ms.c
+0x00013440	0x00023440	_eEDEF	external	omf_ms.c	omf_ms.c
+0x00013470	0x00023470	_eCEXTDEF	external	omf_ms.c	omf_ms.c
+0x000134b4	0x000234b4	_emit_comdat_sym	external	omf_ms.c	omf_ms.c
+0x00013514	0x00023514	_ePUBDEF	external	omf_ms.c	omf_ms.c
+0x00013530	0x00023530	_eLPUBDEF	external	omf_ms.c	omf_ms.c
+0x0001354c	0x0002354c	_ePDEF	external	omf_ms.c	omf_ms.c
+0x00013580	0x00023580	_emit_line_number	external	omf_ms.c	omf_ms.c
+0x000135b4	0x000235b4	_eLINNUM	external	omf_ms.c	omf_ms.c
+0x00013684	0x00023684	_eLIDATA	external	omf_ms.c	omf_ms.c
+0x000136fc	0x000236fc	_eCOMDAT	external	omf_ms.c	omf_ms.c
+0x00013854	0x00023854	_eLINSYM	external	omf_ms.c	omf_ms.c
+0x00013a00	0x00023a00	_emitnum	external	omf_ms.c	omf_ms.c
+0x00013a84	0x00023a84	_eFIXUPP	external	omf_ms.c	omf_ms.c
+0x00013b34	0x00023b34	_emit_thread	external	omf_ms.c	omf_ms.c
+0x00013b80	0x00023b80	_eMODEND	external	omf_ms.c	omf_ms.c
+0x00013b9c	0x00023b9c	_emit_syms	external	omf_ms.c	omf_ms.c
+0x00013c98	0x00023c98	_emit_pubs	external	omf_ms.c	omf_ms.c
+0x00013dd0	0x00023dd0	_common_name	external	omf_ms.c	omf_ms.c
+0x00013dfc	0x00023dfc	_symbols	external	omf_ms.c	omf_ms.c
+0x00013e90	0x00023e90	_fin_obj	external	omf_ms.c	omf_ms.c
+0x00013fec	0x00023fec	_put_object	external	omf_ms.c	omf_ms.c
+0x00014094	0x00024094	_put_val	external	omf_ms.c	omf_ms.c
+0x000142c0	0x000242c0	_fix_ms	external	omf_ms.c	omf_ms.c
+0x00014394	0x00024394	_fix_pointer	external	omf_ms.c	omf_ms.c
+0x000143b0	0x000243b0	_fix_32_pointer	external	omf_ms.c	omf_ms.c
+0x000143cc	0x000243cc	_fix_base	external	omf_ms.c	omf_ms.c
+0x000143e8	0x000243e8	_fix_offset	external	omf_ms.c	omf_ms.c
+0x00014404	0x00024404	_fix_relative	external	omf_ms.c	omf_ms.c
+0x00014420	0x00024420	_EmitRegVar	external	omf_ms.c	omf_ms.c
+0x00014478	0x00024478	_new_data_rec	external	omf_ms.c	omf_ms.c
+0x000144a4	0x000244a4	_find_comdat_index	external	omf_ms.c	omf_ms.c
+0x000144e8	0x000244e8	_create_comdat_index_list	external	omf_ms.c	omf_ms.c
+0x00014540	0x00024540	_set_offset	external	pgo.c	pgo.c
+0x000146dc	0x000246dc	_calc_offsets	external	pgo.c	pgo.c
+0x0001472c	0x0002472c	_extract_node	external	pgo.c	pgo.c
+0x00014758	0x00024758	_ins_node	external	pgo.c	pgo.c
+0x00014788	0x00024788	_next_node	external	pgo.c	pgo.c
+0x000147a0	0x000247a0	_next_instr	external	pgo.c	pgo.c
+0x000147b8	0x000247b8	_prev_instr	external	pgo.c	pgo.c
+0x000147d0	0x000247d0	_prev_node	external	pgo.c	pgo.c
+0x000147e8	0x000247e8	_new_instr	external	pgo.c	pgo.c
+0x00014880	0x00024880	_label_check	external	pgo.c	pgo.c
+0x000148c0	0x000248c0	_new_label	external	pgo.c	pgo.c
+0x000149e8	0x000249e8	_clear_regtab_struct	external	pgo.c	pgo.c
+0x00014a04	0x00024a04	_add_label	external	pgo.c	pgo.c
+0x00014a64	0x00024a64	_del_ref	external	pgo.c	pgo.c
+0x00014b14	0x00024b14	_attach_refs	external	pgo.c	pgo.c
+0x00014b80	0x00024b80	_lremove	external	pgo.c	pgo.c
+0x00014c60	0x00024c60	_del_group	external	pgo.c	pgo.c
+0x00014c98	0x00024c98	_change_target	external	pgo.c	pgo.c
+0x00014d20	0x00024d20	_post_opt	external	pgo.c	pgo.c
+0x00014e70	0x00024e70	_move_code	external	pgo.c	pgo.c
+0x00014f94	0x00024f94	_sp_indep_opts	external	pgo.c	pgo.c
+0x000151a0	0x000251a0	_sp_dep_opts	external	pgo.c	pgo.c
+0x000153dc	0x000253dc	_br_size	external	pgo.c	pgo.c
+0x0001547c	0x0002547c	_isa_loop	external	pgo.c	pgo.c
+0x000155d0	0x000255d0	_dead_code	external	pgo.c	pgo.c
+0x00015660	0x00025660	_br_sequence	external	pgo.c	pgo.c
+0x0001575c	0x0002575c	_cross_jumps	external	pgo.c	pgo.c
+0x00015868	0x00025868	_br_self	external	pgo.c	pgo.c
+0x000158a0	0x000258a0	_jmp_next	external	pgo.c	pgo.c
+0x000158e0	0x000258e0	_jmp_jmp	external	pgo.c	pgo.c
+0x0001596c	0x0002596c	_branch_chain	external	pgo.c	pgo.c
+0x00015a60	0x00025a60	_loop_inversion	external	pgo.c	pgo.c
+0x00015cec	0x00025cec	_code_motion	external	pgo.c	pgo.c
+0x00015de8	0x00025de8	_new_ref	external	pgo.c	pgo.c
+0x00015e34	0x00025e34	_new_link_node	external	pgo.c	pgo.c
+0x00015e88	0x00025e88	_unlink_node	external	pgo.c	pgo.c
+0x00015f28	0x00025f28	_remove_labsym	external	pgo.c	pgo.c
+0x00015f90	0x00025f90	_same_instr	external	pgo.c	pgo.c
+0x00016080	0x00026080	_preg	external	MD.c	MD.c
+0x00016110	0x00026110	_EmitTypes	external	typemit.c	typemit.c
+0x000163c8	0x000263c8	_EnterBase	external	typemit.c	typemit.c
+0x00016454	0x00026454	FindBaseOffset	static	typemit.c	typemit.c
+0x000164b0	0x000264b0	_ref_types	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x000164b8	0x000264b8	_post_init	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x000166c8	0x000266c8	_spdep_init	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016804	0x00026804	_sift_data_nodes	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x0001687c	0x0002687c	_cond_code_not_used	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016908	0x00026908	_absval	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016918	0x00026918	_br_span	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x0001699c	0x0002699c	_make_ubranch	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016a24	0x00026a24	_same_location	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016ab4	0x00026ab4	_loop_once	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016b9c	0x00026b9c	_loop_type	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016d3c	0x00026d3c	_dis_opls	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016d88	0x00026d88	_clear_all	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016e3c	0x00026e3c	_clear_regtab	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016e54	0x00026e54	_clear_part_oprs	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016ea0	0x00026ea0	_rm_dep_oprs	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016f6c	0x00026f6c	_ref_class	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00016fcc	0x00026fcc	_clear_reg	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00017188	0x00027188	_find_xreg	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x0001722c	0x0002722c	_find_reg	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00017254	0x00027254	_redundancies	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x0001742c	0x0002742c	_rloads	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x0001834c	0x0002834c	_reg_neq_index	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x000183a4	0x000283a4	_removeopl	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x0001841c	0x0002841c	_remove_nonopl	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018478	0x00028478	_add_zero	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x000184c8	0x000284c8	_remove_indirect_opnd	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018508	0x00028508	_add_opl	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018604	0x00028604	_Add_to_clear_list	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018658	0x00028658	_in_reg	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x0001868c	0x0002868c	_copy_oplist	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x000186c0	0x000286c0	_UpdateLabTab	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x0001874c	0x0002874c	_UpdateLab	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x000187d8	0x000287d8	_RedundantJCC	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018998	0x00028998	_ExpandJMP	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018bdc	0x00028bdc	_rm_empty_routine	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018c70	0x00028c70	_even_align	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018ccc	0x00028ccc	_align	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018d2c	0x00028d2c	_add_nop	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018d88	0x00028d88	_clear_mem	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018de0	0x00028de0	_check_scheduling	external	compiler_contribution_010 [_ref_types, _post_init, _spdep_init...]	c:\c6\\cmerge\
+0x00018df0	0x00028df0	_set_W_bit	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00018e20	0x00028e20	_calc_addr	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00018ecc	0x00028ecc	_outb	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00018eec	0x00028eec	_immed	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00018f40	0x00028f40	_symimmed	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00019078	0x00029078	_logicals	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00019218	0x00029218	_sreg	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00019244	0x00029244	_seg_reg	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00019268	0x00029268	_mov_mem_to_ax	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00019294	0x00029294	_mov_ax_to_mem	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x000192c0	0x000292c0	_addtype	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00019314	0x00029314	_obj_ea	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00019570	0x00029570	_binop	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x00019608	0x00029608	_br_disp	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x000197e4	0x000297e4	_decode	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x0001b518	0x0002b518	_mfbits	external	compiler_contribution_011 [_set_W_bit, _calc_addr, _outb...]	c:\c6\\cmerge\
+0x0001b5b0	0x0002b5b0	_emit_dbgsyms	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001b630	0x0002b630	_emit_stack_sym	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001b67c	0x0002b67c	_emit_var_dbgrecord	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001b6f0	0x0002b6f0	_emit_dbconst	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001b788	0x0002b788	_wr_block_length	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001b7cc	0x0002b7cc	_patch_block_length	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001b8c0	0x0002b8c0	_save_entry_info	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001b90c	0x0002b90c	_emit_dbgseginfo	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001b97c	0x0002b97c	_emit_proc_start	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001ba5c	0x0002ba5c	_emit_block	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bab4	0x0002bab4	_emit_end	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bacc	0x0002bacc	_emit_label	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bb44	0x0002bb44	_emit_stack_locals	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bb98	0x0002bb98	_emit_reg_vars	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bbd4	0x0002bbd4	_emit_parameters	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bcbc	0x0002bcbc	_emit_local_autos	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bd2c	0x0002bd2c	_emit_local_statics	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bd60	0x0002bd60	_emit_dbg_register	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bdac	0x0002bdac	_StartSymRec	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001bde8	0x0002bde8	_EndSymRec	external	compiler_contribution_012 [_emit_dbgsyms, _emit_stack_sym, _emit_var_dbgrecord...]	c:\c6\\cmerge\
+0x0001be30	0x0002be30	_code_size	external	csize.c	csize.c
+0x0001bf50	0x0002bf50	_c_size	external	csize.c	csize.c
+0x0001c8dc	0x0002c8dc	_ea_size	external	csize.c	csize.c
+0x0001c9f4	0x0002c9f4	_imm_size	external	csize.c	csize.c
+0x0001ca1c	0x0002ca1c	_sign_extend	external	csize.c	csize.c
+0x0001ca40	0x0002ca40	_init_locsymtab	external	p3symtab.c	p3symtab.c
+0x0001ca64	0x0002ca64	_init_globsymtab	external	p3symtab.c	p3symtab.c
+0x0001cab8	0x0002cab8	_find_sym	external	p3symtab.c	p3symtab.c
+0x0001caf8	0x0002caf8	_find_key	external	p3symtab.c	p3symtab.c
+0x0001cb28	0x0002cb28	_add_sym	external	p3symtab.c	p3symtab.c
+0x0001cd94	0x0002cd94	_statsym_add	external	p3symtab.c	p3symtab.c
+0x0001ce08	0x0002ce08	_ls_find	external	p3symtab.c	p3symtab.c
+0x0001ce40	0x0002ce40	_set_loop_flag	external	compiler_contribution_015 [_set_loop_flag, _check_loop, _ubranch_check...]	c:\c6\\cmerge\
+0x0001cea0	0x0002cea0	_check_loop	external	compiler_contribution_015 [_set_loop_flag, _check_loop, _ubranch_check...]	c:\c6\\cmerge\
+0x0001ced4	0x0002ced4	_ubranch_check	external	compiler_contribution_015 [_set_loop_flag, _check_loop, _ubranch_check...]	c:\c6\\cmerge\
+0x0001cf28	0x0002cf28	_insert_in_flow_graph	external	compiler_contribution_015 [_set_loop_flag, _check_loop, _ubranch_check...]	c:\c6\\cmerge\
+0x0001cfac	0x0002cfac	_new_transfer_node	external	compiler_contribution_015 [_set_loop_flag, _check_loop, _ubranch_check...]	c:\c6\\cmerge\
+0x0001cfec	0x0002cfec	_unlink_transfer_node	external	compiler_contribution_015 [_set_loop_flag, _check_loop, _ubranch_check...]	c:\c6\\cmerge\
+0x0001d024	0x0002d024	_find_insert_point	external	compiler_contribution_015 [_set_loop_flag, _check_loop, _ubranch_check...]	c:\c6\\cmerge\
+0x0001d064	0x0002d064	_update_flow_group	external	compiler_contribution_015 [_set_loop_flag, _check_loop, _ubranch_check...]	c:\c6\\cmerge\
+0x0001d1a0	0x0002d1a0	_rec_pcheck	external	pgo2.c	pgo2.c
+0x0001d288	0x0002d288	_readproc	external	pgo2.c	pgo2.c
+0x0001d7f0	0x0002d7f0	_skip_asm	external	pgo2.c	pgo2.c
+0x0001d818	0x0002d818	_do_backward_check	external	pgo2.c	pgo2.c
+0x0001d9a8	0x0002d9a8	_check_who_first	external	pgo2.c	pgo2.c
+0x0001d9e0	0x0002d9e0	_read_operand	external	p3io.c	p3io.c
+0x0001dbd0	0x0002dbd0	_get_operands	external	p3io.c	p3io.c
+0x0001dc38	0x0002dc38	_read_ail	external	p3io.c	p3io.c
+0x0001e38c	0x0002e38c	_GetMultiByteBuff	external	p3io.c	p3io.c
+0x0001e3f4	0x0002e3f4	_read_value	external	p3io.c	p3io.c
+0x0001e734	0x0002e734	_read_init	external	p3io.c	p3io.c
+0x0001e838	0x0002e838	_read_sil	external	p3io.c	p3io.c
+0x0001f378	0x0002f378	_read_locsil	external	p3io.c	p3io.c
+0x0001f38c	0x0002f38c	_read_globsil	external	p3io.c	p3io.c
+0x0001f3a0	0x0002f3a0	_walk_syms	external	p3io.c	p3io.c
+0x0001f3e0	0x0002f3e0	_check_mode	external	compiler_contribution_018 [_check_mode, _chg_mode, _set_val...]	c:\c6\\cmerge\
+0x0001f450	0x0002f450	_chg_mode	external	compiler_contribution_018 [_check_mode, _chg_mode, _set_val...]	c:\c6\\cmerge\
+0x0001f464	0x0002f464	_set_val	external	compiler_contribution_018 [_check_mode, _chg_mode, _set_val...]	c:\c6\\cmerge\
+0x0001f510	0x0002f510	_check_opcode	external	compiler_contribution_018 [_check_mode, _chg_mode, _set_val...]	c:\c6\\cmerge\
+0x0001f770	0x0002f770	_init_list	external	srclist.c	srclist.c
+0x0001f850	0x0002f850	_fin_list	external	srclist.c	srclist.c
+0x0001f930	0x0002f930	_list_to_here	external	srclist.c	srclist.c
+0x0001fa48	0x0002fa48	_digits	external	srclist.c	srclist.c
+0x0001fa90	0x0002fa90	_print_line	external	srclist.c	srclist.c
+0x0001fb18	0x0002fb18	_whitespace	external	srclist.c	srclist.c
+0x0001fb3c	0x0002fb3c	_include_line	external	srclist.c	srclist.c
+0x0001fbb4	0x0002fbb4	_print_errs	external	srclist.c	srclist.c
+0x0001fbec	0x0002fbec	_find_errs	external	srclist.c	srclist.c
+0x0001fc44	0x0002fc44	_del_err	external	srclist.c	srclist.c
+0x0001fc6c	0x0002fc6c	_match	external	srclist.c	srclist.c
+0x0001fd10	0x0002fd10	_new_page	external	srclist.c	srclist.c
+0x0001ffb4	0x0002ffb4	_truncate	external	srclist.c	srclist.c
+0x00020024	0x00030024	_to_string	external	srclist.c	srclist.c
+0x00020054	0x00030054	_get_date	external	srclist.c	srclist.c
+0x00020090	0x00030090	_get_time	external	srclist.c	srclist.c
+0x000200cc	0x000300cc	_read_errors	external	srclist.c	srclist.c
+0x00020118	0x00030118	_add_err	external	srclist.c	srclist.c
+0x000201cc	0x000301cc	_list_locals	external	srclist.c	srclist.c
+0x0002020c	0x0003020c	_lst_dynamic	external	srclist.c	srclist.c
+0x000202d4	0x000302d4	_lst_static	external	srclist.c	srclist.c
+0x000202f4	0x000302f4	_sprint	external	srclist.c	srclist.c
+0x000203c0	0x000303c0	_pr_pr_header	external	srclist.c	srclist.c
+0x000203ec	0x000303ec	_pr_gl_header	external	srclist.c	srclist.c
+0x00020434	0x00030434	_pr_lc_header	external	srclist.c	srclist.c
+0x00020490	0x00030490	_pr_globsym	external	srclist.c	srclist.c
+0x000204ac	0x000304ac	_pr_sym	external	srclist.c	srclist.c
+0x000206d0	0x000306d0	_gettype	external	srclist.c	srclist.c
+0x000207d0	0x000307d0	_sort_sym	external	srclist.c	srclist.c
+0x00020878	0x00030878	_newline	external	srclist.c	srclist.c
+0x000208b0	0x000308b0	_list_name	external	srclist.c	srclist.c
+0x00020908	0x00030908	_pr_globals	external	srclist.c	srclist.c
+0x00020940	0x00030940	_get_list_pragma	external	srclist.c	srclist.c
+0x00020a5c	0x00030a5c	_exec_list_pragma	external	srclist.c	srclist.c
+0x00020b4c	0x00030b4c	_Save_List_Vars	external	srclist.c	srclist.c
+0x00020bf0	0x00030bf0	_Restore_List_Vars	external	srclist.c	srclist.c
+0x00020c60	0x00030c60	_segheader	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00020c9c	0x00030c9c	_new_seg	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00020d1c	0x00030d1c	_asm_init	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00020d3c	0x00030d3c	_name_dict	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00020d54	0x00030d54	_fin_asm	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00020d80	0x00030d80	_disasm	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00020f38	0x00030f38	_disinstr	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x000218b0	0x000318b0	_masm_size	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x000218fc	0x000318fc	_disea	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00021960	0x00031960	_ea_ns	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00021c30	0x00031c30	_not_sized	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00021c64	0x00031c64	_display_regs	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00021d74	0x00031d74	_pdisp	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00021dac	0x00031dac	_begin_line	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00021e78	0x00031e78	_end_line	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00021ecc	0x00031ecc	_storage	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00021f20	0x00031f20	_wr_uninit	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x000220ac	0x000320ac	_cm_gcvt	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x000221a8	0x000321a8	_printsingle	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x000221d8	0x000321d8	_print_double	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00022208	0x00032208	_print_treal	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00022234	0x00032234	_pretty_print	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00022438	0x00032438	_wr_val	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00022628	0x00032628	_wr_init	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x000226f8	0x000326f8	_do_init	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x000227b8	0x000327b8	_asm_data	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00022924	0x00032924	_pub_syms	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00022970	0x00032970	_ext_procs	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x0002298c	0x0003298c	_ext_syms	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x000229b0	0x000329b0	_dis_EXTDEF	external	compiler_contribution_021 [_segheader, _new_seg, _asm_init...]	c:\c6\\cmerge\
+0x00022a60	0x00032a60	_init_operand	external	operand.c	operand.c
+0x00022af0	0x00032af0	_clear_reg_flag	external	operand.c	operand.c
+0x00022b08	0x00032b08	_rewrite	external	operand.c	operand.c
+0x00022d44	0x00032d44	_free_opndlist	external	operand.c	operand.c
+0x00022dcc	0x00032dcc	_find_operand	external	operand.c	operand.c
+0x00022e74	0x00032e74	_create_operand	external	operand.c	operand.c
+0x00022f40	0x00032f40	_remove_operand	external	operand.c	operand.c
+0x00022fa0	0x00032fa0	_copy_operands	external	operand.c	operand.c
+0x00022fc4	0x00032fc4	_compare_operand	external	operand.c	operand.c
+0x000230dc	0x000330dc	_indirectly_used	external	operand.c	operand.c
+0x00023190	0x00033190	_set_instr_vars	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00023258	0x00033258	_rm_deadload	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x000233b4	0x000333b4	_rm_deadinstr	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024238	0x00034238	_Update_offset	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024324	0x00034324	_remove_entry_exit_sequence	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024400	0x00034400	_keep_carry_instr	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024478	0x00034478	_regtopref	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x0002449c	0x0003449c	_mark_ref	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024580	0x00034580	_mark_changed	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x0002463c	0x0003463c	_set_refmode	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x000246b4	0x000346b4	_same_reg	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x000246f4	0x000346f4	_clear_reference	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024734	0x00034734	_remove_node	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x000247a8	0x000347a8	_mark_changed_locsym	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x000248b0	0x000348b0	_no_lab_in_between	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024900	0x00034900	_mark_ref_locsym	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024a3c	0x00034a3c	_clear_locsym_space	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024a60	0x00034a60	_rm_dead_store	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00024b94	0x00034b94	_peephole	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x000259d8	0x000359d8	_carry_not_used	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00025a20	0x00035a20	_change_to_inc_dec	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00025aac	0x00035aac	_rem_inv_inst	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00025b24	0x00035b24	_mov_to_cwd	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00025b98	0x00035b98	_extra_compare	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00025d94	0x00035d94	_check_for_byteop	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00025e44	0x00035e44	_fdload	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00025f20	0x00035f20	_compress_JCC_seq	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00026068	0x00036068	_compress_TEST_seq	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x0002619c	0x0003619c	_shorten_instr	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x0002635c	0x0003635c	_check_reg_chain	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x000263ac	0x000363ac	_clear_reg_chain	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x000263cc	0x000363cc	_rm_reg_chain	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x000267d0	0x000367d0	_do_forward_check	external	compiler_contribution_023 [_set_instr_vars, _rm_deadload, _rm_deadinstr...]	c:\c6\\cmerge\
+0x00026890	0x00036890	_chread	external	ioin.c	ioin.c
+0x000268b8	0x000368b8	_keyread	external	ioin.c	ioin.c
+0x00026918	0x00036918	_shread	external	ioin.c	ioin.c
+0x000269b0	0x000369b0	_loread	external	ioin.c	ioin.c
+0x00026a98	0x00036a98	_flread	external	ioin.c	ioin.c
+0x00026ab8	0x00036ab8	_doread	external	ioin.c	ioin.c
+0x00026ae8	0x00036ae8	_rtread	external	ioin.c	ioin.c
+0x00026b18	0x00036b18	_zsread	external	ioin.c	ioin.c
+0x00026b6c	0x00036b6c	_lsread	external	ioin.c	ioin.c
+0x00026bdc	0x00036bdc	_lsignore	external	ioin.c	ioin.c
+0x00026c1c	0x00036c1c	_buff_check	external	ioin.c	ioin.c
+0x00026c30	0x00036c30	_il_file	external	ioin.c	ioin.c
+0x00026cf0	0x00036cf0	_werr	external	ioin.c	ioin.c
+0x00026d50	0x00036d50	_error	external	error.c	error.c
+0x00026d9c	0x00036d9c	_fatal	external	error.c	error.c
+0x00026de4	0x00036de4	_warning	external	error.c	error.c
+0x00026e40	0x00036e40	_message	external	error.c	error.c
+0x00026fb8	0x00036fb8	format	static	error.c	error.c
+0x00026fcc	0x00036fcc	_do_format	external	error.c	error.c
+0x000270dc	0x000370dc	_close_all	external	error.c	error.c
+0x00027110	0x00037110	__close	external	D:\nt\private\crt32st\lowio\close.c	D:\nt\private\crt32st\lowio\close.c
+0x00027190	0x00037190	_CloseHandle	external		
+0x00027196	0x00037196	_GetLastError	external		
+0x0002719c	0x0003719c	__chkstk	external	i386\chkstk.asm	i386\chkstk.asm
+0x000271cc	0x000371cc	__cinit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x000272ac	0x000372ac	_exit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x000272c0	0x000372c0	__exit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x000272d4	0x000372d4	__cexit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x000272e4	0x000372e4	__c_exit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x000272f4	0x000372f4	doexit	static	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x00027360	0x00037360	_doinitterm	static	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x0002738c	0x0003738c	_ExitProcess	external		
+0x00027392	0x00037392	_GetFileType	external		
+0x00027398	0x00037398	_GetStdHandle	external		
+0x0002739e	0x0003739e	__dosmaperr	external	D:\nt\private\crt32st\dos\dosmap.c	D:\nt\private\crt32st\dos\dosmap.c
+0x0002741e	0x0003741e	__fcvt	external	D:\nt\private\crt32st\convert\fcvt.c	D:\nt\private\crt32st\convert\fcvt.c
+0x0002744e	0x0003744e	__ecvt	external	D:\nt\private\crt32st\convert\fcvt.c	D:\nt\private\crt32st\convert\fcvt.c
+0x00027472	0x00037472	_fpcvt	static	D:\nt\private\crt32st\convert\fcvt.c	D:\nt\private\crt32st\convert\fcvt.c
+0x000274be	0x000374be	__filbuf	external	D:\nt\private\crt32st\stdio\_filbuf.c	D:\nt\private\crt32st\stdio\_filbuf.c
+0x0002756e	0x0003756e	__flsbuf	external	D:\nt\private\crt32st\stdio\_flsbuf.c	D:\nt\private\crt32st\stdio\_flsbuf.c
+0x0002769e	0x0003769e	__fltout	external	D:\nt\private\fp32st\conv\cfout.c	D:\nt\private\fp32st\conv\cfout.c
+0x0002770e	0x0003770e	_$I10_OUTPUT	external	D:\nt\private\fp32st\conv\x10fout.c	D:\nt\private\fp32st\conv\x10fout.c
+0x00027abe	0x00037abe	___addl	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x00027b0a	0x00037b0a	___add_12	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x00027b8a	0x00037b8a	___shl_12	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x00027bda	0x00037bda	___shr_12	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x00027c36	0x00037c36	___mtold12	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x00027d3e	0x00037d3e	___dtold	external	D:\nt\private\fp32st\conv\ldtod.c	D:\nt\private\fp32st\conv\ldtod.c
+0x00027e4a	0x00037e4a	___ldtod	external	D:\nt\private\fp32st\conv\ldtod.c	D:\nt\private\fp32st\conv\ldtod.c
+0x00027fae	0x00037fae	___ld12mul	external	D:\nt\private\fp32st\conv\tenpow.c	D:\nt\private\fp32st\conv\tenpow.c
+0x0002821a	0x0003821a	___multtenpow12	external	D:\nt\private\fp32st\conv\tenpow.c	D:\nt\private\fp32st\conv\tenpow.c
+0x0002829e	0x0003829e	__fpmath	external	D:\nt\private\fp32st\conv\fpinit.c	D:\nt\private\fp32st\conv\fpinit.c
+0x000282a6	0x000382a6	__fpclear	external	D:\nt\private\fp32st\conv\fpinit.c	D:\nt\private\fp32st\conv\fpinit.c
+0x000282aa	0x000382aa	__cfltcvt_init	external	D:\nt\private\fp32st\conv\fpinit.c	D:\nt\private\fp32st\conv\fpinit.c
+0x000282de	0x000382de	__forcdecpt	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x00028352	0x00038352	__cropzeros	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x000283c2	0x000383c2	__positive	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x000283e2	0x000383e2	__fassign	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x00028426	0x00038426	__cftoe	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x00028582	0x00038582	_cftoe_g	static	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x000285aa	0x000385aa	__cftof	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x000286d6	0x000386d6	_cftof_g	static	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x000286fa	0x000386fa	__cftog	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x000287ba	0x000387ba	__cfltcvt	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0002880a	0x0003880a	_shift	static	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0002883e	0x0003883e	__atold	external	D:\nt\private\fp32st\conv\i386\atold.c	D:\nt\private\fp32st\conv\i386\atold.c
+0x0002886e	0x0003886e	___STRINGTOLD	external	D:\nt\private\fp32st\conv\strgtold.c	D:\nt\private\fp32st\conv\strgtold.c
+0x00028e2e	0x00038e2e	__fptostr	external	D:\nt\private\crt32st\convert\_fptostr.c	D:\nt\private\crt32st\convert\_fptostr.c
+0x00028ebe	0x00038ebe	__fptrap	external	D:\nt\private\crt32st\startup\crt0fp.c	D:\nt\private\crt32st\startup\crt0fp.c
+0x00028ece	0x00038ece	_mainCRTStartup	external	D:\nt\private\crt32st\startup\crt0.c	D:\nt\private\crt32st\startup\crt0.c
+0x00028ff2	0x00038ff2	inherit	static	D:\nt\private\crt32st\startup\crt0.c	D:\nt\private\crt32st\startup\crt0.c
+0x0002905a	0x0003905a	__amsg_exit	external	D:\nt\private\crt32st\startup\crt0.c	D:\nt\private\crt32st\startup\crt0.c
+0x0002907e	0x0003907e	_GetCommandLineA	external		
+0x00029084	0x00039084	_GetEnvironmentStrings	external		
+0x0002908a	0x0003908a	_GetStartupInfoA	external		
+0x00029090	0x00039090	_GetVersion	external		
+0x00029096	0x00039096	_UnhandledExceptionFilter	external		
+0x0002909c	0x0003909c	__FF_MSGBANNER	external	D:\nt\private\crt32st\startup\crt0msg.c	D:\nt\private\crt32st\startup\crt0msg.c
+0x000290c8	0x000390c8	__NMSG_WRITE	external	D:\nt\private\crt32st\startup\crt0msg.c	D:\nt\private\crt32st\startup\crt0msg.c
+0x0002913c	0x0003913c	_WriteFile	external		
+0x00029142	0x00039142	__except_handler	external	i386\crtexcpt.asm	i386\crtexcpt.asm
+0x000291a4	0x000391a4	__global_unwind	external	i386\crtexcpt.asm	i386\crtexcpt.asm
+0x000291a4	0x000391a4	__local_unwind	external	i386\crtexcpt.asm	i386\crtexcpt.asm
+0x000291c2	0x000391c2	_DbgPrint	external		
+0x000291c8	0x000391c8	_RtlUnwind	external		
+0x000291ce	0x000391ce	__alloc_osfhnd	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x0002920e	0x0003920e	__set_osfhnd	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x0002928a	0x0003928a	__free_osfhnd	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x0002930e	0x0003930e	__get_osfhandle	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x0002934a	0x0003934a	__open_osfhandle	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x000293ee	0x000393ee	_SetStdHandle	external		
+0x000293f4	0x000393f4	__getbuf	external	D:\nt\private\crt32st\stdio\_getbuf.c	D:\nt\private\crt32st\stdio\_getbuf.c
+0x00029444	0x00039444	_fflush	external	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x00029490	0x00039490	__flush	external	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x00029504	0x00039504	__flushall	external	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x00029510	0x00039510	flsall	static	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x0002958c	0x0003958c	__endstdio	external	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x000295a4	0x000395a4	__commit	external	D:\nt\private\crt32st\lowio\commit.c	D:\nt\private\crt32st\lowio\commit.c
+0x00029614	0x00039614	_FlushFileBuffers	external		
+0x0002961a	0x0003961a	__fcloseall	external	D:\nt\private\crt32st\stdio\closeall.c	D:\nt\private\crt32st\stdio\closeall.c
+0x0002964a	0x0003964a	__heap_init	external	D:\nt\private\crt32st\heap\heapinit.c	D:\nt\private\crt32st\heap\heapinit.c
+0x0002965e	0x0003965e	__heap_grow_emptylist	external	D:\nt\private\crt32st\heap\heapinit.c	D:\nt\private\crt32st\heap\heapinit.c
+0x000296aa	0x000396aa	_VirtualAlloc	external		
+0x000296b0	0x000396b0	__heap_abort	external	D:\nt\private\crt32st\heap\hpabort.c	D:\nt\private\crt32st\heap\hpabort.c
+0x000296c0	0x000396c0	__isatty	external	D:\nt\private\crt32st\lowio\isatty.c	D:\nt\private\crt32st\lowio\isatty.c
+0x000296f0	0x000396f0	__lseek	external	D:\nt\private\crt32st\lowio\lseek.c	D:\nt\private\crt32st\lowio\lseek.c
+0x00029770	0x00039770	_SetFilePointer	external		
+0x00029776	0x00039776	__read	external	D:\nt\private\crt32st\lowio\read.c	D:\nt\private\crt32st\lowio\read.c
+0x000299b6	0x000399b6	_ReadFile	external		
+0x000299bc	0x000399bc	__setargv	external	D:\nt\private\crt32st\startup\stdargv.c	D:\nt\private\crt32st\startup\stdargv.c
+0x00029a60	0x00039a60	parse_cmdline	static	D:\nt\private\crt32st\startup\stdargv.c	D:\nt\private\crt32st\startup\stdargv.c
+0x00029bdc	0x00039bdc	_GetModuleFileNameA	external		
+0x00029be2	0x00039be2	__setenvp	external	D:\nt\private\crt32st\startup\stdenvp.c	D:\nt\private\crt32st\startup\stdenvp.c
+0x00029cf2	0x00039cf2	__stricmp	external	D:\nt\private\crt32st\string\stricmp.c	D:\nt\private\crt32st\string\stricmp.c
+0x00029d02	0x00039d02	__strcmpi	external	D:\nt\private\crt32st\string\stricmp.c	D:\nt\private\crt32st\string\stricmp.c
+0x00029d62	0x00039d62	__strupr	external	D:\nt\private\crt32st\string\strupr.c	D:\nt\private\crt32st\string\strupr.c
+0x00029d92	0x00039d92	__write	external	D:\nt\private\crt32st\lowio\write.c	D:\nt\private\crt32st\lowio\write.c
+0x00029f92	0x00039f92	_assert	external	debug.c	debug.c
+0x00029faa	0x00039faa	_prof_start	external	debug.c	debug.c
+0x00029fae	0x00039fae	_prof_end	external	debug.c	debug.c
+0x00029fb2	0x00039fb2	_atof	external	D:\nt\private\crt32st\convert\atof.c	D:\nt\private\crt32st\convert\atof.c
+0x0002a002	0x0003a002	__fltin	external	D:\nt\private\fp32st\conv\cfin.c	D:\nt\private\fp32st\conv\cfin.c
+0x0002a0d2	0x0003a0d2	_atol	external	D:\nt\private\crt32st\convert\atox.c	D:\nt\private\crt32st\convert\atox.c
+0x0002a14a	0x0003a14a	_atoi	external	D:\nt\private\crt32st\convert\atox.c	D:\nt\private\crt32st\convert\atox.c
+0x0002a162	0x0003a162	_crack_cmd	external	getflags.c	getflags.c
+0x0002a26e	0x0003a26e	_substr	external	getflags.c	getflags.c
+0x0002a43e	0x0003a43e	getnumber	static	getflags.c	getflags.c
+0x0002a49a	0x0003a49a	isita	static	getflags.c	getflags.c
+0x0002a4be	0x0003a4be	tailmatch	static	getflags.c	getflags.c
+0x0002a522	0x0003a522	copyover	static	getflags.c	getflags.c
+0x0002a54e	0x0003a54e	_unconcat	external	getflags.c	getflags.c
+0x0002a5e2	0x0003a5e2	__strdup	external	D:\nt\private\crt32st\string\strdup.c	D:\nt\private\crt32st\string\strdup.c
+0x0002a642	0x0003a642	_createlabel	external	labels.c	labels.c
+0x0002a6b2	0x0003a6b2	_fclose	external	D:\nt\private\crt32st\stdio\fclose.c	D:\nt\private\crt32st\stdio\fclose.c
+0x0002a792	0x0003a792	__freebuf	external	D:\nt\private\crt32st\stdio\_freebuf.c	D:\nt\private\crt32st\stdio\_freebuf.c
+0x0002a7c2	0x0003a7c2	xtoa	static	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+0x0002a82e	0x0003a82e	__itoa	external	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+0x0002a85a	0x0003a85a	__ltoa	external	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+0x0002a88a	0x0003a88a	__ultoa	external	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+0x0002a8a2	0x0003a8a2	_remove	external	D:\nt\private\crt32st\dos\unlink.c	D:\nt\private\crt32st\dos\unlink.c
+0x0002a8de	0x0003a8de	__unlink	external	D:\nt\private\crt32st\dos\unlink.c	D:\nt\private\crt32st\dos\unlink.c
+0x0002a8f2	0x0003a8f2	_DeleteFileA	external		
+0x0002a8f8	0x0003a8f8	_fgets	external	D:\nt\private\crt32st\stdio\fgets.c	D:\nt\private\crt32st\stdio\fgets.c
+0x0002a988	0x0003a988	__fsopen	external	D:\nt\private\crt32st\stdio\fopen.c	D:\nt\private\crt32st\stdio\fopen.c
+0x0002a9a8	0x0003a9a8	_fopen	external	D:\nt\private\crt32st\stdio\fopen.c	D:\nt\private\crt32st\stdio\fopen.c
+0x0002a9c8	0x0003a9c8	__getstream	external	D:\nt\private\crt32st\stdio\stream.c	D:\nt\private\crt32st\stdio\stream.c
+0x0002aa08	0x0003aa08	__openfile	external	D:\nt\private\crt32st\stdio\_open.c	D:\nt\private\crt32st\stdio\_open.c
+0x0002ab38	0x0003ab38	__open	external	D:\nt\private\crt32st\lowio\open.c	D:\nt\private\crt32st\lowio\open.c
+0x0002ab50	0x0003ab50	__sopen	external	D:\nt\private\crt32st\lowio\open.c	D:\nt\private\crt32st\lowio\open.c
+0x0002ae48	0x0003ae48	_CreateFileA	external		
+0x0002ae4e	0x0003ae4e	_GetFileAttributesA	external		
+0x0002ae54	0x0003ae54	_SetEndOfFile	external		
+0x0002ae5a	0x0003ae5a	__access	external	D:\nt\private\crt32st\dos\access.c	D:\nt\private\crt32st\dos\access.c
+0x0002aeba	0x0003aeba	__chsize	external	D:\nt\private\crt32st\lowio\chsize.c	D:\nt\private\crt32st\lowio\chsize.c
+0x0002b00a	0x0003b00a	__setmode	external	D:\nt\private\crt32st\lowio\setmode.c	D:\nt\private\crt32st\lowio\setmode.c
+0x0002b09a	0x0003b09a	_fprintf	external	D:\nt\private\crt32st\stdio\fprintf.c	D:\nt\private\crt32st\stdio\fprintf.c
+0x0002b0da	0x0003b0da	__stbuf	external	D:\nt\private\crt32st\stdio\_sftbuf.c	D:\nt\private\crt32st\stdio\_sftbuf.c
+0x0002b172	0x0003b172	__ftbuf	external	D:\nt\private\crt32st\stdio\_sftbuf.c	D:\nt\private\crt32st\stdio\_sftbuf.c
+0x0002b1ca	0x0003b1ca	__output	external	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0002b90a	0x0003b90a	write_char	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0002b956	0x0003b956	write_multi_char	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0002b982	0x0003b982	write_string	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0002b9b2	0x0003b9b2	write_wstring	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0002b9e6	0x0003b9e6	get_int_arg	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0002b9f6	0x0003b9f6	get_long_arg	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0002ba0a	0x0003ba0a	_fputc	external	D:\nt\private\crt32st\stdio\fputc.c	D:\nt\private\crt32st\stdio\fputc.c
+0x0002ba4e	0x0003ba4e	_putc	external	D:\nt\private\crt32st\stdio\fputc.c	D:\nt\private\crt32st\stdio\fputc.c
+0x0002ba6a	0x0003ba6a	_fread	external	D:\nt\private\crt32st\stdio\fread.c	D:\nt\private\crt32st\stdio\fread.c
+0x0002bb8a	0x0003bb8a	_free	external	D:\nt\private\crt32st\heap\free.c	D:\nt\private\crt32st\heap\free.c
+0x0002bbfa	0x0003bbfa	_freopen	external	D:\nt\private\crt32st\stdio\freopen.c	D:\nt\private\crt32st\stdio\freopen.c
+0x0002bc5a	0x0003bc5a	_fseek	external	D:\nt\private\crt32st\stdio\fseek.c	D:\nt\private\crt32st\stdio\fseek.c
+0x0002bcea	0x0003bcea	_ftell	external	D:\nt\private\crt32st\stdio\ftell.c	D:\nt\private\crt32st\stdio\ftell.c
+0x0002be4a	0x0003be4a	_fwrite	external	D:\nt\private\crt32st\stdio\fwrite.c	D:\nt\private\crt32st\stdio\fwrite.c
+0x0002bf9a	0x0003bf9a	_get_err	external	get_err.c	get_err.c
+0x0002c01a	0x0003c01a	get_msg	static	get_err.c	get_err.c
+0x0002c0ae	0x0003c0ae	get_message	static	get_err.c	get_err.c
+0x0002c0fe	0x0003c0fe	get_int	static	get_err.c	get_err.c
+0x0002c13a	0x0003c13a	mark_pos	static	get_err.c	get_err.c
+0x0002c17a	0x0003c17a	nearest	static	get_err.c	get_err.c
+0x0002c1ea	0x0003c1ea	_getenv	external	D:\nt\private\crt32st\misc\getenv.c	D:\nt\private\crt32st\misc\getenv.c
+0x0002c26a	0x0003c26a	_build_symtab	external	srclist2.c	srclist2.c
+0x0002c2ba	0x0003c2ba	_list_globals	external	srclist2.c	srclist2.c
+0x0002c2ea	0x0003c2ea	_localtime	external	D:\nt\private\crt32st\time\localtim.c	D:\nt\private\crt32st\time\localtim.c
+0x0002c35a	0x0003c35a	___tzset	external	D:\nt\private\crt32st\time\tzset.c	D:\nt\private\crt32st\time\tzset.c
+0x0002c372	0x0003c372	__tzset	external	D:\nt\private\crt32st\time\tzset.c	D:\nt\private\crt32st\time\tzset.c
+0x0002c412	0x0003c412	__isindst	external	D:\nt\private\crt32st\time\tzset.c	D:\nt\private\crt32st\time\tzset.c
+0x0002c4ea	0x0003c4ea	_gmtime	external	D:\nt\private\crt32st\time\gmtime.c	D:\nt\private\crt32st\time\gmtime.c
+0x0002c69a	0x0003c69a	_malloc	external	D:\nt\private\crt32st\heap\malloc.c	D:\nt\private\crt32st\heap\malloc.c
+0x0002c732	0x0003c732	__heap_split_block	external	D:\nt\private\crt32st\heap\malloc.c	D:\nt\private\crt32st\heap\malloc.c
+0x0002c79a	0x0003c79a	__heap_grow	external	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+0x0002c80e	0x0003c80e	_heap_new_region	static	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+0x0002c89a	0x0003c89a	__heap_grow_region	external	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+0x0002c96e	0x0003c96e	__heap_free_region	external	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+0x0002c9ca	0x0003c9ca	_VirtualFree	external		
+0x0002c9d0	0x0003c9d0	__heapadd	external	D:\nt\private\crt32st\heap\heapadd.c	D:\nt\private\crt32st\heap\heapadd.c
+0x0002c9fc	0x0003c9fc	__heap_addblock	external	D:\nt\private\crt32st\heap\heapadd.c	D:\nt\private\crt32st\heap\heapadd.c
+0x0002cbd0	0x0003cbd0	_before	static	D:\nt\private\crt32st\heap\heapadd.c	D:\nt\private\crt32st\heap\heapadd.c
+0x0002cc70	0x0003cc70	__heap_findaddr	external	D:\nt\private\crt32st\heap\findaddr.c	D:\nt\private\crt32st\heap\findaddr.c
+0x0002ccf0	0x0003ccf0	__heap_search	external	D:\nt\private\crt32st\heap\heapsrch.c	D:\nt\private\crt32st\heap\heapsrch.c
+0x0002ce10	0x0003ce10	_memchr	external	D:\nt\private\crt32st\string\memchr.c	D:\nt\private\crt32st\string\memchr.c
+0x0002ce50	0x0003ce50	_memmove	external	D:\nt\private\crt32st\string\memmove.c	D:\nt\private\crt32st\string\memmove.c
+0x0002ceb0	0x0003ceb0	_memset	external	D:\nt\private\crt32st\string\memset.c	D:\nt\private\crt32st\string\memset.c
+0x0002cee0	0x0003cee0	_our_ltoa	external	ltoa.c	ltoa.c
+0x0002cf60	0x0003cf60	_perror	external	D:\nt\private\crt32st\misc\perror.c	D:\nt\private\crt32st\misc\perror.c
+0x0002d000	0x0003d000	_printf	external	D:\nt\private\crt32st\stdio\printf.c	D:\nt\private\crt32st\stdio\printf.c
+0x0002d040	0x0003d040	_rewind	external	D:\nt\private\crt32st\stdio\rewind.c	D:\nt\private\crt32st\stdio\rewind.c
+0x0002d090	0x0003d090	_setvbuf	external	D:\nt\private\crt32st\stdio\setvbuf.c	D:\nt\private\crt32st\stdio\setvbuf.c
+0x0002d160	0x0003d160	_sprintf	external	D:\nt\private\crt32st\stdio\sprintf.c	D:\nt\private\crt32st\stdio\sprintf.c
+0x0002d1d0	0x0003d1d0	_strchr	external	D:\nt\private\crt32st\string\strchr.c	D:\nt\private\crt32st\string\strchr.c
+0x0002d200	0x0003d200	_strcat	external	D:\nt\private\crt32st\string\strcat.c	D:\nt\private\crt32st\string\strcat.c
+0x0002d228	0x0003d228	_strcpy	external	D:\nt\private\crt32st\string\strcat.c	D:\nt\private\crt32st\string\strcat.c
+0x0002d250	0x0003d250	_strlen	external	D:\nt\private\crt32st\string\strlen.c	D:\nt\private\crt32st\string\strlen.c
+0x0002d270	0x0003d270	_strncmp	external	D:\nt\private\crt32st\string\strncmp.c	D:\nt\private\crt32st\string\strncmp.c
+0x0002d2b0	0x0003d2b0	_strncpy	external	D:\nt\private\crt32st\string\strncpy.c	D:\nt\private\crt32st\string\strncpy.c
+0x0002d2f0	0x0003d2f0	_time	external	D:\nt\private\crt32st\time\time.c	D:\nt\private\crt32st\time\time.c
+0x0002d340	0x0003d340	_GetSystemTime	external		
+0x0002d346	0x0003d346	__dtoxtime	external	D:\nt\private\crt32st\time\dtoxtime.c	D:\nt\private\crt32st\time\dtoxtime.c

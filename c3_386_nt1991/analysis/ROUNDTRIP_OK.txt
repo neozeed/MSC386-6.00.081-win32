@@ -1,0 +1,7 @@
+C3_386.EXE reversible reconstruction verification
+
+original SHA-256: 337cbe52d9075b73948bf42512d3983b2effa3f9e23df8b2687d7e1acb6f8b23
+rebuilt  SHA-256: 337cbe52d9075b73948bf42512d3983b2effa3f9e23df8b2687d7e1acb6f8b23
+byte-exact match: True
+original size: 302080
+rebuilt size:  302080

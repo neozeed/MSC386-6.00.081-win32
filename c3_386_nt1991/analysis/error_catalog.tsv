@@ -1,0 +1,72 @@
+number	class_	text
+1000	fatal	UNKNOWN FATAL ERROR\n\t\tContact Microsoft Product Support Services
+1001	fatal	Internal Compiler Error\n\t\t(compiler file '%s', line %d)\n\t\tContact Microsoft Product Support Services
+1002	fatal	compiler is out of heap space in Pass 2
+1003	fatal	error count exceeds %d; stopping compilation
+1004	fatal	unexpected end-of-file found
+1005	fatal	string too big for buffer
+1006	fatal	write error on compiler intermediate file
+1007	fatal	unrecognized flag '%s' in '%s'
+1013	fatal	cannot open source file '%s'
+1027	fatal	DGROUP data allocation exceeds 64K
+1029	fatal	there are > 512 bytes of arguments
+1030	fatal	there are > 512 bytes of local variables
+1032	fatal	cannot open object listing file '%s'
+1033	fatal	cannot open assembly language output file '%s'
+1035	fatal	expression too complex, please simplify
+1036	fatal	cannot open source listing file '%s'
+1037	fatal	cannot open object file '%s'
+1039	fatal	unrecoverable heap overflow in Pass 3
+1040	fatal	unexpected end-of-file in source file '%s'
+1041	fatal	cannot open compiler intermediate file - no more files
+1042	fatal	cannot open compiler intermediate file - no such file or directory
+1043	fatal	cannot open compiler intermediate file
+1044	fatal	out of disk space for compiler intermediate file
+1045	fatal	floating-point overflow
+1046	fatal	bad '%s' flag, would overwrite '%s' with '%s'
+1047	fatal	too many '%s' flags, '%s'
+1048	fatal	unknown option '%c' in '%s'
+1049	fatal	invalid numerical argument '%s'
+1050	fatal	'%s' : code segment too large
+1066	fatal	intrinsic not implemented
+1090	fatal	'%s' data allocation exceeds 64K
+1126	fatal	'%s' : automatic allocation exceeds %s
+1127	fatal	'%s': segment redefinition
+2000	error	UNKNOWN ERROR\n\t\tContact Microsoft Product Support Services
+2125	error	'%s' : allocation exceeds 64K
+2127	error	parameter allocation exceeds 32K
+2128	error	'%s' : huge array cannot be aligned to segment boundary
+2129	error	static function '%s' not found
+2220	error	warning treated as error - no object file generated
+2418	error	'%s' : not in a register
+2427	error	'%s' : jump referencing label is out of range
+4000	warning	UNKNOWN WARNING\n\t\tContact Microsoft Product Support Services
+4056	warning	overflow in constant arithmetic
+4057	warning	overflow in constant multiplication
+4058	warning	address of automatic (local) variable taken, DS != SS
+4059	warning	segment lost in conversion
+4061	warning	long/short mismatch in argument : conversion supplied
+4062	warning	near/far mismatch in argument : conversion supplied
+4063	warning	'%s' : function too large for post-optimizer
+4065	warning	recoverable heap overflow in post-optimizer - some optimizations may be missed
+4066	warning	local symbol table overflow - some local symbols may be missing in listings
+4069	warning	conversion of near pointer to long integer
+4073	warning	scoping too deep, deepest scoping merged when debugging
+4127	warning	conditional expression is constant
+4185	warning	near call to '%s' in different segment
+4186	warning	string too long - truncated to %d characters
+4187	warning	unprototyped function '%s' called in exception
+4200	warning	local variable '%s' used without having been initialized
+4201	warning	local variable '%s' may be used without having been initialized
+4202	warning	unreachable code
+4203	warning	'%s' : function too large for global optimizations
+4204	warning	'%s' : in-line assembler precludes global optimizations
+4205	warning	statement has no effect
+4206	warning	assignment within conditional expression
+4207	warning	'%s' : function too large for global optimizations (%s)
+4208	warning	Ran out of heap at: %s
+4209	warning	comma operator within array index expression
+4300	warning	insufficient memory to process debugging information
+4301	warning	loss of debugging information caused by optimization
+4323	warning	potential divide by 0
+4324	warning	potential mod by 0

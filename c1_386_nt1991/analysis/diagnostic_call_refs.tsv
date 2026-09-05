@@ -1,0 +1,431 @@
+call_rva	push_rva	kind	low_number	display_id	text	function	source
+0x10251	0x1024F	fatal	68	1068	cannot open file '%s'	_init_main2	main.c
+0x103BD	0x103BB	fatal	68	1068	cannot open file '%s'	_init_main2	main.c
+0x10578	0x10576	fatal	1	1001	Internal Compiler Error\n\t\t(compiler file '%s', line %d)\n\t\tContact Microsoft Product Support Services	_main	main.c
+0x106E9	0x106E7	fatal	69	1069	write error on file '%s'	MAIN_COMPILE	main.c
+0x10711	0x1070F	fatal	69	1069	write error on file '%s'	MAIN_COMPILE	main.c
+0x10738	0x10736	fatal	6	1006	write error on compiler-generated file	MAIN_COMPILE	main.c
+0x10E70	0x10E6E	fatal	60	1060	compiler is out of far heap space	ALLOCCVTYPETABLE	typemit.c
+0x10EAD	0x10EAB	fatal	60	1060	compiler is out of far heap space	CLEARCVTYPETABLE	typemit.c
+0x115FD	0x115FB	fatal	1	1001	Internal Compiler Error\n\t\t(compiler file '%s', line %d)\n\t\tContact Microsoft Product Support Services	EMITPARMLIST	typemit.c
+0x11620	0x1161E	fatal	1	1001	Internal Compiler Error\n\t\t(compiler file '%s', line %d)\n\t\tContact Microsoft Product Support Services	EMITPARMLIST	typemit.c
+0x116A9	0x116A7	fatal	1	1001	Internal Compiler Error\n\t\t(compiler file '%s', line %d)\n\t\tContact Microsoft Product Support Services	EMITTYPEREC	typemit.c
+0x11861	0x1185F	error	72	2072	'%Fs' : initialization of a function	DECLARESYMBOL	symbols.c
+0x1187E	0x11879	error	136	2136	'%Fs' : prototype must have parameter types	DECLARESYMBOL	symbols.c
+0x11932	0x1192D	error	703	2703	'%Fs' : definition may not have '%Fs' modifier	ALLOCATESYMBOL	symbols.c
+0x11A3A	0x11A35	error	133	2133	'%Fs' : unknown size	ALLOCATESYMBOL	symbols.c
+0x11BF0	0x11BEB	error	182	2182	'%Fs' : has type void	TYPESYMBOL	symbols.c
+0x11C33	0x11C31	error	79	2079	'%Fs' uses undefined struct/union '%Fs'	TYPESYMBOL	symbols.c
+0x11CB9	0x11CB7	warning	1	4001	nonstandard extension used - '%Fs'	TYPESYMBOL	symbols.c
+0x11CDD	0x11CD8	error	201	2201	'%Fs' : storage class must be extern	TYPESYMBOL	symbols.c
+0x11D4E	0x11D4C	warning	2	4002	too many actual parameters for macro '%s'	TYPESYMBOL	symbols.c
+0x11D6B	0x11D69	warning	1	4001	nonstandard extension used - '%Fs'	TYPESYMBOL	symbols.c
+0x11D9C	0x11D9A	warning	1	4001	nonstandard extension used - '%Fs'	TYPESYMBOL	symbols.c
+0x11DCD	0x11DCB	warning	1	4001	nonstandard extension used - '%Fs'	TYPESYMBOL	symbols.c
+0x11E1A	0x11E18	warning	4	4004	missing ')' after 'defined'	TYPESYMBOL	symbols.c
+0x11E90	0x11E8B	error	185	2185	'%Fs' : illegal _based allocation	TYPESYMBOL	symbols.c
+0x11FBF	0x11FBD	error	86	2086	'%Fs' : redefinition	INCURRENTLEVEL	symbols.c
+0x11FFF	0x11FFD	error	82	2082	redefinition of formal parameter '%Fs'	INLEVELN	symbols.c
+0x12230	0x1222B	error	709	2709		CHK_ENTRY	symbols.c
+0x1225B	0x12259	error	84	2084	function '%Fs' already has a body	CHK_ENTRY	symbols.c
+0x12299	0x12294	error	179	2179	'%Fs' : was used in same_seg, but storage class is no longer extern	CHK_ENTRY	symbols.c
+0x123C9	0x123C7	error	86	2086	'%Fs' : redefinition	REDEFINED	symbols.c
+0x1247D	0x1247B	warning	1	4001	nonstandard extension used - '%Fs'	F_DECLARATION	symbols.c
+0x124A8	0x124A6	warning	1	4001	nonstandard extension used - '%Fs'	F_DECLARATION	symbols.c
+0x125EF	0x125ED	fatal	61	1061	compiler limit : blocks nested too deeply	ENTERSYMBOL	symbols.c
+0x1283E	0x1283C	fatal	55	1055	compiler limit : out of keys	NEW_KEY	symbols.c
+0x1291F	0x1291A	error	195	2195	'%Fs' : is a data segment	NEWSEGMENT	symbols.c
+0x12938	0x12936	warning	1	4001	nonstandard extension used - '%Fs'	NEWSEGMENT	symbols.c
+0x129DF	0x129DD	error	63	2063	'%s' : not a function	SAME_SEGMENT	symbols.c
+0x12A39	0x12A37	warning	1	4001	nonstandard extension used - '%Fs'	SAME_SEGMENT	symbols.c
+0x12A4E	0x12A49	error	157	2157	'%s' : must be declared before use in pragma list	SAME_SEGMENT	symbols.c
+0x12CFE	0x12CFC	warning	1	4001	nonstandard extension used - '%Fs'	YYCHECKBTTYPES	types.c
+0x12D14	0x12D12	error	42	2042	signed/unsigned keywords mutually exclusive	YYCHECKBTTYPES	types.c
+0x12EA4	0x12EA2	error	120	2120	void illegal with all types	YYCHECKBTTYPES	types.c
+0x12F1A	0x12F18	warning	1	4001	nonstandard extension used - '%Fs'	YYMERGEQUAL	types.c
+0x12FF9	0x12FF4	error	131	2131	more than one memory attribute	CHECK_BTMODS	types.c
+0x13020	0x1301B	error	151	2151	more than one language attribute	CHECK_BTMODS	types.c
+0x13093	0x13091	error	27	2027	use of undefined type '%Fs'	YYCOOKTYPE	types.c
+0x1311B	0x13119	warning	1	4001	nonstandard extension used - '%Fs'	YYCOOKTYPE	types.c
+0x13770	0x1376E	error	118	2118	negative subscript	NEW_INDIR	types.c
+0x137BA	0x137B5	error	139	2139	type following '%s' is illegal	T_ERR	types.c
+0x1386A	0x13868	fatal	58	1058	compiler limit : too many formal arguments	CREATE_FLIST	types.c
+0x14037	0x14035	warning	2	4002	too many actual parameters for macro '%s'	CRUSH_BCONS	const.c
+0x1408A	0x14088	warning	2	4002	too many actual parameters for macro '%s'	CRUSH_BCONS	const.c
+0x1426A	0x14268	warning	2	4002	too many actual parameters for macro '%s'	FLOAT_OP	const.c
+0x14595	0x14593	error	106	2106	'%s' : left operand must be lvalue	BUILD_BINARY	trees.c
+0x146BA	0x146B5	error	171	2171	'%s' : illegal operand	BUILD_BINARY	trees.c
+0x14707	0x14705	warning	4	4004	missing ')' after 'defined'	BUILD_BINARY	trees.c
+0x14A3E	0x14A3C	error	112	2112	illegal pointer subtraction	BUILD_BINARY	trees.c
+0x14AF3	0x14AF1	error	110	2110	pointer + pointer	BUILD_BINARY	trees.c
+0x14CEF	0x14CED	error	102	2102	'&' requires lvalue	BUILD_UNARY	trees.c
+0x14D3E	0x14D3C	error	103	2103	'&' on register variable	BUILD_UNARY	trees.c
+0x14D50	0x14D4E	error	104	2104	'&' on bit field ignored	BUILD_UNARY	trees.c
+0x14E23	0x14E1E	error	171	2171	'%s' : illegal operand	BUILD_UNARY	trees.c
+0x14E97	0x14E92	error	214	2214	pointers based on void require the use of :>	BUILD_UNARY	trees.c
+0x14F8A	0x14F88	error	100	2100	illegal indirection	BUILD_UNARY	trees.c
+0x150BF	0x150BD	warning	2	4002	too many actual parameters for macro '%s'	BUILD_UNARY	trees.c
+0x15116	0x15111	error	171	2171	'%s' : illegal operand	BUILD_UNARY	trees.c
+0x153C1	0x153BF	warning	3	4003	not enough actual parameters for macro '%s'	TYPE_CHECK	trees.c
+0x15427	0x15425	error	114	2114	'%s' : pointer on left; needs integral right	TYPE_CHECK	trees.c
+0x15539	0x15537	warning	2	4002	too many actual parameters for macro '%s'	TYTR_TYPE	trees.c
+0x15650	0x1564E	error	115	2115	'%s' : incompatible types	TYTY_TYPE	trees.c
+0x15697	0x15695	warning	1	4001	nonstandard extension used - '%Fs'	TYTY_TYPE	trees.c
+0x157BB	0x157B9	warning	4	4004	missing ')' after 'defined'	TYTY_TYPE	trees.c
+0x1583E	0x1583C	warning	1	4001	nonstandard extension used - '%Fs'	TYTY_TYPE	trees.c
+0x1587B	0x15879	warning	1	4001	nonstandard extension used - '%Fs'	TYTY_TYPE	trees.c
+0x15904	0x15902	warning	1	4001	nonstandard extension used - '%Fs'	TYTY_TYPE	trees.c
+0x1598D	0x1598B	warning	1	4001	nonstandard extension used - '%Fs'	TYTY_TYPE	trees.c
+0x15AA6	0x15AA4	warning	1	4001	nonstandard extension used - '%Fs'	CHECKCONSTATTRIB	trees.c
+0x15B66	0x15B64	warning	1	4001	nonstandard extension used - '%Fs'	CHECKBASEDATTRIBUTES	trees.c
+0x15B9A	0x15B98	warning	1	4001	nonstandard extension used - '%Fs'	CHECKBASEDATTRIBUTES	trees.c
+0x15CF0	0x15CEE	error	121	2121	'%s' : bad %Fs operand	BAD_OP	trees.c
+0x15D77	0x15D75	error	88	2088	'%s' : illegal for %s	NOT_STUN	trees.c
+0x15E9B	0x15E96	error	166	2166	lvalue specifies const object	PREPARELVALUE	trees.c
+0x16005	0x16000	error	215	2215	:> operator only for objects based on void	BUILDSEGOP	trees.c
+0x16072	0x16070	error	65	2065	'%s' : undefined	GETBASEDSYMBOL	based.c
+0x160AC	0x160A7	error	213	2213	'%s' : illegal argument to _based	GETBASEDSYMBOL	based.c
+0x160D3	0x160CE	error	209	2209	type cast in _based construct must be (_segment)	SEGMENTCASTPOINTER	based.c
+0x16146	0x16141	error	210	2210	'%Fs' : must be near/far data pointer	SEGMENTCASTPOINTER	based.c
+0x16168	0x16163	error	209	2209	type cast in _based construct must be (_segment)	SEGMENTCASTIDENTIFIER	based.c
+0x161CA	0x161C5	error	211	2211	(_segment) applied to function identifier '%s'	SEGMENTCASTIDENTIFIER	based.c
+0x161E8	0x161E3	error	209	2209	type cast in _based construct must be (_segment)	SEGMENTCASTSELF	based.c
+0x16496	0x16494	error	45	2045	'%s' : label redefined	DEFINEUSERLABEL	gramut.c
+0x16555	0x16553	error	94	2094	label '%Fs' was undefined	DUMP_LABELS	gramut.c
+0x16572	0x16570	warning	3	4003	not enough actual parameters for macro '%s'	DUMP_LABELS	gramut.c
+0x166D6	0x166D1	error	187	2187	cast of near function pointer to far function pointer	CAST_CHECK	gramut.c
+0x16847	0x16845	warning	2	4002	too many actual parameters for macro '%s'	CAST_CHECK	gramut.c
+0x168FB	0x168F9	warning	2	4002	too many actual parameters for macro '%s'	CAST_CHECK	gramut.c
+0x16AA2	0x16AA0	warning	1	4001	nonstandard extension used - '%Fs'	CAST_VALID	gramut.c
+0x16BAC	0x16BAA	error	70	2070	illegal sizeof operand	SIZE_TERM	gramut.c
+0x16BF9	0x16BF7	error	27	2027	use of undefined type '%Fs'	SIZE_CONST	gramut.c
+0x16C04	0x16C02	warning	1	4001	nonstandard extension used - '%Fs'	SIZE_CONST	gramut.c
+0x16C76	0x16C74	error	56	2056	illegal expression	CON_E	gramut.c
+0x16D3A	0x16D38	warning	2	4002	too many actual parameters for macro '%s'	CHECK_EMPTY_DECL	gramut.c
+0x16D67	0x16D65	warning	2	4002	too many actual parameters for macro '%s'	CHECK_EMPTY_DECL	gramut.c
+0x16DB1	0x16DAF	error	59	2059	syntax error : '%s'	CHECK_EMPTY_DECL	gramut.c
+0x16DFE	0x16DF9	error	412	2412	'%Fs' : case insensitive label redefined	ASMDEFINELABEL	gramut.c
+0x16F11	0x16F0F	warning	2	4002	too many actual parameters for macro '%s'	CANONMODIFIERS	gramut.c
+0x16F74	0x16F72	warning	2	4002	too many actual parameters for macro '%s'	CANONMODIFIERS	gramut.c
+0x16FFE	0x16FF9	error	217	2217	'%Fs' must be used with '%Fs'	CANONMODIFIERS	gramut.c
+0x1702F	0x1702A	error	217	2217	'%Fs' must be used with '%Fs'	CANONMODIFIERS	gramut.c
+0x1704E	0x17049	error	216	2216	'%Fs' may not be used with '%Fs'	CANONMODIFIERS	gramut.c
+0x17079	0x17074	error	217	2217	'%Fs' must be used with '%Fs'	CANONMODIFIERS	gramut.c
+0x170BE	0x170B9	error	217	2217	'%Fs' must be used with '%Fs'	CANONMODIFIERS	gramut.c
+0x170F8	0x170F6	error	80	2080	illegal far _fastcall function	CANONMODIFIERS	gramut.c
+0x17136	0x17131	error	216	2216	'%Fs' may not be used with '%Fs'	CANONMODIFIERS	gramut.c
+0x17168	0x17163	error	216	2216	'%Fs' may not be used with '%Fs'	CANONMODIFIERS	gramut.c
+0x172EF	0x172ED	error	65	2065	'%s' : undefined	IDENTMAYBEOP	gramut.c
+0x173D8	0x173D6	warning	1	4001	nonstandard extension used - '%Fs'	W40_WARNING	gramut.c
+0x173F3	0x173F1	warning	1	4001	nonstandard extension used - '%Fs'	W47_WARNING	gramut.c
+0x1740F	0x1740D	warning	4	4004	missing ')' after 'defined'	W1_WARNING	gramut.c
+0x1742A	0x17428	warning	1	4001	nonstandard extension used - '%Fs'	W79_WARNING	gramut.c
+0x17445	0x17443	warning	1	4001	nonstandard extension used - '%Fs'	W80_WARNING	gramut.c
+0x1745E	0x1745C	warning	1	4001	nonstandard extension used - '%Fs'	W112_WARNING	gramut.c
+0x17579	0x17577	error	11	2011	'%s' : %s type redefinition	DEFINEESU	esu.c
+0x175F5	0x175F3	warning	1	4001	nonstandard extension used - '%Fs'	DEFINEESU	esu.c
+0x1761D	0x1761B	warning	1	4001	nonstandard extension used - '%Fs'	DEFINEESU	esu.c
+0x176DE	0x176DC	fatal	46	1046	compiler limit : %s nested too deeply	DEFINEESU	esu.c
+0x1777F	0x1777D	error	27	2027	use of undefined type '%Fs'	DEFINEPARTIALTAG	esu.c
+0x17846	0x17844	error	11	2011	'%s' : %s type redefinition	REFERENCEESU	esu.c
+0x17AD3	0x17ACE	error	410	2410	'%s' : ambiguous member name in '%s'	ASMFINDMEMBER	esu.c
+0x17BC9	0x17BC4	error	219	2219	syntax error : type qualifier must be after '*'	REVERSEINDIRECTION	esu.c
+0x17D07	0x17D05	warning	3	4003	not enough actual parameters for macro '%s'	REVERSEINDIRECTION	esu.c
+0x17EF4	0x17EEF	error	165	2165	'%s' : cannot modify pointers to data	REVERSEINDIRECTION	esu.c
+0x17F0E	0x17F09	error	165	2165	'%s' : cannot modify pointers to data	REVERSEINDIRECTION	esu.c
+0x17F26	0x17F24	warning	1	4001	nonstandard extension used - '%Fs'	REVERSEINDIRECTION	esu.c
+0x17F4E	0x17F4C	error	92	2092	array element type cannot be function	REVERSEINDIRECTION	esu.c
+0x17FA1	0x17F9F	error	87	2087	'%Fs' : missing subscript	REVERSEINDIRECTION	esu.c
+0x17FC4	0x17FC2	error	87	2087	'%Fs' : missing subscript	REVERSEINDIRECTION	esu.c
+0x17FDB	0x17FD9	error	90	2090	function returns array	REVERSEINDIRECTION	esu.c
+0x17FF0	0x17FEE	error	91	2091	function returns function	REVERSEINDIRECTION	esu.c
+0x18065	0x18060	error	212	2212	'%Fs' : _based not available for functions/pointers to functions	REVERSEINDIRECTION	esu.c
+0x18146	0x18144	error	32	2032	'%Fs' : function cannot be member of %s '%Fs'	REVERSEINDIRECTION	esu.c
+0x18152	0x18150	error	66	2066	cast to function type is illegal	REVERSEINDIRECTION	esu.c
+0x1826C	0x18267	error	182	2182	'%Fs' : has type void	REVERSEINDIRECTION	esu.c
+0x1838D	0x18388	error	416	2416	'%s' : illegal opcode for processor	SETOPCODES	ainline.c
+0x183E4	0x183DF	error	408	2408	illegal type on PTR operator in '%s'	ASMPTR	ainline.c
+0x1843B	0x18439	warning	1	4001	nonstandard extension used - '%Fs'	JMPMCODE	ainline.c
+0x18602	0x185FD	error	411	2411	'%s' : illegal struct/union member in '%s'	ASMSTRUCTOFFSET	ainline.c
+0x1862C	0x1862A	warning	1	4001	nonstandard extension used - '%Fs'	ASMSTRUCTOFFSET	ainline.c
+0x186E9	0x186E4	error	406	2406	'%s' : name undefined in '%s'	ASMSEARCHSYMBOL	ainline.c
+0x1880C	0x1880A	error	60	2060	syntax error : end-of-file found	INLINE_ASSEMBLER	ainline.c
+0x18849	0x18844	error	400	2400	in-line syntax error in '%s', found '%Fs'	INLINE_ASSEMBLER	ainline.c
+0x188E5	0x188E3	fatal	26	1026	parser stack overflow, please simplify your program	INLINE_ASSEMBLER	ainline.c
+0x1891E	0x18919	error	400	2400	in-line syntax error in '%s', found '%Fs'	INLINE_ASSEMBLER	ainline.c
+0x18F89	0x18F84	error	408	2408	illegal type on PTR operator in '%s'	ASM_YYPARSE	agrammar.c
+0x191B6	0x191B1	error	409	2409	illegal type used as operator in '%s'	ASM_YYPARSE	agrammar.c
+0x19227	0x19222	error	426	2426	'%Fs' : illegal operator in '%s'	ASM_YYPARSE	agrammar.c
+0x19295	0x19290	error	425	2425	'%Fs' : nonconstant expression in '%s'	ASMCONSTOP	atrees.c
+0x192C4	0x192BF	error	425	2425	'%Fs' : nonconstant expression in '%s'	ASMCONSTOP	atrees.c
+0x193D6	0x193D1	error	419	2419	mod by zero in '%s'	ASMCONSTOP	atrees.c
+0x19474	0x1946F	error	423	2423	'%ld' : illegal scale	ASMSCALELOG2	atrees.c
+0x194CA	0x194C5	error	430	2430	more than one index register in '%s'	ASMSCALEOP	atrees.c
+0x19525	0x19520	error	431	2431	illegal index register in '%s'	ASMSCALEOP	atrees.c
+0x195A3	0x1959E	error	424	2424	'%Fs' : improper expression in '%s'	ASMOP	atrees.c
+0x195ED	0x195E8	error	425	2425	'%Fs' : nonconstant expression in '%s'	ASMOP	atrees.c
+0x19642	0x1963D	error	425	2425	'%Fs' : nonconstant expression in '%s'	ASMCONSTUNOP	atrees.c
+0x19780	0x1977E	warning	1	4001	nonstandard extension used - '%Fs'	ASMSYMBOL	atrees.c
+0x197EB	0x197E6	error	420	2420	'%s' : illegal symbol in %s	ASMSYMBOL	atrees.c
+0x19867	0x19862	error	422	2422	illegal segment override in '%s'	ASMCOLONOPR	atrees.c
+0x198A5	0x198A0	error	415	2415	improper operand type	ASMSEGOPR	atrees.c
+0x198FF	0x198FA	error	404	2404	'%s' : illegal register in '%s'	ASMOFFSETOPR	atrees.c
+0x19923	0x1991E	error	415	2415	improper operand type	ASMOFFSETOPR	atrees.c
+0x199A0	0x1999B	error	404	2404	'%s' : illegal register in '%s'	ASMREGBASE	atrees.c
+0x19A69	0x19A64	error	432	2432	illegal reference to 16-bit data in '%s'	ASMREGBASE	atrees.c
+0x19B01	0x19AFC	error	404	2404	'%s' : illegal register in '%s'	REGISTER	atrees.c
+0x19BB9	0x19BB4	error	404	2404	'%s' : illegal register in '%s'	FLOATREG	atrees.c
+0x19BCE	0x19BC9	error	407	2407	illegal float register in '%s'	FLOATREG	atrees.c
+0x19C04	0x19C02	fatal	4	1004	unexpected end-of-file found	ASM_YYLEX	alexer.c
+0x19DBB	0x19DB9	warning	1	4001	nonstandard extension used - '%Fs'	ASMIDENTIFIER	alexer.c
+0x19ED4	0x19ED2	warning	1	4001	nonstandard extension used - '%Fs'	ASMIDENTIFIER	alexer.c
+0x1A00B	0x1A009	error	41	2041	illegal digit '%c' for base %d	CHECKBINARYNUMBER	alexer.c
+0x1A0AB	0x1A0A6	error	153	2153	hex constants must have at least 1 hex digit	ASMGETNUM	alexer.c
+0x1A251	0x1A24C	error	177	2177	constant too big	ASMGETNUM	alexer.c
+0x1A376	0x1A374	warning	3	4003	not enough actual parameters for macro '%s'	DIRECTIVE	aoutline.c
+0x1A39E	0x1A399	error	413	2413	'%s' : illegal align size	DIRECTIVE	aoutline.c
+0x1A3B7	0x1A3B5	warning	3	4003	not enough actual parameters for macro '%s'	DIRECTIVE	aoutline.c
+0x1A3CE	0x1A3CC	warning	1	4001	nonstandard extension used - '%Fs'	DIRECTIVE	aoutline.c
+0x1A489	0x1A487	warning	2	4002	too many actual parameters for macro '%s'	MERGESIZES	aoutline.c
+0x1A673	0x1A671	warning	1	4001	nonstandard extension used - '%Fs'	CHECKSIZE	aoutline.c
+0x1A6F4	0x1A6F2	warning	1	4001	nonstandard extension used - '%Fs'	CHECKSIZE	aoutline.c
+0x1A8A6		error				ASMCONTEXT_ERROR	aoutline.c
+0x1AB59	0x1AB54	error	429	2429	'%Fs' : illegal far label reference	MERGEOPERANDS	aoutline.c
+0x1AB84	0x1AB7F	error	405	2405	illegal short forward reference with offset	MERGEOPERANDS	aoutline.c
+0x1AD1F	0x1AD1D	warning	3	4003	not enough actual parameters for macro '%s'	MERGEOPERANDS	aoutline.c
+0x1B944	0x1B93F	error	414	2414	illegal number of operands	ASSEMBLE	aoutline.c
+0x1BBD1	0x1BBCC	error	163	2163	'%s' : not available as an intrinsic function	INTRINSIC	intrin.c
+0x1BC43	0x1BC3E	error	163	2163	'%s' : not available as an intrinsic function	FUNCTION	intrin.c
+0x1BD0F	0x1BD0D	fatal	64	1064	compiler limit : token overflowed internal buffer	IDENTIFIEREOB	p0id.c
+0x1BDE0	0x1BDDE	fatal	4	1004	unexpected end-of-file found	GETID	p0id.c
+0x1C3A8	0x1C3A6	error	1	2001	newline in constant	CHAR_CONST	p0scan.c
+0x1C3C5	0x1C3C0	error	137	2137	empty character constant	CHAR_CONST	p0scan.c
+0x1C3DD	0x1C3DB	error	15	2015	too many characters in constant	CHAR_CONST	p0scan.c
+0x1C419	0x1C417	error	2	2002		CHAR_CONST	p0scan.c
+0x1C4AF	0x1C4AD	error	26	2026	'%s' : member of enum redefinition	MBSTOWCSMOVE	p0scan.c
+0x1C4CD	0x1C4CB	fatal	60	1060	compiler is out of far heap space	MBSTOWCSMOVE	p0scan.c
+0x1C4E9	0x1C4E7	error	2	2002		MBSTOWCSMOVE	p0scan.c
+0x1C603	0x1C601	error	26	2026	'%s' : member of enum redefinition	STR_CONST	p0scan.c
+0x1C628	0x1C626	error	1	2001	newline in constant	STR_CONST	p0scan.c
+0x1C6C5	0x1C6C3	warning	1	4001	nonstandard extension used - '%Fs'	STR_CONCAT	p0scan.c
+0x1C6E3	0x1C6E1	warning	1	4001	nonstandard extension used - '%Fs'	STR_CONCAT	p0scan.c
+0x1C8C0	0x1C8BB	error	153	2153	hex constants must have at least 1 hex digit	GETNUM	p0scan.c
+0x1C8FD	0x1C8FB	fatal	64	1064	compiler limit : token overflowed internal buffer	GETNUM	p0scan.c
+0x1CA7B	0x1CA79	warning	1	4001	nonstandard extension used - '%Fs'	GET_REAL	p0scan.c
+0x1CAB5	0x1CAB3	fatal	64	1064	compiler limit : token overflowed internal buffer	GET_REAL	p0scan.c
+0x1CB1B	0x1CB19	error	21	2021	expected exponent value, not '%c'	GET_REAL	p0scan.c
+0x1CBD8	0x1CBD3	error	177	2177	constant too big	GET_REAL	p0scan.c
+0x1CC53	0x1CC51	error	41	2041	illegal digit '%c' for base %d	CHECKINTEGER	p0scan.c
+0x1CCA1	0x1CC9C	error	177	2177	constant too big	CHECKINTEGER	p0scan.c
+0x1CE48	0x1CE46	error	22	2022	'%ld' : too big for character	ESCAPE	p0scan.c
+0x1CE6B	0x1CE69	warning	4	4004	missing ')' after 'defined'	ESCAPE	p0scan.c
+0x1CEE1	0x1CEDC	error	153	2153	hex constants must have at least 1 hex digit	ESCAPE	p0scan.c
+0x1CF04	0x1CF02	error	22	2022	'%ld' : too big for character	ESCAPE	p0scan.c
+0x1CF42	0x1CF40	warning	4	4004	missing ')' after 'defined'	ESCAPE	p0scan.c
+0x1D385	0x1D383	fatal	59	1059	compiler is out of near heap space	DOMALLOC	Common\qcalloc
+0x1D3AE	0x1D3AC	fatal	59	1059	compiler is out of near heap space	DOREALLOC	Common\qcalloc
+0x1D754	0x1D752	warning	3	4003	not enough actual parameters for macro '%s'	FUNCT	function.c
+0x1D803	0x1D801	warning	4	4004	missing ')' after 'defined'	FUNCT	function.c
+0x1D851	0x1D84F	error	63	2063	'%s' : not a function	FUNCT	function.c
+0x1D8AF	0x1D8AD	error	64	2064	term does not evaluate to a function	TERM_FUNCT	function.c
+0x1D954	0x1D94F	error	707	2707		TERM_FUNCT	function.c
+0x1D9D9	0x1D9D7	warning	2	4002	too many actual parameters for macro '%s'	TERM_FUNCT	function.c
+0x1DB42	0x1DB3D	error	187	2187	cast of near function pointer to far function pointer	CHECK_ACTUAL	function.c
+0x1DB7F	0x1DB7A	error	174	2174	'%Fs' : actual has type void : parameter %d, parameter list %d	CHECK_ACTUAL	function.c
+0x1DB95	0x1DB93	error	95	2095	'%Fs' : actual has type void : parameter %d	CHECK_ACTUAL	function.c
+0x1DC3D	0x1DC3B	warning	1	4001	nonstandard extension used - '%Fs'	CHECK_ACTUAL	function.c
+0x1DC66	0x1DC61	error	173	2173	'%Fs' : actual is not a pointer : parameter %d, parameter list %d	CHECK_ACTUAL	function.c
+0x1DC7D	0x1DC78	error	172	2172	'%Fs' : actual is not a pointer : parameter %d	CHECK_ACTUAL	function.c
+0x1DCF7	0x1DCF5	warning	1	4001	nonstandard extension used - '%Fs'	CHECK_ACTUAL	function.c
+0x1DD50	0x1DD4E	warning	1	4001	nonstandard extension used - '%Fs'	CHECK_ACTUAL	function.c
+0x1DD72	0x1DD70	warning	1	4001	nonstandard extension used - '%Fs'	CHECK_ACTUAL	function.c
+0x1DE7D	0x1DE7B	warning	1	4001	nonstandard extension used - '%Fs'	CHECK_ACTUAL	function.c
+0x1DF24	0x1DF1F	error	167	2167	'%Fs' : too many actual parameters for intrinsic	CALL_CHECK	function.c
+0x1DF5A	0x1DF58	warning	1	4001	nonstandard extension used - '%Fs'	CALL_CHECK	function.c
+0x1E001	0x1DFFC	error	708	2708		CALL_CHECK	function.c
+0x1E4CE	0x1E4CC	warning	2	4002	too many actual parameters for macro '%s'	DATA_RECORDS	toinil.c
+0x1E4FB	0x1E4F9	warning	2	4002	too many actual parameters for macro '%s'	DATA_RECORDS	toinil.c
+0x1E536	0x1E534	warning	2	4002	too many actual parameters for macro '%s'	DATA_RECORDS	toinil.c
+0x1E599	0x1E597	warning	2	4002	too many actual parameters for macro '%s'	DATA_RECORDS	toinil.c
+0x1E5D4	0x1E5D2	warning	2	4002	too many actual parameters for macro '%s'	DATA_RECORDS	toinil.c
+0x1E629	0x1E627	warning	2	4002	too many actual parameters for macro '%s'	DATA_RECORDS	toinil.c
+0x1E6D2	0x1E6D0	error	97	2097	illegal initialization	DATA_RECORDS	toinil.c
+0x1E6F0	0x1E6EE	error	97	2097	illegal initialization	DATA_RECORDS	toinil.c
+0x1E737	0x1E735	error	98	2098	nonaddress expression	IS_SYMBOLIC	toinil.c
+0x1E7F9	0x1E7F7	error	99	2099	nonconstant initializer	CONS_OFFSET	toinil.c
+0x1E8B8	0x1E8B3	error	169	2169	'%Fs' : intrinsic function, cannot be defined	START_FUNCTION	funcs.c
+0x1E8C6	0x1E8C4	error	54	2054	expected '(' to follow '%Fs'	START_FUNCTION	funcs.c
+0x1E906	0x1E904	error	55	2055	expected formal-parameter list, not a type list	START_FUNCTION	funcs.c
+0x1E937	0x1E932	error	703	2703	'%Fs' : definition may not have '%Fs' modifier	START_FUNCTION	funcs.c
+0x1E96C	0x1E967	error	193	2193	'%Fs' : already in a segment	START_FUNCTION	funcs.c
+0x1EA39	0x1EA37	error	79	2079	'%Fs' uses undefined struct/union '%Fs'	INTERNALSTARTFUNCTION	funcs.c
+0x1EBA4	0x1EBA2	warning	1	4001	nonstandard extension used - '%Fs'	CHK_FUNC_BODY	funcs.c
+0x1EC59	0x1EC54	error	708	2708		CHK_FUNC_BODY	funcs.c
+0x1ECB9	0x1ECB7	warning	1	4001	nonstandard extension used - '%Fs'	CHK_FUNC_BODY	funcs.c
+0x1ED21	0x1ED1F	warning	1	4001	nonstandard extension used - '%Fs'	CHK_FUNC_BODY	funcs.c
+0x1EE86	0x1EE84	warning	3	4003	not enough actual parameters for macro '%s'	END_FUNCTION	funcs.c
+0x1EF5E	0x1EF5C	warning	4	4004	missing ')' after 'defined'	XFORMSYMBOLTOFUNCTION	funcs.c
+0x1F05D	0x1F05B	error	86	2086	'%Fs' : redefinition	UNIQUE_FORMAL	funcs.c
+0x1F0A8	0x1F0A6	warning	4	4004	missing ')' after 'defined'	FM_CHECK	funcs.c
+0x1F184	0x1F182	error	85	2085	'%Fs' : not in formal-parameter list	OLDSTYLEFORMAL	funcs.c
+0x1F285	0x1F283	error	36	2036	%s '%Fs' : unknown size	NONZEROSIZEOFTYPE	sizes.c
+0x1F294	0x1F28F	error	147	2147	unknown size	NONZEROSIZEOFTYPE	sizes.c
+0x1F36A	0x1F365	error	148	2148	array too large	SIZEOFTYPE	sizes.c
+0x1F3F9	0x1F3F4	error	148	2148	array too large	SIZEOFALLOCATION	sizes.c
+0x1F5D6	0x1F5D4	fatal	59	1059	compiler is out of near heap space	GET_MEM	Common\alloc.c
+0x1F6BB	0x1F6B9	fatal	60	1060	compiler is out of far heap space	FBMALLOC	Common\alloc.c
+0x1F7B7	0x1F7B5	error	7	2007	#define syntax	DEFINE	p0macros.c
+0x1F85E	0x1F85C	error	8	2008	'%c' : unexpected in macro definition	DEFINE	p0macros.c
+0x1F8C0	0x1F8BE	error	10	2010	'%c' : unexpected in macro formal-parameter list	GET_FORMALS	p0macros.c
+0x1F911	0x1F90F	error	10	2010	'%c' : unexpected in macro formal-parameter list	GET_FORMALS	p0macros.c
+0x1F932	0x1F930	error	10	2010	'%c' : unexpected in macro formal-parameter list	GET_FORMALS	p0macros.c
+0x1F96C	0x1F96A	fatal	4	1004	unexpected end-of-file found	GET_FORMALS	p0macros.c
+0x1FA0C	0x1FA0A	warning	1	4001	nonstandard extension used - '%Fs'	INSTALLDEFINE	p0macros.c
+0x1FC2C	0x1FC2A	error	18	2018	unknown character '0x%x'	GET_DEFINITION	p0macros.c
+0x1FC94	0x1FC8F	error	160	2160	## cannot occur at the beginning of a macro definition	GET_DEFINITION	p0macros.c
+0x1FDAC	0x1FDA7	error	162	2162	expected macro formal parameter	GET_DEFINITION	p0macros.c
+0x1FE76	0x1FE74	fatal	11	1011	compiler limit : '%s': macro definition too big	CHKBUF	p0macros.c
+0x1FEFA	0x1FEF8	error	1	2001	newline in constant	GATHER_CHARS	p0macros.c
+0x20738	0x20736	warning	1	4001	nonstandard extension used - '%Fs'	GET_ACTUALS	p0macros.c
+0x209C6	0x209C4	fatal	9	1009	compiler limit : macros nested too deeply	PUSH_MACRO	p0macros.c
+0x20E1C		fatal				FATAL_IN_MACRO	p0macros.c
+0x20E4B	0x20E49	fatal	4	1004	unexpected end-of-file found	HANDLEFILEEOS	p0macros.c
+0x21161	0x2115F	fatal	52	1052	compiler limit : #if/#ifdef blocks nested too deeply	INCR_IFSTACK	p0prepro.c
+0x21189	0x21187	error	12	2012	missing name following '<'	SYSTEMINCLUDE	p0prepro.c
+0x2126D	0x2126B	error	19	2019	expected preprocessor directive, found '%c'	PREPROCESS	p0prepro.c
+0x213A4	0x213A2	fatal	16	1016	#if[n]def expected an identifier	PREPROCESS	p0prepro.c
+0x21454	0x21452	fatal	18	1018	unexpected '#elif'	PREPROCESS	p0prepro.c
+0x2148F	0x2148D	fatal	19	1019	unexpected '#else'	PREPROCESS	p0prepro.c
+0x214B9	0x214B7	fatal	20	1020	unexpected '#endif'	PREPROCESS	p0prepro.c
+0x21562	0x21560	error	6	2006	#include expected a file name, found '%s'	PREPROCESS	p0prepro.c
+0x21579	0x21577	error	2	2002		PREPROCESS	p0prepro.c
+0x2164B	0x21649	fatal	24	1024	cannot open include file '%Fs'	PREPROCESS	p0prepro.c
+0x21686	0x21684	warning	1	4001	nonstandard extension used - '%Fs'	PREPROCESS	p0prepro.c
+0x216D5	0x216D3	error	5	2005	#line expected a line number, found '%s'	PREPROCESS	p0prepro.c
+0x21735	0x21733	error	2	2002		PREPROCESS	p0prepro.c
+0x21824	0x2181F	error	189	2189	#error : %Fs	PREPROCESS	p0prepro.c
+0x218E1	0x218DF	fatal	22	1022	expected '#endif'	SKIPTO	p0prepro.c
+0x21A07	0x21A05	fatal	24	1024	cannot open include file '%Fs'	IN_STANDARD	p0prepro.c
+0x21A28	0x21A26	warning	1	4001	nonstandard extension used - '%Fs'	CHK_NEWLINE	p0prepro.c
+0x21AA1	0x21A9F	warning	3	4003	not enough actual parameters for macro '%s'	SKIP_QUOTED	p0prepro.c
+0x21C27	0x21C25	error	3	2003	expected 'defined id'	DO_DEFINED	p0prepro.c
+0x21CBA	0x21CB8	warning	1	4001	nonstandard extension used - '%Fs'	DO_DEFINED	p0prepro.c
+0x21DC2	0x21DC0	fatal	17	1017	invalid integer constant expression	NEXTIS	p0expr.c
+0x21FFB	0x21FF9	error	124	2124	divide or mod by zero	P0EVAL	p0expr.c
+0x220D7	0x220D5	fatal	12	1012	unmatched parenthesis - missing '%c'	DO_CONSTEXPR	p0expr.c
+0x220F2	0x220F0	warning	1	4001	nonstandard extension used - '%Fs'	DO_CONSTEXPR	p0expr.c
+0x22107	0x22105	fatal	12	1012	unmatched parenthesis - missing '%c'	DO_CONSTEXPR	p0expr.c
+0x2245B	0x22459	fatal	12	1012	unmatched parenthesis - missing '%c'	CONSTANT	p0expr.c
+0x2247B	0x22479	fatal	17	1017	invalid integer constant expression	CONSTANT	p0expr.c
+0x224E2	0x224E0	fatal	14	1014	too many include files	OPENFILE	p0io.c
+0x22535	0x22533	fatal	23	1023	cannot open source file '%Fs'	OPENFILE	p0io.c
+0x22712	0x22710	fatal	70	1070	mismatched #if/#endif pair in file '%Fs'	FPOP	p0io.c
+0x229D7	0x229D5	fatal	72	1072	'%Fs' : cannot read file	IO_EOB	p0io.c
+0x22EAE	0x22EAC	warning	1	4001	nonstandard extension used - '%Fs'	CARRAY_SIZE	p1_init.c
+0x22EF4	0x22EF2	error	97	2097	illegal initialization	INIT_AUTO1	p1_init.c
+0x230A8	0x230A6	error	71	2071	'%Fs' : illegal storage class	SETUP_INIT	p1_init.c
+0x230CD	0x230C8	error	205	2205	'%Fs' : cannot initialize extern block-scoped variables	SETUP_INIT	p1_init.c
+0x231EA	0x231E8	error	53	2053		SIMPLE_INIT	p1_init.c
+0x23214	0x23212	error	76	2076	'%Fs' : struct/union initialization needs curly braces	SIMPLE_INIT	p1_init.c
+0x23438	0x23436	error	77	2077	nonscalar field initializer '%Fs'	DO_INIT	p1_init.c
+0x23483	0x23481	warning	2	4002	too many actual parameters for macro '%s'	DO_INIT	p1_init.c
+0x2354D	0x2354B	error	78	2078	too many initializers	DO_INIT	p1_init.c
+0x235B4	0x235B2	error	78	2078	too many initializers	DO_INIT	p1_init.c
+0x23639	0x23637	error	78	2078	too many initializers	DO_INIT	p1_init.c
+0x237C2	0x237C0	error	97	2097	illegal initialization	PUSH_INIT	p1_init.c
+0x2380E	0x2380C	error	79	2079	'%Fs' uses undefined struct/union '%Fs'	PUSH_INIT	p1_init.c
+0x238C5	0x238C3	error	78	2078	too many initializers	POP_INIT	p1_init.c
+0x23B76	0x23B74	fatal	54	1054	compiler limit : initializers nested too deeply	NEW_ITOS	p1_init.c
+0x23C64	0x23C62	error	78	2078	too many initializers	PUSH_CURLY	p1_init.c
+0x242B9	0x242B7	warning	3	4003	not enough actual parameters for macro '%s'	STOIL	toil.c
+0x24D39	0x24D37	error	124	2124	divide or mod by zero	TTOIL_1	toil.c
+0x25502	0x254FD	error	180	2180	controlling expression has type void	CBRANCH	toil.c
+0x25515	0x25513	warning	4	4004	missing ')' after 'defined'	CBRANCH	toil.c
+0x25561	0x2555F	error	83	2083	%s comparison illegal	CBRANCH	toil.c
+0x2596F	0x2596A	error	705	2705	'%Fs' : illegal jump into _try scope	LABELTOIL	toil.c
+0x259B7	0x259B2	error	705	2705	'%Fs' : illegal jump into _try scope	VERIFYJUMP	toil.c
+0x26290	0x2628E	warning	2	4002	too many actual parameters for macro '%s'	RETURNSTMT	stmt.c
+0x262A1	0x2629F	warning	1	4001	nonstandard extension used - '%Fs'	RETURNSTMT	stmt.c
+0x26476	0x26474	error	50	2050	nonintegral switch expression	SWITCH_STMT	stmt.c
+0x265E5	0x265E3	error	51	2051	case expression not constant	CASE_STATEMENT	stmt.c
+0x26663	0x26661	warning	1	4001	nonstandard extension used - '%Fs'	CASE_STATEMENT	stmt.c
+0x266E2	0x266E0	error	49	2049	case value '%ld' already used	CASE_STATEMENT	stmt.c
+0x26768	0x26763	error	702	2702	'%Fs' : _try may not appear in termination block	EHTRY	stmt.c
+0x267FF	0x267FD	fatal	4	1004	unexpected end-of-file found	YYLEX_NON_EOF	p0pragma.c
+0x26825	0x26823	warning	1	4001	nonstandard extension used - '%Fs'	CHK_LPAREN	p0pragma.c
+0x2686C	0x26867	error	156	2156	pragma must be outside function	P0NAME_LIST	p0pragma.c
+0x268B5	0x268B3	warning	1	4001	nonstandard extension used - '%Fs'	P0NAME_LIST	p0pragma.c
+0x26995	0x26993	warning	1	4001	nonstandard extension used - '%Fs'	P0_GOT_INS	p0pragma.c
+0x26A01	0x269FF	warning	1	4001	nonstandard extension used - '%Fs'	P0_GOT_INS	p0pragma.c
+0x26A31	0x26A2F	warning	1	4001	nonstandard extension used - '%Fs'	P0_GOT_INS	p0pragma.c
+0x26AD2	0x26AD0	fatal	4	1004	unexpected end-of-file found	PRAGMA	p0pragma.c
+0x26B1C	0x26B1A	warning	1	4001	nonstandard extension used - '%Fs'	PRAGMA	p0pragma.c
+0x26BA8	0x26BA6	warning	1	4001	nonstandard extension used - '%Fs'	PRAGMA	p0pragma.c
+0x26BCC	0x26BCA	warning	1	4001	nonstandard extension used - '%Fs'	PRAGMA	p0pragma.c
+0x26C18	0x26C13	error	156	2156	pragma must be outside function	PRAGMA	p0pragma.c
+0x26C73	0x26C71	warning	1	4001	nonstandard extension used - '%Fs'	PRAGMA	p0pragma.c
+0x26E23	0x26E21	warning	1	4001	nonstandard extension used - '%Fs'	PRAGMA	p0pragma.c
+0x26EA8	0x26EA6	warning	1	4001	nonstandard extension used - '%Fs'	PRAGMA	p0pragma.c
+0x26EE5	0x26EE3	warning	1	4001	nonstandard extension used - '%Fs'	PRAGMA	p0pragma.c
+0x271D9	0x271D4	error	156	2156	pragma must be outside function	PRAGMA	p0pragma.c
+0x2724C	0x2724A	warning	1	4001	nonstandard extension used - '%Fs'	PRAGMA	p0pragma.c
+0x27315	0x27313	warning	1	4001	nonstandard extension used - '%Fs'	PRAGMA	p0pragma.c
+0x27A86	0x27A84	warning	1	4001	nonstandard extension used - '%Fs'	YYLEX	p0gettok.c
+0x27D2D	0x27D2B	error	14	2014	preprocessor command must start as first non-white-space	YYLEX	p0gettok.c
+0x27E19	0x27E17	error	17	2017	illegal escape sequence	YYLEX	p0gettok.c
+0x27F1D	0x27F1B	error	18	2018	unknown character '0x%x'	YYLEX	p0gettok.c
+0x287C8	0x287C6	error	60	2060	syntax error : end-of-file found	LEX_IDENTIFIER	p0gettok.c
+0x287FF	0x287FA	error	146	2146	syntax error : missing '%s' before identifier '%s'	LEX_IDENTIFIER	p0gettok.c
+0x2881B	0x28816	error	145	2145	syntax error : missing '%s' before identifier	LEX_IDENTIFIER	p0gettok.c
+0x28851	0x2884C	error	144	2144	syntax error : missing '%s' before type '%Fs'	LEX_IDENTIFIER	p0gettok.c
+0x28882	0x2887D	error	144	2144	syntax error : missing '%s' before type '%Fs'	LEX_IDENTIFIER	p0gettok.c
+0x288A8	0x288A3	error	143	2143	syntax error : missing '%s' before '%s'	LEX_IDENTIFIER	p0gettok.c
+0x2895F	0x2895D	fatal	26	1026	parser stack overflow, please simplify your program	LEX_IDENTIFIER	p0gettok.c
+0x2897A	0x28978	error	60	2060	syntax error : end-of-file found	LEX_IDENTIFIER	p0gettok.c
+0x2899A	0x28998	error	61	2061	syntax error : identifier '%s'	LEX_IDENTIFIER	p0gettok.c
+0x289AB	0x289A6	error	132	2132	syntax error : unexpected identifier	LEX_IDENTIFIER	p0gettok.c
+0x289D0	0x289CB	error	226	2226	syntax error : unexpected type '%Fs'	LEX_IDENTIFIER	p0gettok.c
+0x289F1	0x289EF	error	62	2062	type '%s' unexpected	LEX_IDENTIFIER	p0gettok.c
+0x28A0D	0x28A0B	error	62	2062	type '%s' unexpected	LEX_IDENTIFIER	p0gettok.c
+0x28A29	0x28A27	error	59	2059	syntax error : '%s'	LEX_IDENTIFIER	p0gettok.c
+0x28AD3	0x28AD1	fatal	4	1004	unexpected end-of-file found	SKIPTORCURLY	grammar.c
+0x290C4	0x290BF	error	159	2159	more than one storage class specified	YYPARSE	grammar.c
+0x2912D	0x2912B	warning	4	4004	missing ')' after 'defined'	YYPARSE	grammar.c
+0x29758	0x29753	error	218	2218	type in _based construct must be void	YYPARSE	grammar.c
+0x2996D	0x2996B	error	59	2059	syntax error : '%s'	YYPARSE	grammar.c
+0x29C51	0x29C4F	error	43	2043	illegal break	YYPARSE	grammar.c
+0x29C7F	0x29C7D	error	44	2044	illegal continue	YYPARSE	grammar.c
+0x29DE6	0x29DE4	error	46	2046	illegal case	YYPARSE	grammar.c
+0x29E00	0x29DFE	error	47	2047	illegal default	YYPARSE	grammar.c
+0x29E1C	0x29E1A	error	48	2048	more than one default	YYPARSE	grammar.c
+0x2A7D9	0x2A7D7	error	79	2079	'%Fs' uses undefined struct/union '%Fs'	GET_OFFSET	esumem.c
+0x2A7F8	0x2A7F3	error	133	2133	'%Fs' : unknown size	GET_OFFSET	esumem.c
+0x2A911	0x2A90F	error	89	2089	'%Fs' : %s too large	GET_OFFSET	esumem.c
+0x2A9BD	0x2A9BB	error	26	2026	'%s' : member of enum redefinition	DEF_MOE	esumem.c
+0x2AA51	0x2AA4C	error	141	2141	value out of range for enum constant	DEF_MOE	esumem.c
+0x2AB85	0x2AB83	error	20	2020	'%Fs' : %s member redefinition	GETUNIQUEMEMBER	esumem.c
+0x2AC58	0x2AC56	error	28	2028	struct/union member must be inside a struct/union	DEFINEMEMBER	esumem.c
+0x2AD41	0x2AD3C	error	229	2229	'%Fs' in %s '%Fs' has a zero-sized array	DEFINEMEMBER	esumem.c
+0x2ADF0	0x2ADEB	error	150	2150	'%Fs' : bit field must have type int, signed int, or unsigned int	DEF_BIT_FIELD	esubit.c
+0x2AE08	0x2AE06	warning	4	4004	missing ')' after 'defined'	DEF_BIT_FIELD	esubit.c
+0x2AE19	0x2AE17	warning	1	4001	nonstandard extension used - '%Fs'	DEF_BIT_FIELD	esubit.c
+0x2AE44	0x2AE42	error	33	2033	'%Fs' : bit field cannot have indirection	DEF_BIT_FIELD	esubit.c
+0x2AE6F	0x2AE6A	error	149	2149	'%Fs' : named bit field cannot have 0 width	DEF_BIT_FIELD	esubit.c
+0x2AEA6	0x2AEA4	error	34	2034	'%Fs' : type of bit field too small for number of bits	DEF_BIT_FIELD	esubit.c
+0x2AFEE	0x2AFE9	error	230	2230	'%Fs' : first member of %s is unnamed	DEF_BIT_FIELD	esubit.c
+0x2B1D0	0x2B1CB	error	224	2224	left of '.%Fs' must have struct/union type	STROP	esutree.c
+0x2B1F1	0x2B1EF	error	37	2037	left of '%s' specifies undefined struct/union '%Fs'	STROP	esutree.c
+0x2B26E	0x2B269	error	214	2214	pointers based on void require the use of :>	STROP	esutree.c
+0x2B5E7	0x2B5E5	warning	1	4001	nonstandard extension used - '%Fs'	ZGSYMBOL	zeegee.c
+0x2BD12	0x2BD10	fatal	7	1007	unrecognized flag '%s' in '%s'	_init_main1	initmain.c
+0x2BD25	0x2BD23	fatal	8	1008	no input file specified	_init_main1	initmain.c
+0x2BDD4	0x2BDD2	warning	1	4001	nonstandard extension used - '%Fs'	SET_SIZES	initmain.c
+0x2C49B	0x2C499	fatal	3	1003	error count exceeds %d; stopping compilation	_error	Common\error.c
+0x2C5A5	0x2C5A0	error	220	2220	warning treated as error - no object file generated	_warning	Common\error.c
+0x2CA0D	0x2CA0B	fatal	47	1047	limit of %s exceeded at '%s'	_substr	Common\getflag
+0x2CA53	0x2CA51	fatal	46	1046	compiler limit : %s nested too deeply	_substr	Common\getflag
+0x2CAD9	0x2CAD7	fatal	48	1048	unknown option '%c' in '%s'	_substr	Common\getflag
+0x2CB34	0x2CB32	fatal	49	1049	invalid numerical argument '%s'	_getnumber	Common\getflag
+0x2CF54	0x2CF52	fatal	1	1001	Internal Compiler Error\n\t\t(compiler file '%s', line %d)\n\t\tContact Microsoft Product Support Services	_WinMain	C:\nt\private\sdktools\cl386\c1\winmain.c
+0x3160F	0x3160D	fatal	41	1041	cannot open compiler intermediate file - no more files	_il_file	Common\ioin.c
+0x3166C	0x3166A	fatal	44	1044	out of disk space for compiler intermediate file	_werr	Common\ioin.c

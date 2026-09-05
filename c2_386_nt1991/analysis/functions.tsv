@@ -1,0 +1,1461 @@
+rva	va	name	storage	source	source_raw
+0x00010000	0x00020000	_nextword	external	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	c:\c6\\cmerge\
+0x00010024	0x00020024	_out_of_mem	external	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	c:\c6\\cmerge\
+0x000100dc	0x000200dc	_startp2	external	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	c:\c6\\cmerge\
+0x000102f0	0x000202f0	_settle_Oswitches	external	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	c:\c6\\cmerge\
+0x000104b4	0x000204b4	_dop2	external	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	c:\c6\\cmerge\
+0x00010c10	0x00020c10	_main	external	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	c:\c6\\cmerge\
+0x00010c9c	0x00020c9c	_real_main	external	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	c:\c6\\cmerge\
+0x00010cf4	0x00020cf4	_put_block	external	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	c:\c6\\cmerge\
+0x00010d48	0x00020d48	_freeblock	external	compiler_contribution_000 [_nextword, _out_of_mem, _startp2...]	c:\c6\\cmerge\
+0x00010da0	0x00020da0	_bitv_init	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00010dc8	0x00020dc8	_bvalloc	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00010e2c	0x00020e2c	_freebv	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00010e5c	0x00020e5c	_bvnodecount	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00010e84	0x00020e84	_bvextend	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00010ed8	0x00020ed8	_bvcpy	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00010f3c	0x00020f3c	_bvclr	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00010f64	0x00020f64	_bvset	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00010f8c	0x00020f8c	_bvany	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00010fc8	0x00020fc8	_bvcount	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00011010	0x00021010	_bvnext	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x000110b4	0x000210b4	_bvnnext	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00011144	0x00021144	_bvcmp	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00011188	0x00021188	_bvor	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x000111f4	0x000211f4	_bvand	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x0001123c	0x0002123c	_bvandnot	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x000112ac	0x000212ac	_bvnotand	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x000112e4	0x000212e4	_bvunion	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x0001130c	0x0002130c	_bvintersect	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00011354	0x00021354	_bvunionminus	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00011394	0x00021394	_bvunion_am	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x000113e0	0x000213e0	_bitscom	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00011464	0x00021464	_bitset	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00011478	0x00021478	_bitclr	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x0001148c	0x0002148c	_bittst	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x000114dc	0x000214dc	_prbv	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00011588	0x00021588	_print_bitv	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x000115f8	0x000215f8	_prbbva	external	compiler_contribution_002 [_bitv_init, _bvalloc, _freebv...]	c:\c6\\cmerge\
+0x00011710	0x00021710	_globalregs	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00011ae8	0x00021ae8	_gather_gramregs_requirements	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00011b38	0x00021b38	_build_allocation_ranges	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00011d78	0x00021d78	_build_ars_recursive	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00012574	0x00022574	_build_ar	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00012b04	0x00022b04	_que_build_ar	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00012b44	0x00022b44	_deque_build_ar	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00012b80	0x00022b80	_do_ar_annexation	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00012d08	0x00022d08	_new_arnode	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00012de4	0x00022de4	_free_arnode	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00012e10	0x00022e10	_foreach_bl	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00012e50	0x00022e50	_gather_ar_gramregs	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013040	0x00023040	_proc_interferes	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001306c	0x0002306c	_proc_i_internal	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013478	0x00023478	_color_regs	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000136e8	0x000236e8	_calc_savings	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001380c	0x0002380c	_chuck_invalid	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013870	0x00023870	_calculate_interf_graph	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013940	0x00023940	_calculate_adjacency_life	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013b24	0x00023b24	_check_lifes	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013bb4	0x00023bb4	_allocate_trivially_colorable	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013c78	0x00023c78	_sort_scaledsavings	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013cdc	0x00023cdc	_sort_fp_regnums	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013d6c	0x00023d6c	_allocate_tough_ones	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013f5c	0x00023f5c	_adjacent_got_allocated	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013fb4	0x00023fb4	_samelife_got_allocated	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00013fe0	0x00023fe0	_any_regs_avail_in_ar	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00014060	0x00024060	_allocate_ar	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000140d8	0x000240d8	_deallocate_ar	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001415c	0x0002415c	_sort_life_thread	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00014230	0x00024230	_propagate_adr_attribute	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00014278	0x00024278	_propagate_def_attribute	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001443c	0x0002443c	_assign_regs	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000149bc	0x000249bc	_dup_shrunk_ar	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00014a28	0x00024a28	_too_cheap_shrink	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00014fc8	0x00024fc8	_do_ar_conservative_annexation	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000150f4	0x000250f4	_post_assign_reassign	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00015314	0x00025314	_allocate_assign_segments	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00015a2c	0x00025a2c	_find_au_in_bl	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00015a74	0x00025a74	_is_exactly_loop	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00015abc	0x00025abc	_global_worthit	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00015ba4	0x00025ba4	_reg_rewrite	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00015bec	0x00025bec	_tree_reg_rewrite	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000163e8	0x000263e8	_rewrite_short_addr	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000164fc	0x000264fc	_tree_reg_rewrite_seg	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00016514	0x00026514	_tree_reg_rewrite_seg_recursive	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001663c	0x0002663c	_regpragmas	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001674c	0x0002674c	_in_life	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001677c	0x0002677c	_find_ar	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000167cc	0x000267cc	_delete_regarg_intrinsics	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00016ac0	0x00026ac0	_enterloads_exitsaves	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00016c8c	0x00026c8c	_skip_airlocks	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00016cc4	0x00026cc4	_foreach_flow	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00016d10	0x00026d10	_update_fp_inregs	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00016d34	0x00026d34	_enterloads	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00017330	0x00027330	_insert_segload_maybe	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00017430	0x00027430	_exitsaves	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00017950	0x00027950	_exithack	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000179cc	0x000279cc	_exithack_internal	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00017b24	0x00027b24	_insert_load	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00017cfc	0x00027cfc	_fold_seg_load	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00017e08	0x00027e08	_ins_label	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00017e30	0x00027e30	_build_airlock	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00017edc	0x00027edc	_buildload	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00018050	0x00028050	_buildsave	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00018194	0x00028194	_dgroup_tree	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000181ec	0x000281ec	_save_dgroup_maybe	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000182dc	0x000282dc	_mark_blocks_gramregs	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000188f8	0x000288f8	_build_prreg	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00018924	0x00028924	_findtrees	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001894c	0x0002894c	_findtrees_internal	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00018a5c	0x00028a5c	_handle_fp_stack_top	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00018dfc	0x00028dfc	_lock_and_dereg	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00018e94	0x00028e94	_build_fp_prreg	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00018f20	0x00028f20	_color_locals	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001950c	0x0002950c	_loop_scale	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00019534	0x00029534	_loop_scale2	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000195d0	0x000295d0	_ghash_find	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000197d8	0x000297d8	_find_const_erseg	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000198b0	0x000298b0	_free_some_bits	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x000198f0	0x000298f0	_build_const_bits	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x00019b04	0x00029b04	_bcb_recursive_guy	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a08c	0x0002a08c	_seg_pseudo_extract_bit	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a194	0x0002a194	_add_arblset	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a1ec	0x0002a1ec	_checkfor_warnings	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a2d0	0x0002a2d0	_prars	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a2f4	0x0002a2f4	_prarss	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a320	0x0002a320	_prarsl	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a35c	0x0002a35c	_prardex	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a384	0x0002a384	_prarintrf	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a3b8	0x0002a3b8	_prar	external	compiler_contribution_003 [_globalregs, _gather_gramregs_requirements, _build_allocation_ranges...]	c:\c6\\cmerge\
+0x0001a600	0x0002a600	_assign_regMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001a73c	0x0002a73c	_assign_segregMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001a8bc	0x0002a8bc	_wanto_reassignMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001a8e4	0x0002a8e4	_reassign_regMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001aa18	0x0002aa18	_reg_classMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001aa88	0x0002aa88	_init_class_countsMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001ab80	0x0002ab80	_Dgroup_for_sureMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001aba0	0x0002aba0	_dont_loadMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001abb4	0x0002abb4	_get_class_countMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001ac0c	0x0002ac0c	_dec_class_countMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001aca0	0x0002aca0	_mark_reg_statusMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001ad34	0x0002ad34	_get_reg_statusMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001ad6c	0x0002ad6c	_gramregs_reqMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001aea0	0x0002aea0	_gramregs_reqMD_internal	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b520	0x0002b520	_seg_is_considered	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b5c4	0x0002b5c4	_reg_interferesMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b628	0x0002b628	_foreach_calleesaveMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b674	0x0002b674	_intrinsic_gramregs	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b798	0x0002b798	_init_grammarstyle_gramregsMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b7a8	0x0002b7a8	_mark_grammarstyle_regMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b82c	0x0002b82c	_lock_axdxMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b84c	0x0002b84c	_lock_returnFPregMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b868	0x0002b868	_twiddle_ax_opreturn_bitsMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b88c	0x0002b88c	_handle_ax_returnMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b944	0x0002b944	_handle_FP0_returnMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001b9d8	0x0002b9d8	_fp_stack_levelMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001ba68	0x0002ba68	_combine_regsMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001ba7c	0x0002ba7c	_offsetpartMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001ba98	0x0002ba98	_segpartMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bab4	0x0002bab4	_Dgroup_trashedMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001babc	0x0002babc	_cmp_regvalsMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bb60	0x0002bb60	_is_seg_regMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bb7c	0x0002bb7c	_allocMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bba8	0x0002bba8	_aligned_okMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bbe4	0x0002bbe4	_wrapup_localsMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bbec	0x0002bbec	_init_localsMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bc08	0x0002bc08	_is_regargMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bc54	0x0002bc54	_isthere_proccallMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bc68	0x0002bc68	_is_ds_lockedMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bc70	0x0002bc70	_isthere_introrproccallMD	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bc8c	0x0002bc8c	_float_regs_required	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001bcf4	0x0002bcf4	_float_expr	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001c2f4	0x0002c2f4	_frval_notmp	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001c324	0x0002c324	_frval_int	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001c378	0x0002c378	_adr	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001c3dc	0x0002c3dc	_clear_copyval	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001c44c	0x0002c44c	_fld	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001c4ac	0x0002c4ac	_fstp	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001c4f4	0x0002c4f4	_prgramregs	external	compiler_contribution_004 [_assign_regMD, _assign_segregMD, _wanto_reassignMD...]	c:\c6\\cmerge\
+0x0001c720	0x0002c720	_frame_addr	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001c7b4	0x0002c7b4	_segnumtoreg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001c824	0x0002c824	_relseg_internal	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ca78	0x0002ca78	_relseg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ca88	0x0002ca88	_csrel	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001caa4	0x0002caa4	_framerel	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001cac0	0x0002cac0	_mayberelseg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001cae0	0x0002cae0	_segpart	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001cbdc	0x0002cbdc	_MDlongaddr	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001cc6c	0x0002cc6c	_near_address	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001cd08	0x0002cd08	_skipcv	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001cd28	0x0002cd28	_md_complex	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ce9c	0x0002ce9c	_mdcanontree	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ceac	0x0002ceac	_mdcanonnode	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001d2b4	0x0002d2b4	_mbretptr	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001d2f4	0x0002d2f4	_farlocal	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001d350	0x0002d350	_cheap_op	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001d3e0	0x0002d3e0	_check_predef	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001d4f4	0x0002d4f4	_adjust_frame	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001d53c	0x0002d53c	_set_base	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001d58c	0x0002d58c	_datalloc	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001daec	0x0002daec	_allotemp	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001db10	0x0002db10	_realign	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001db34	0x0002db34	_redo_locals	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001debc	0x0002debc	_cg_exit	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001df4c	0x0002df4c	_segconst	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e02c	0x0002e02c	_isreallyfloatconst	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e07c	0x0002e07c	_findfloatconst	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e0f0	0x0002e0f0	_findfloatconstval	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e13c	0x0002e13c	_float_il	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e228	0x0002e228	_floatconst	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e344	0x0002e344	_findseg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e384	0x0002e384	_sym_is_const	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e3c8	0x0002e3c8	_segment	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e634	0x0002e634	_create_seg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e668	0x0002e668	_newseg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e700	0x0002e700	_user_naminseg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e73c	0x0002e73c	_segtable	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e7fc	0x0002e7fc	_segcheck	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e800	0x0002e800	_read_export	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e830	0x0002e830	_write_export	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001e8f4	0x0002e8f4	_md_blk_asg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ed60	0x0002ed60	_MDlo_part	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ed70	0x0002ed70	_MDhi_part	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001edd8	0x0002edd8	_new_text_seg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ee34	0x0002ee34	_find_seg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ee54	0x0002ee54	_init_current_seg	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ef0c	0x0002ef0c	_write_seg_offs	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001ef88	0x0002ef88	_all_segregs_lockedMD	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001efa8	0x0002efa8	_data_in_code	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f00c	0x0002f00c	_emit_data_in_code	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f098	0x0002f098	_save_allocMD	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f0bc	0x0002f0bc	_reset_allocMD	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f0f8	0x0002f0f8	_get_default_blregs	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f100	0x0002f100	_howcheap	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f130	0x0002f130	_howcheap_services	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f168	0x0002f168	_howcheap_internal	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f658	0x0002f658	_find_foptype	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f6f0	0x0002f6f0	_fptoocheap	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f794	0x0002f794	_nofloat	external	compiler_contribution_005 [_frame_addr, _segnumtoreg, _relseg_internal...]	c:\c6\\cmerge\
+0x0001f7f0	0x0002f7f0	_gettree	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0001f95c	0x0002f95c	_gettree_internal	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0001fbdc	0x0002fbdc	_tl_to_EBB	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0001fd90	0x0002fd90	_characteristic	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0001fdd0	0x0002fdd0	_tree_init	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0001fe48	0x0002fe48	_newnode	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0001fec4	0x0002fec4	_newleaf	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020288	0x00030288	_do_allotemp	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020304	0x00030304	_clear_leaf_pool	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020334	0x00030334	_free_leaf_pool	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x000203bc	0x000303bc	_foreach_leaf	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020414	0x00030414	_prleafpool	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0002042c	0x0003042c	_freenode	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x000204f8	0x000304f8	_isfreenode	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0002052c	0x0003052c	_freetree	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x000205f0	0x000305f0	_unlink_mark	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020648	0x00030648	_freechildren	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x000206cc	0x000306cc	_freehyb	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x000206fc	0x000306fc	_countnode	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0002079c	0x0003079c	_lstcount	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x000207d0	0x000307d0	_nodestats	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020868	0x00030868	_pfreenodes	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x000208c4	0x000308c4	_getnode	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020958	0x00030958	_readc	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020990	0x00030990	_new_tl	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x000209dc	0x000309dc	_tl_count	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020a04	0x00030a04	_addtree	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020a34	0x00030a34	_free_tl	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020a4c	0x00030a4c	_new_bl	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020ab4	0x00030ab4	_add_tl	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020acc	0x00030acc	_free_bl	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020ae4	0x00030ae4	_treewalk	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020b1c	0x00030b1c	_treewalkp	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020b54	0x00030b54	_blockwalk	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020ba4	0x00030ba4	_blockwalkp	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020bf4	0x00030bf4	_tr_insert	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020c58	0x00030c58	_ntr_insert	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020ce4	0x00030ce4	_tl_insert	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020d38	0x00030d38	_endproc	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020dd4	0x00030dd4	_endblock	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00020dfc	0x00030dfc	_maketree	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x0002136c	0x0003136c	_copynode	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x000213fc	0x000313fc	_copytype	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00021448	0x00031448	_dupnode	external	compiler_contribution_006 [_gettree, _gettree_internal, _tl_to_EBB...]	c:\c6\\cmerge\
+0x00021490	0x00031490	_cg_canon	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00021724	0x00031724	_imbed_walk	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000221c4	0x000321c4	_linkmarks	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00022308	0x00032308	_construct_clause	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000223c4	0x000323c4	_check_exprimbed	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000226f8	0x000326f8	_build_shtree	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000228a8	0x000328a8	_subexpr_imbed	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00022ef4	0x00032ef4	_ok_to_imbed_here	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00022fe0	0x00032fe0	_enter_assign	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023098	0x00033098	_remove_conflicts	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x0002313c	0x0003313c	_moveto_imlist	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023178	0x00033178	_move_assign	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000231b8	0x000331b8	_move_imbedded_assign	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023224	0x00033224	_deadnode	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023318	0x00033318	_dead_store	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023508	0x00033508	_count_marks	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023620	0x00033620	_find_repl	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x0002370c	0x0003370c	_calc_vused	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023750	0x00033750	_post_imbed_walk	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023798	0x00033798	_post_tree_walk	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000239b0	0x000339b0	_pushmark	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023afc	0x00033afc	_dummy_mark	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023b6c	0x00033b6c	_final_walk	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00023bec	0x00033bec	_final_walk_of_trees	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000242dc	0x000342dc	_final_walk_td	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00024860	0x00034860	_rewrite_regarg	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00024a80	0x00034a80	_flttostruct	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00024d9c	0x00034d9c	_final_walk_bu	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025348	0x00035348	_small_mb	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000253dc	0x000353dc	_deep_search_opeq	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x0002551c	0x0003551c	_typetree	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x0002556c	0x0003556c	_check_opeq	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025820	0x00035820	_skipmark	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025830	0x00035830	_check_postfix	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025b20	0x00035b20	_is_assigntemp	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025b60	0x00035b60	_eq_xform	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025ba0	0x00035ba0	_remove_used	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025bdc	0x00035bdc	_samecvt	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025c14	0x00035c14	_uses_reg	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025cf8	0x00035cf8	_av_interf	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025e74	0x00035e74	_mark_above_assign	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025ee4	0x00035ee4	_clear_avlist	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025f40	0x00035f40	_free_assign	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025f68	0x00035f68	_free_interf	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025f90	0x00035f90	_free_shtree	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00025fd8	0x00035fd8	_new_avnode	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026030	0x00036030	_new_shnode	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000260bc	0x000360bc	_free_some_shnodes	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026110	0x00036110	_free_avnode	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x0002612c	0x0003612c	_free_shnode	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026184	0x00036184	_new_il	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000261d0	0x000361d0	_free_il	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026234	0x00036234	_append_list	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026250	0x00036250	_copy_list	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026294	0x00036294	_do_enreg	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026358	0x00036358	_blenregt	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x0002640c	0x0003640c	_handle_reg_args	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000264f0	0x000364f0	_globcse_stats	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000265cc	0x000365cc	_globcse_rewrite	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x000268ac	0x000368ac	_prshtree	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026958	0x00036958	_printerf	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026a54	0x00036a54	_shnode_stats	external	compiler_contribution_007 [_cg_canon, _imbed_walk, _linkmarks...]	c:\c6\\cmerge\
+0x00026a90	0x00036a90	_flow	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00026c74	0x00036c74	_find_label	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00026cd0	0x00036cd0	_add_caller	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00026d48	0x00036d48	_break_synonyms	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00026d54	0x00036d54	_add_label	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00026e00	0x00036e00	_transitive_closure_alternates	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00026e44	0x00036e44	_transitive_closure_internal	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00026ecc	0x00036ecc	_print_labels	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00026f2c	0x00036f2c	_build_label_map	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x0002737c	0x0003737c	_coalesce_labels	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x000274d0	0x000374d0	_dont_coalesce_these	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027518	0x00037518	_initialize_lexer	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027528	0x00037528	_unget_treelist	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027540	0x00037540	_next_treelist	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027570	0x00037570	_build_flow_graph	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x000277ac	0x000377ac	_add_fflow	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027814	0x00037814	_add_bflow	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x0002787c	0x0003787c	_add_flows	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x0002789c	0x0003789c	_in_flow	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x000278c4	0x000378c4	_remove_flow	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027918	0x00037918	_remove_flow_if	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027954	0x00037954	_fixup_labels	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027b68	0x00037b68	_build_DFO	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027c58	0x00037c58	_recursive_DFO	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027ce8	0x00037ce8	_sort_flow	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027df4	0x00037df4	_flow_count	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027e1c	0x00037e1c	_break_fallthrough	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00027f40	0x00037f40	_transfer_dest	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x0002804c	0x0003804c	_last_tl	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x0002806c	0x0003806c	_filter_dead_code	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028108	0x00038108	_recursive_all_paths	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x0002816c	0x0003816c	_free_dead_code	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x0002838c	0x0003838c	_pack_DFO	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028838	0x00038838	_blockmerge_loopupdate	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028880	0x00038880	_check_flow	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028994	0x00038994	_calc_dom	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028ab4	0x00038ab4	_find_loops	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028d24	0x00038d24	_src_is_reachable	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028d68	0x00038d68	_src_is_reachable_internal	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028e14	0x00038e14	_collect_tails	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028e6c	0x00038e6c	_mark_loop_body	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028ea0	0x00038ea0	_mark_loop_body_internal	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028efc	0x00038efc	_expand_tails	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028f34	0x00038f34	_fixup_tails	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028fc0	0x00038fc0	_update_tails	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00028fec	0x00038fec	_remove_break_blocks	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029030	0x00039030	_remove_break_blocks_1loop	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029158	0x00039158	_not_parent_loop	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029180	0x00039180	_enumerate_DFO	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x000291c0	0x000391c0	_canonicalize_loops1	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029644	0x00039644	_canonicalize_loops2	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x000297c8	0x000397c8	_is_in_loop	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x000297f8	0x000397f8	_handle_blkstart_opexit	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029988	0x00039988	_print_flow	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x000299b4	0x000399b4	_print_loop	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x000299d0	0x000399d0	_print_loop_internal	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029ac8	0x00039ac8	_print_dom	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029b04	0x00039b04	_init_heap	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029b14	0x00039b14	_new_labelnode	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029b34	0x00039b34	_new_flownode	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029b74	0x00039b74	_free_flownode	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029b8c	0x00039b8c	_free_bl_flow	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029be8	0x00039be8	_new_loopnode	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029bf8	0x00039bf8	_free_heap	external	compiler_contribution_008 [_flow, _find_label, _add_caller...]	c:\c6\\cmerge\
+0x00029c30	0x00039c30	_machine_type	external	compiler_contribution_009 [_machine_type, _ReserveBxMask, _alloregparams...]	c:\c6\\cmerge\
+0x00029fa4	0x00039fa4	_ReserveBxMask	external	compiler_contribution_009 [_machine_type, _ReserveBxMask, _alloregparams...]	c:\c6\\cmerge\
+0x00029fac	0x00039fac	_alloregparams	external	compiler_contribution_009 [_machine_type, _ReserveBxMask, _alloregparams...]	c:\c6\\cmerge\
+0x0002a07c	0x0003a07c	_is_huge	external	compiler_contribution_009 [_machine_type, _ReserveBxMask, _alloregparams...]	c:\c6\\cmerge\
+0x0002a080	0x0003a080	_halloc	external	compiler_contribution_009 [_machine_type, _ReserveBxMask, _alloregparams...]	c:\c6\\cmerge\
+0x0002a094	0x0003a094	_new_entry	external	compiler_contribution_009 [_machine_type, _ReserveBxMask, _alloregparams...]	c:\c6\\cmerge\
+0x0002a138	0x0003a138	_far16_tree	external	compiler_contribution_009 [_machine_type, _ReserveBxMask, _alloregparams...]	c:\c6\\cmerge\
+0x0002a5d4	0x0003a5d4	_emit_far16	external	compiler_contribution_009 [_machine_type, _ReserveBxMask, _alloregparams...]	c:\c6\\cmerge\
+0x0002a730	0x0003a730	_confold	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002a8c4	0x0003a8c4	_int_arith	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002ace8	0x0003ace8	_fix_laddr	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002acf0	0x0003acf0	_float_arith	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002af90	0x0003af90	_const_conv	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002b214	0x0003b214	_fix_pt	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002b2a0	0x0003b2a0	_fix_val	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002b2e8	0x0003b2e8	_relconf	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002b50c	0x0003b50c	_relfold	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002b644	0x0003b644	_frelfold	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002b744	0x0003b744	_fltinit	external	compiler_contribution_010 [_confold, _int_arith, _fix_laddr...]	c:\c6\\cmerge\
+0x0002b7c0	0x0003b7c0	OVMCHK	external	compiler_contribution_011 [OVMCHK, OVACHK, OVSCHK]	c:\c6\\cmerge\
+0x0002b808	0x0003b808	OVACHK	external	compiler_contribution_011 [OVMCHK, OVACHK, OVSCHK]	c:\c6\\cmerge\
+0x0002b846	0x0003b846	OVSCHK	external	compiler_contribution_011 [OVMCHK, OVACHK, OVSCHK]	c:\c6\\cmerge\
+0x0002b890	0x0003b890	_grammar	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002ba14	0x0003ba14	_clean_prewalk	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002ba44	0x0003ba44	_lonemark	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002ba88	0x0003ba88	_del_OPregister_cse	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002bb04	0x0003bb04	_find_leaf_cse	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002bc08	0x0003bc08	_prinfo	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002bc2c	0x0003bc2c	_grammar_prewalk	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002c044	0x0003c044	_info_offset	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002c058	0x0003c058	_do_grammar	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002c1e8	0x0003c1e8	_clear_inreg	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002c390	0x0003c390	_lexpush	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002c4e0	0x0003c4e0	_xxerr	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002c508	0x0003c508	_prreglist	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002c56c	0x0003c56c	_do_pragma	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002c6b8	0x0003c6b8	_addsp	external	compiler_contribution_012 [_grammar, _clean_prewalk, _lonemark...]	c:\c6\\cmerge\
+0x0002c710	0x0003c710	_expand	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002edc4	0x0003edc4	_eval	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002ef58	0x0003ef58	_mcond	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002f55c	0x0003f55c	_nox	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002f5e8	0x0003f5e8	_alop	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002f750	0x0003f750	_isrc	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002f8d0	0x0003f8d0	_isr	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002f900	0x0003f900	_xnew	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002f9ac	0x0003f9ac	_xconstrain	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002fa68	0x0003fa68	_xasg	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002fe18	0x0003fe18	_xfree	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002fecc	0x0003fecc	_reg_not_in	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0002ff8c	0x0003ff8c	_lodseg	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x00030044	0x00040044	_append	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x00030074	0x00040074	_cpylineno	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x000300d8	0x000400d8	_extrlocal	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x00030154	0x00040154	_regintree	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x0003021c	0x0004021c	_profiler_code	external	compiler_contribution_013 [_expand, _eval, _mcond...]	c:\c6\\cmerge\
+0x00030290	0x00040290	_read_pragma_info	external	compiler_contribution_014 [_read_pragma_info, _reverse_Otab_sense, _read_comment...]	c:\c6\\cmerge\
+0x00030828	0x00040828	_reverse_Otab_sense	external	compiler_contribution_014 [_read_pragma_info, _reverse_Otab_sense, _read_comment...]	c:\c6\\cmerge\
+0x0003087c	0x0004087c	_read_comment	external	compiler_contribution_014 [_read_pragma_info, _reverse_Otab_sense, _read_comment...]	c:\c6\\cmerge\
+0x000308d8	0x000408d8	_write_comments	external	compiler_contribution_014 [_read_pragma_info, _reverse_Otab_sense, _read_comment...]	c:\c6\\cmerge\
+0x00030930	0x00040930	_canontree	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00030a74	0x00040a74	_canonnode	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00030b64	0x00040b64	_canons_td	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00030f98	0x00040f98	_canons_bu	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00031b5c	0x00041b5c	_hoisttree	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00031b94	0x00041b94	_hoistnode	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00031ccc	0x00041ccc	_hoist_td	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x000320e8	0x000420e8	_hoist_lr	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032524	0x00042524	_hoist_bu	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032538	0x00042538	_temp_asgn	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032570	0x00042570	_asgn_val	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x000325ec	0x000425ec	_bit_const	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x0003266c	0x0004266c	_make_maxmin	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x000327dc	0x000427dc	_const_questop	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032838	0x00042838	_trans_questop	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032900	0x00042900	_trans_comma	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032954	0x00042954	_make_arm	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x000329d0	0x000429d0	_trans_logical	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032ab0	0x00042ab0	_notrelop	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032b48	0x00042b48	_relcheck	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032b90	0x00042b90	_rel_to_q	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032bf0	0x00042bf0	_logical_fold	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032cd0	0x00042cd0	_do_transform	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00032fe8	0x00042fe8	_vmfunc_transform	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x000331cc	0x000431cc	_rev_args	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00033210	0x00043210	_mbreturn	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x000333dc	0x000433dc	_structparam	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x0003346c	0x0004346c	_alloc_parms	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00033668	0x00043668	_hoist	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00033730	0x00043730	_calc_interfere	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00033744	0x00043744	_interference	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x00033988	0x00043988	_pop_binaryL	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x000339ac	0x000439ac	_pop_binaryR	external	compiler_contribution_015 [_canontree, _canonnode, _canons_td...]	c:\c6\\cmerge\
+0x000339d0	0x000439d0	_emit	external	compiler_contribution_016 [_emit, _put_operand, _write_sil...]	c:\c6\\cmerge\
+0x00034290	0x00044290	_put_operand	external	compiler_contribution_016 [_emit, _put_operand, _write_sil...]	c:\c6\\cmerge\
+0x00034598	0x00044598	_write_sil	external	compiler_contribution_016 [_emit, _put_operand, _write_sil...]	c:\c6\\cmerge\
+0x00035170	0x00045170	_namestring	external	compiler_contribution_016 [_emit, _put_operand, _write_sil...]	c:\c6\\cmerge\
+0x00035198	0x00045198	_sil_proc	external	compiler_contribution_016 [_emit, _put_operand, _write_sil...]	c:\c6\\cmerge\
+0x000351cc	0x000451cc	_opndattrsize	external	compiler_contribution_016 [_emit, _put_operand, _write_sil...]	c:\c6\\cmerge\
+0x0003523c	0x0004523c	_emit_line	external	compiler_contribution_016 [_emit, _put_operand, _write_sil...]	c:\c6\\cmerge\
+0x000352a0	0x000452a0	_crack_cmd	external	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	c:\c6\\cmerge\
+0x0003539c	0x0004539c	_substr	external	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	c:\c6\\cmerge\
+0x00035580	0x00045580	_getnumber	external	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	c:\c6\\cmerge\
+0x000355e0	0x000455e0	_isita	external	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	c:\c6\\cmerge\
+0x00035610	0x00045610	_tailmatch	external	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	c:\c6\\cmerge\
+0x0003567c	0x0004567c	_copyover	external	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	c:\c6\\cmerge\
+0x000356bc	0x000456bc	_unconcat	external	compiler_contribution_018 [_crack_cmd, _substr, _getnumber...]	c:\c6\\cmerge\
+0x00035780	0x00045780	_FCMADD	external	compiler_contribution_019 [_FCMADD, _FCMSUB, _FCMMUL...]	c:\c6\\cmerge\
+0x000357ba	0x000457ba	_FCMSUB	external	compiler_contribution_019 [_FCMADD, _FCMSUB, _FCMMUL...]	c:\c6\\cmerge\
+0x000357f4	0x000457f4	_FCMMUL	external	compiler_contribution_019 [_FCMADD, _FCMSUB, _FCMMUL...]	c:\c6\\cmerge\
+0x0003587b	0x0004587b	_FCMDIV	external	compiler_contribution_019 [_FCMADD, _FCMSUB, _FCMMUL...]	c:\c6\\cmerge\
+0x00035972	0x00045972	_FCMCOMPARE	external	compiler_contribution_019 [_FCMADD, _FCMSUB, _FCMMUL...]	c:\c6\\cmerge\
+0x000359e0	0x000459e0	_FMSIZE	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x000359f7	0x000459f7	_FMADD	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035a48	0x00045a48	_FMSUB	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035a99	0x00045a99	_FMMUL	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035aea	0x00045aea	_FMDIV	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035b3b	0x00045b3b	_FMRT_R4	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035b60	0x00045b60	_FMRT_R8	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035b85	0x00045b85	_FMRT_R10	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035ba1	0x00045ba1	_FMR4_RT	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035bc3	0x00045bc3	_FMR8_RT	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035be5	0x00045be5	_FMR10_RT	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035c07	0x00045c07	_FMI4_RT	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035c29	0x00045c29	_FMU4_RT	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035c5f	0x00045c5f	_FMRT_I4	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035c89	0x00045c89	_FMRT_U4	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035ccc	0x00045ccc	_FMRT_I4R	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035d15	0x00045d15	_FMMIN	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035d7d	0x00045d7d	_FMMAX	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035de5	0x00045de5	_FMABS	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035e33	0x00045e33	_FMCOMPARE	external	compiler_contribution_020 [_FMSIZE, _FMADD, _FMSUB...]	c:\c6\\cmerge\
+0x00035f60	0x00045f60	_rematch	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00035f90	0x00045f90	_findhashnode	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00035ffc	0x00045ffc	_inshashnode	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036044	0x00046044	_rmhashnode	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000360b4	0x000460b4	_newru	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036150	0x00046150	_freeru	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003617c	0x0004617c	_pushru	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036190	0x00046190	_freeuselist	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000361c0	0x000461c0	_clearuses	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036214	0x00046214	_finduse	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003626c	0x0004626c	_findadruse	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000362bc	0x000462bc	_findreguse	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003631c	0x0004631c	_rmuse	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036468	0x00046468	_rmusei	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000364c4	0x000464c4	_rmbits	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036510	0x00046510	_mvuse	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036590	0x00046590	_clearbits	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000365d4	0x000465d4	_allsaved	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000365fc	0x000465fc	_regmap_init	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036644	0x00046644	_initMD	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036674	0x00046674	_resetMD	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036680	0x00046680	_annexlist	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003670c	0x0004670c	_doannex	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036748	0x00046748	_reg_find	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000367a8	0x000467a8	_reg_pick	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036818	0x00046818	_reg_alloc	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000368d0	0x000468d0	_reg_build	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036928	0x00046928	_numtomap	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036970	0x00046970	_rset	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000369fc	0x000469fc	_regset	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036a78	0x00046a78	_ea_walk	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036b4c	0x00046b4c	_ea_set	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036c80	0x00046c80	_ustati	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036d04	0x00046d04	_ustat	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036dc4	0x00046dc4	_uustat	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036df0	0x00046df0	_set_pref	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00036e8c	0x00046e8c	_reg_assign	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037584	0x00047584	_grab_reg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037608	0x00047608	_chgreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037780	0x00047780	_reg_construct	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000377e0	0x000477e0	_reg_this_size	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003780c	0x0004780c	_dereg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037858	0x00047858	_set_rtab	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003798c	0x0004798c	_add_rtab	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037a84	0x00047a84	_lastreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037acc	0x00047acc	_get_rtab	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037b1c	0x00047b1c	_rtop	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037b74	0x00047b74	_checkavail	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037c10	0x00047c10	_lastref	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037c58	0x00047c58	_reg_avail	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037cc4	0x00047cc4	_reg_steal	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037d5c	0x00047d5c	_reg_restore	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037dd0	0x00047dd0	_is_stolen	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037e44	0x00047e44	_reg_occupied	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00037e90	0x00047e90	_clearmap	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003801c	0x0004801c	_reguse_refsleft	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003805c	0x0004805c	_regrefsleft	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000380a8	0x000480a8	_move_reg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003815c	0x0004815c	_is_eaopnd	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038190	0x00048190	_seg_pos	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000381d4	0x000481d4	_ea_free	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038258	0x00048258	_freestandard	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003838c	0x0004838c	_freespecial	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000384d0	0x000484d0	_freemarknode	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000386b0	0x000486b0	_dstrmarknode	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038830	0x00048830	_clearcopies	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000388a4	0x000488a4	_dstrmark	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038b1c	0x00048b1c	_freemark	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038c68	0x00048c68	_clear_saved	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038cac	0x00048cac	_ea_freea	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038d44	0x00048d44	_live_inreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038ec0	0x00048ec0	_live_efad	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038f40	0x00048f40	_is_locked	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038fc4	0x00048fc4	_is_segreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00038fec	0x00048fec	_constrain_addreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003915c	0x0004915c	_constrain_inreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000392c0	0x000492c0	_rmuseintree	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039330	0x00049330	_advancemark	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000393b8	0x000493b8	_advanceseq	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000393f4	0x000493f4	_dis_inreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039590	0x00049590	_un_inreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039608	0x00049608	_dec_refcnt	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003977c	0x0004977c	_nodeintree	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039838	0x00049838	_eqnode	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039884	0x00049884	_eqreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000398d8	0x000498d8	_dontspill	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x000399a4	0x000499a4	_alternative	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039a94	0x00049a94	_checkrematch	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039b1c	0x00049b1c	_chkupd	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039bd4	0x00049bd4	_newlyinreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039c50	0x00049c50	_upd_busy	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039dfc	0x00049dfc	_regno	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039e3c	0x00049e3c	_opndofs	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x00039e6c	0x00049e6c	_rew_half	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003a320	0x0004a320	_regstring	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003a378	0x0004a378	_uses_segreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003a440	0x0004a440	_spillee	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003a6f4	0x0004a6f4	_spiller	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003b4e0	0x0004b4e0	_abandon	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003b5cc	0x0004b5cc	_spill	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003b66c	0x0004b66c	_un_inreg_walk	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003b6c8	0x0004b6c8	_rew_lmem	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003b8fc	0x0004b8fc	_rew_mem	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003b910	0x0004b910	_fix_pair	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003b998	0x0004b998	_fix_halflong	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003bac0	0x0004bac0	_rew_inreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003bb44	0x0004bb44	_spill_look	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003bbac	0x0004bbac	_spill_track	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003bbf4	0x0004bbf4	_spill_untrack	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003bc7c	0x0004bc7c	_clear_effaddr	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003bd10	0x0004bd10	_spill_reg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003bd3c	0x0004bd3c	_do_spill	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003be24	0x0004be24	_clr_except	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003c0ec	0x0004c0ec	_regisin	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003c170	0x0004c170	_spilllist	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003c280	0x0004c280	_loadargs	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003c784	0x0004c784	_InitGlobCSEReg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003c7bc	0x0004c7bc	_SetGlobCSEReg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003c930	0x0004c930	_IsGlobCSEReg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003c9c8	0x0004c9c8	_FinishGlobCSEInit	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003ca0c	0x0004ca0c	_chkmap	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003ca68	0x0004ca68	_mch	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003ca9c	0x0004ca9c	_printreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003cbc0	0x0004cbc0	_mypreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003cc2c	0x0004cc2c	_pruse	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003cd6c	0x0004cd6c	_dumpreg	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003ce5c	0x0004ce5c	_prhashtab	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003ceb8	0x0004ceb8	_prhist	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003cf2c	0x0004cf2c	_propndi	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003d0d0	0x0004d0d0	_propnd	external	compiler_contribution_021 [_rematch, _findhashnode, _inshashnode...]	c:\c6\\cmerge\
+0x0003d0f0	0x0004d0f0	_FltChr	external	compiler_contribution_022 [_FltChr, _FltSize, _maclook...]	c:\c6\\cmerge\
+0x0003d13c	0x0004d13c	_FltSize	external	compiler_contribution_022 [_FltChr, _FltSize, _maclook...]	c:\c6\\cmerge\
+0x0003d184	0x0004d184	_maclook	external	compiler_contribution_022 [_FltChr, _FltSize, _maclook...]	c:\c6\\cmerge\
+0x0003d1bc	0x0004d1bc	_condlook	external	compiler_contribution_022 [_FltChr, _FltSize, _maclook...]	c:\c6\\cmerge\
+0x0003d1e4	0x0004d1e4	_mactext	external	compiler_contribution_022 [_FltChr, _FltSize, _maclook...]	c:\c6\\cmerge\
+0x0003d224	0x0004d224	_libname	external	compiler_contribution_022 [_FltChr, _FltSize, _maclook...]	c:\c6\\cmerge\
+0x0003d2e8	0x0004d2e8	_opcall	external	compiler_contribution_022 [_FltChr, _FltSize, _maclook...]	c:\c6\\cmerge\
+0x0003d57c	0x0004d57c	_fop	external	compiler_contribution_022 [_FltChr, _FltSize, _maclook...]	c:\c6\\cmerge\
+0x0003d5e0	0x0004d5e0	_cseopt	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003d66c	0x0004d66c	_csecheck	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003d950	0x0004d950	_csech0	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003d9b4	0x0004d9b4	_csech1	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003db0c	0x0004db0c	_csech2	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003dcf8	0x0004dcf8	_loc_hash	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003dd74	0x0004dd74	_put_mark	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003debc	0x0004debc	_update_lastuses	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003dfa0	0x0004dfa0	_rstores	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e18c	0x0004e18c	_extr_val	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e1d0	0x0004e1d0	_extr_gval	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e218	0x0004e218	_rst_find	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e244	0x0004e244	_csekill	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e3c4	0x0004e3c4	_cse_dkill	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e4bc	0x0004e4bc	_dag_mark	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e638	0x0004e638	_hash_find	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e730	0x0004e730	_hash_insert	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e8a4	0x0004e8a4	_syn_find	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003e984	0x0004e984	_asyn_find	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ea00	0x0004ea00	_cse_interference	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ec10	0x0004ec10	_is_sym_global	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ec70	0x0004ec70	_is_global	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ec98	0x0004ec98	_safe_local	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ecd4	0x0004ecd4	_unsafe_var	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ecfc	0x0004ecfc	_makeextract	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ed38	0x0004ed38	_upd_mark	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ed60	0x0004ed60	_ins_mark	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ed80	0x0004ed80	_update_flow	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ee20	0x0004ee20	_find_par	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ee8c	0x0004ee8c	_csedump	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003eed4	0x0004eed4	_valdump	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003ef24	0x0004ef24	_csebvc	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003eff8	0x0004eff8	_loc_attrib	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f08c	0x0004f08c	_glob_hash	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f324	0x0004f324	_smartdup	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f3e0	0x0004f3e0	_clear_glob_hash	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f410	0x0004f410	_build_ghash	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f428	0x0004f428	_build_ghash1	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f548	0x0004f548	_gkillmsk	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f60c	0x0004f60c	_killamask	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f6d4	0x0004f6d4	_extr_extr_mask	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f744	0x0004f744	_is_altered	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f784	0x0004f784	_hybvalmatch	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f7e4	0x0004f7e4	_nmduptree	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f85c	0x0004f85c	_mduptree	external	compiler_contribution_023 [_cseopt, _csecheck, _csech0...]	c:\c6\\cmerge\
+0x0003f8d0	0x0004f8d0	_dumpstr	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x0003f9cc	0x0004f9cc	_pr_cc	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x0003fa14	0x0004fa14	_pr_s	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x0003fa2c	0x0004fa2c	_ov_check	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x0003fbcc	0x0004fbcc	_ov_call	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x0003fc50	0x0004fc50	_emit_ov_call	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x0003fc98	0x0004fc98	_emit_check	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x0003fda8	0x0004fda8	_opnd_check	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x0003ffb8	0x0004ffb8	_reginopnd	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040044	0x00050044	_cc_su	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040084	0x00050084	_cc_tst	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x000400d8	0x000500d8	_cc_unsign	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040124	0x00050124	_addeq	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040164	0x00050164	_noeq	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x000401a4	0x000501a4	_is_branch	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x000401d0	0x000501d0	_hi_low	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x000404d0	0x000504d0	_hireg	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040580	0x00050580	_bininst	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x000405e0	0x000505e0	_genmov	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x000406d0	0x000506d0	_si_di_setup	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040adc	0x00050adc	_increg	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040b00	0x00050b00	_strcopy	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040c8c	0x00050c8c	_inc_and_mov	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040cec	0x00050cec	_restore_ds	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040d18	0x00050d18	_setcx	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040d88	0x00050d88	_gen_movs	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040e30	0x00050e30	_set_seg	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00040f48	0x00050f48	_put_lea	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00041040	0x00051040	_pupo	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00041074	0x00051074	_noexpand	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x0004108c	0x0005108c	_getlr	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x00041120	0x00051120	_patchname	external	compiler_contribution_024 [_dumpstr, _pr_cc, _pr_s...]	c:\c6\\cmerge\
+0x000411c0	0x000511c0	_pril	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x000411d0	0x000511d0	_pri	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x000411ec	0x000511ec	_xpril	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041270	0x00051270	_printnode	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041b18	0x00051b18	_prtl	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041b40	0x00051b40	_prtls	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041b80	0x00051b80	_prbl	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041bbc	0x00051bbc	_prblinfo	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041ca8	0x00051ca8	_prbl1s	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041cc8	0x00051cc8	_prilblk	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041cf0	0x00051cf0	_dbgprint	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041d20	0x00051d20	_dbgprint_internal	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041d8c	0x00051d8c	_scr	external	compiler_contribution_025 [_pril, _pri, _xpril...]	c:\c6\\cmerge\
+0x00041e90	0x00051e90	_is_predefined	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00041eb4	0x00051eb4	_SetNearFarFrame	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00041f08	0x00051f08	_getsym	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00042d04	0x00052d04	_initsym	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00042d2c	0x00052d2c	_init0sym	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00042d54	0x00052d54	_symadd	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00042da0	0x00052da0	_freesym	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00042e00	0x00052e00	_write_symtab	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00042e3c	0x00052e3c	_debugsyms	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00042ef8	0x00052ef8	_param_recurse	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00042f34	0x00052f34	_symlook	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00042fa0	0x00052fa0	_prssr	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x0004329c	0x0005329c	_prsymtab	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x0004333c	0x0005333c	_newlabel	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x0004339c	0x0005339c	_newname	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00043478	0x00053478	_newdummy	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00043490	0x00053490	_getsmem	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x000434ac	0x000534ac	_endp2	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x000434bc	0x000534bc	_ProcessInitBlock	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x000434f0	0x000534f0	_alloc_init_syms	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x000435cc	0x000535cc	_getvalues	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00043814	0x00053814	_helpsym	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x000439c0	0x000539c0	_chkplmnf	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00043a2c	0x00053a2c	_ail_locsym	external	compiler_contribution_027 [_is_predefined, _SetNearFarFrame, _getsym...]	c:\c6\\cmerge\
+0x00043cc0	0x00053cc0	_pool_init	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00043cc4	0x00053cc4	_getmem	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00043dfc	0x00053dfc	_sgetmem	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00043e98	0x00053e98	_pool_malloc	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00043ed8	0x00053ed8	_freemem	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00043f54	0x00053f54	_freelst	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00043f90	0x00053f90	_palloc	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00043fc8	0x00053fc8	_pstrdup	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00043ff8	0x00053ff8	_cpybuf	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00044020	0x00054020	_memstats	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00044074	0x00054074	_mem_print	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x000440f0	0x000540f0	_poolcount	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00044108	0x00054108	_mem_check	external	compiler_contribution_029 [_pool_init, _getmem, _sgetmem...]	c:\c6\\cmerge\
+0x00044230	0x00054230	_gencode	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00044280	0x00054280	_genlink	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x000444e4	0x000544e4	_generate	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00044d3c	0x00054d3c	_rereg	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00044ef0	0x00054ef0	_rerc	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00044f80	0x00054f80	_reext	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00045088	0x00055088	_findchild	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00045160	0x00055160	_findparent	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00045184	0x00055184	_child	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00045254	0x00055254	_parent	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x0004528c	0x0005528c	_split_mark	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x000452d0	0x000552d0	_numargs	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x0004531c	0x0005531c	_refsleft	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00045368	0x00055368	_foldreg	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x00045418	0x00055418	_indent	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x0004543c	0x0005543c	_prpnode	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x0004552c	0x0005552c	_genln	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x000455ac	0x000555ac	_is_genln	external	compiler_contribution_030 [_gencode, _genlink, _generate...]	c:\c6\\cmerge\
+0x000455f0	0x000555f0	_preg	external	compiler_contribution_032 [_preg]	c:\c6\\cmerge\
+0x000456d0	0x000556d0	_dumpn	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x00045724	0x00055724	_setc	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x00045734	0x00055734	_perr	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x00045788	0x00055788	_setflags	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x0004583c	0x0005583c	_addflag	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x00045850	0x00055850	_conexec	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x00045870	0x00055870	_ifdb	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x00045880	0x00055880	_PANIC	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x000458d8	0x000558d8	_assertloop	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x000458fc	0x000558fc	_assert	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x00045934	0x00055934	_assertm	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x00045970	0x00055970	_expect	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x000459a0	0x000559a0	_prof_start	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x000459a4	0x000559a4	_prof_end	external	compiler_contribution_033 [_dumpn, _setc, _perr...]	c:\c6\\cmerge\
+0x000459b0	0x000559b0	_codegen	external	compiler_contribution_034 [_codegen, _tokpush, _tokinit...]	c:\c6\\cmerge\
+0x00045fec	0x00055fec	_tokpush	external	compiler_contribution_034 [_codegen, _tokpush, _tokinit...]	c:\c6\\cmerge\
+0x0004602c	0x0005602c	_tokinit	external	compiler_contribution_034 [_codegen, _tokpush, _tokinit...]	c:\c6\\cmerge\
+0x00046038	0x00056038	_xxdump	external	compiler_contribution_034 [_codegen, _tokpush, _tokinit...]	c:\c6\\cmerge\
+0x000460a8	0x000560a8	_get_index	external	compiler_contribution_034 [_codegen, _tokpush, _tokinit...]	c:\c6\\cmerge\
+0x00046108	0x00056108	_ppop	external	compiler_contribution_034 [_codegen, _tokpush, _tokinit...]	c:\c6\\cmerge\
+0x00046160	0x00056160	_constrmatch	external	codegen.c	codegen.c
+0x000462f8	0x000562f8	_addr_spill	external	codegen.c	codegen.c
+0x00046408	0x00056408	_which_reg	external	codegen.c	codegen.c
+0x000464b4	0x000564b4	_half_const	external	codegen.c	codegen.c
+0x00046590	0x00056590	_oktomultipush	external	codegen.c	codegen.c
+0x000465ac	0x000565ac	_regtocnstr	external	codegen.c	codegen.c
+0x00046654	0x00056654	_worth_tworeg	external	codegen.c	codegen.c
+0x000466d4	0x000566d4	_worthit	external	codegen.c	codegen.c
+0x00046788	0x00056788	_doescc	external	codegen.c	codegen.c
+0x000467d8	0x000567d8	_xxcondition	external	codegen.c	codegen.c
+0x000495c0	0x000595c0	_xxaction	external	codegen.c	codegen.c
+0x00049de0	0x00059de0	_chread	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x00049e08	0x00059e08	_keyread	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x00049e74	0x00059e74	_shread	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x00049f18	0x00059f18	_loread	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a014	0x0005a014	_flread	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a034	0x0005a034	_doread	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a068	0x0005a068	_rtread	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a09c	0x0005a09c	_zsread	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a0f8	0x0005a0f8	_lsread	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a164	0x0005a164	_lsignore	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a1b0	0x0005a1b0	_buff_check	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a1c4	0x0005a1c4	_il_file	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a254	0x0005a254	_werr	external	compiler_contribution_037 [_chread, _keyread, _shread...]	c:\c6\\cmerge\
+0x0004a2b0	0x0005a2b0	_matchtree	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a2f8	0x0005a2f8	_matchtreetypeless	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a320	0x0005a320	_mtchtree	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a6d0	0x0005a6d0	_findtree	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a6e8	0x0005a6e8	_findtree_internal	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a78c	0x0005a78c	_lmatchesr	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a7c0	0x0005a7c0	_eqmap	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a828	0x0005a828	_constant	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a83c	0x0005a83c	_datalength	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a8ec	0x0005a8ec	_duptree	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a970	0x0005a970	_init_tmphead	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a97c	0x0005a97c	_maketemp	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a9b8	0x0005a9b8	_treetemp	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004a9d8	0x0005a9d8	_treesymtemp	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004aa2c	0x0005aa2c	_get_temp	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004aab8	0x0005aab8	_free_temps	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004ab2c	0x0005ab2c	_reuse_temps	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004ab64	0x0005ab64	_is_local	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004aba0	0x0005aba0	_eatmark	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004abb0	0x0005abb0	_ispure	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004abd8	0x0005abd8	_ispure_nogsrc	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004abfc	0x0005abfc	_purewart	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004ac64	0x0005ac64	_makelabel	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004ac98	0x0005ac98	_noeffect	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004acf4	0x0005acf4	_noeffect_hoist	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004ad0c	0x0005ad0c	_noeffect_tree	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004addc	0x0005addc	_noeffect_optimize	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004af34	0x0005af34	_fruitless	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004b0f0	0x0005b0f0	_ovsum	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004b134	0x0005b134	_typer	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004b138	0x0005b138	_bitextract	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004b238	0x0005b238	_bitassign	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004b308	0x0005b308	_prtemps	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004b340	0x0005b340	_makelist	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004b794	0x0005b794	_findnode	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004b7f8	0x0005b7f8	_skipcvtmark	external	compiler_contribution_039 [_matchtree, _matchtreetypeless, _mtchtree...]	c:\c6\\cmerge\
+0x0004b820	0x0005b820	_canon_except	external	compiler_contribution_040 [_canon_except, _canon_except_bu, _resetsp...]	c:\c6\\cmerge\
+0x0004c32c	0x0005c32c	_canon_except_bu	external	compiler_contribution_040 [_canon_except, _canon_except_bu, _resetsp...]	c:\c6\\cmerge\
+0x0004c3b0	0x0005c3b0	_resetsp	external	compiler_contribution_040 [_canon_except, _canon_except_bu, _resetsp...]	c:\c6\\cmerge\
+0x0004c414	0x0005c414	_savesp	external	compiler_contribution_040 [_canon_except, _canon_except_bu, _resetsp...]	c:\c6\\cmerge\
+0x0004c468	0x0005c468	_allocsavesp	external	compiler_contribution_040 [_canon_except, _canon_except_bu, _resetsp...]	c:\c6\\cmerge\
+0x0004c48c	0x0005c48c	_unwindcall	external	compiler_contribution_040 [_canon_except, _canon_except_bu, _resetsp...]	c:\c6\\cmerge\
+0x0004c530	0x0005c530	_error	external	compiler_contribution_041 [_error, _fatal, _warning...]	c:\c6\\cmerge\
+0x0004c57c	0x0005c57c	_fatal	external	compiler_contribution_041 [_error, _fatal, _warning...]	c:\c6\\cmerge\
+0x0004c5c8	0x0005c5c8	_warning	external	compiler_contribution_041 [_error, _fatal, _warning...]	c:\c6\\cmerge\
+0x0004c624	0x0005c624	_message	external	compiler_contribution_041 [_error, _fatal, _warning...]	c:\c6\\cmerge\
+0x0004c7d4	0x0005c7d4	_print	external	compiler_contribution_041 [_error, _fatal, _warning...]	c:\c6\\cmerge\
+0x0004c81c	0x0005c81c	_format	external	compiler_contribution_041 [_error, _fatal, _warning...]	c:\c6\\cmerge\
+0x0004c834	0x0005c834	_do_format	external	compiler_contribution_041 [_error, _fatal, _warning...]	c:\c6\\cmerge\
+0x0004c90c	0x0005c90c	_close_all	external	compiler_contribution_041 [_error, _fatal, _warning...]	c:\c6\\cmerge\
+0x0004c950	0x0005c950	_chwrite	external	compiler_contribution_042 [_chwrite, _shwrite, _keywrite...]	c:\c6\\cmerge\
+0x0004c988	0x0005c988	_shwrite	external	compiler_contribution_042 [_chwrite, _shwrite, _keywrite...]	c:\c6\\cmerge\
+0x0004ca70	0x0005ca70	_keywrite	external	compiler_contribution_042 [_chwrite, _shwrite, _keywrite...]	c:\c6\\cmerge\
+0x0004cae0	0x0005cae0	_lowrite	external	compiler_contribution_042 [_chwrite, _shwrite, _keywrite...]	c:\c6\\cmerge\
+0x0004cc34	0x0005cc34	_flwrite	external	compiler_contribution_042 [_chwrite, _shwrite, _keywrite...]	c:\c6\\cmerge\
+0x0004cc4c	0x0005cc4c	_dowrite	external	compiler_contribution_042 [_chwrite, _shwrite, _keywrite...]	c:\c6\\cmerge\
+0x0004cc64	0x0005cc64	_rtwrite	external	compiler_contribution_042 [_chwrite, _shwrite, _keywrite...]	c:\c6\\cmerge\
+0x0004cc7c	0x0005cc7c	_zswrite	external	compiler_contribution_042 [_chwrite, _shwrite, _keywrite...]	c:\c6\\cmerge\
+0x0004cc9c	0x0005cc9c	_lswrite	external	compiler_contribution_042 [_chwrite, _shwrite, _keywrite...]	c:\c6\\cmerge\
+0x0004ccd0	0x0005ccd0	__chkstk	external	i386\chkstk.asm	i386\chkstk.asm
+0x0004cd00	0x0005cd00	__close	external	D:\nt\private\crt32st\lowio\close.c	D:\nt\private\crt32st\lowio\close.c
+0x0004cd80	0x0005cd80	_CloseHandle	external		
+0x0004cd86	0x0005cd86	_GetLastError	external		
+0x0004cd8c	0x0005cd8c	__status87	external	D:\nt\private\fp32st\tran\i386\ieee87.c	D:\nt\private\fp32st\tran\i386\ieee87.c
+0x0004cd9c	0x0005cd9c	__clear87	external	D:\nt\private\fp32st\tran\i386\ieee87.c	D:\nt\private\fp32st\tran\i386\ieee87.c
+0x0004cdb0	0x0005cdb0	__control87	external	D:\nt\private\fp32st\tran\i386\ieee87.c	D:\nt\private\fp32st\tran\i386\ieee87.c
+0x0004cdec	0x0005cdec	__cinit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x0004cecc	0x0005cecc	_exit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x0004cee0	0x0005cee0	__exit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x0004cef4	0x0005cef4	__cexit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x0004cf04	0x0005cf04	__c_exit	external	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x0004cf14	0x0005cf14	doexit	static	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x0004cf80	0x0005cf80	_doinitterm	static	D:\nt\private\crt32st\startup\crt0dat.c	D:\nt\private\crt32st\startup\crt0dat.c
+0x0004cfac	0x0005cfac	_ExitProcess	external		
+0x0004cfb2	0x0005cfb2	_GetFileType	external		
+0x0004cfb8	0x0005cfb8	_GetStdHandle	external		
+0x0004cfbe	0x0005cfbe	__dosmaperr	external	D:\nt\private\crt32st\dos\dosmap.c	D:\nt\private\crt32st\dos\dosmap.c
+0x0004d03e	0x0005d03e	__except_handler	external	i386\crtexcpt.asm	i386\crtexcpt.asm
+0x0004d0a0	0x0005d0a0	__global_unwind	external	i386\crtexcpt.asm	i386\crtexcpt.asm
+0x0004d0a0	0x0005d0a0	__local_unwind	external	i386\crtexcpt.asm	i386\crtexcpt.asm
+0x0004d0be	0x0005d0be	_DbgPrint	external		
+0x0004d0c4	0x0005d0c4	_RtlUnwind	external		
+0x0004d0ca	0x0005d0ca	__filbuf	external	D:\nt\private\crt32st\stdio\_filbuf.c	D:\nt\private\crt32st\stdio\_filbuf.c
+0x0004d17a	0x0005d17a	__flsbuf	external	D:\nt\private\crt32st\stdio\_flsbuf.c	D:\nt\private\crt32st\stdio\_flsbuf.c
+0x0004d2aa	0x0005d2aa	__fpmath	external	D:\nt\private\fp32st\conv\fpinit.c	D:\nt\private\fp32st\conv\fpinit.c
+0x0004d2b2	0x0005d2b2	__fpclear	external	D:\nt\private\fp32st\conv\fpinit.c	D:\nt\private\fp32st\conv\fpinit.c
+0x0004d2b6	0x0005d2b6	__cfltcvt_init	external	D:\nt\private\fp32st\conv\fpinit.c	D:\nt\private\fp32st\conv\fpinit.c
+0x0004d2ea	0x0005d2ea	__forcdecpt	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d35e	0x0005d35e	__cropzeros	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d3ce	0x0005d3ce	__positive	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d3ee	0x0005d3ee	__fassign	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d432	0x0005d432	__cftoe	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d58e	0x0005d58e	_cftoe_g	static	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d5b6	0x0005d5b6	__cftof	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d6e2	0x0005d6e2	_cftof_g	static	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d706	0x0005d706	__cftog	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d7c6	0x0005d7c6	__cfltcvt	external	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d816	0x0005d816	_shift	static	D:\nt\private\fp32st\conv\cvt.c	D:\nt\private\fp32st\conv\cvt.c
+0x0004d84a	0x0005d84a	__atold	external	D:\nt\private\fp32st\conv\i386\atold.c	D:\nt\private\fp32st\conv\i386\atold.c
+0x0004d87a	0x0005d87a	___STRINGTOLD	external	D:\nt\private\fp32st\conv\strgtold.c	D:\nt\private\fp32st\conv\strgtold.c
+0x0004de3a	0x0005de3a	___addl	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x0004de86	0x0005de86	___add_12	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x0004df06	0x0005df06	___shl_12	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x0004df56	0x0005df56	___shr_12	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x0004dfb2	0x0005dfb2	___mtold12	external	D:\nt\private\fp32st\conv\mantold.c	D:\nt\private\fp32st\conv\mantold.c
+0x0004e0ba	0x0005e0ba	___ld12mul	external	D:\nt\private\fp32st\conv\tenpow.c	D:\nt\private\fp32st\conv\tenpow.c
+0x0004e326	0x0005e326	___multtenpow12	external	D:\nt\private\fp32st\conv\tenpow.c	D:\nt\private\fp32st\conv\tenpow.c
+0x0004e3aa	0x0005e3aa	__fltout	external	D:\nt\private\fp32st\conv\cfout.c	D:\nt\private\fp32st\conv\cfout.c
+0x0004e41a	0x0005e41a	_$I10_OUTPUT	external	D:\nt\private\fp32st\conv\x10fout.c	D:\nt\private\fp32st\conv\x10fout.c
+0x0004e7ca	0x0005e7ca	___dtold	external	D:\nt\private\fp32st\conv\ldtod.c	D:\nt\private\fp32st\conv\ldtod.c
+0x0004e8d6	0x0005e8d6	___ldtod	external	D:\nt\private\fp32st\conv\ldtod.c	D:\nt\private\fp32st\conv\ldtod.c
+0x0004ea3a	0x0005ea3a	__fptostr	external	D:\nt\private\crt32st\convert\_fptostr.c	D:\nt\private\crt32st\convert\_fptostr.c
+0x0004eaca	0x0005eaca	__fptrap	external	D:\nt\private\crt32st\startup\crt0fp.c	D:\nt\private\crt32st\startup\crt0fp.c
+0x0004eada	0x0005eada	_mainCRTStartup	external	D:\nt\private\crt32st\startup\crt0.c	D:\nt\private\crt32st\startup\crt0.c
+0x0004ebfe	0x0005ebfe	inherit	static	D:\nt\private\crt32st\startup\crt0.c	D:\nt\private\crt32st\startup\crt0.c
+0x0004ec66	0x0005ec66	__amsg_exit	external	D:\nt\private\crt32st\startup\crt0.c	D:\nt\private\crt32st\startup\crt0.c
+0x0004ec8a	0x0005ec8a	_GetCommandLineA	external		
+0x0004ec90	0x0005ec90	_GetEnvironmentStrings	external		
+0x0004ec96	0x0005ec96	_GetStartupInfoA	external		
+0x0004ec9c	0x0005ec9c	_GetVersion	external		
+0x0004eca2	0x0005eca2	_UnhandledExceptionFilter	external		
+0x0004eca8	0x0005eca8	__FF_MSGBANNER	external	D:\nt\private\crt32st\startup\crt0msg.c	D:\nt\private\crt32st\startup\crt0msg.c
+0x0004ecd4	0x0005ecd4	__NMSG_WRITE	external	D:\nt\private\crt32st\startup\crt0msg.c	D:\nt\private\crt32st\startup\crt0msg.c
+0x0004ed48	0x0005ed48	_WriteFile	external		
+0x0004ed4e	0x0005ed4e	__alloc_osfhnd	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x0004ed8e	0x0005ed8e	__set_osfhnd	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x0004ee0a	0x0005ee0a	__free_osfhnd	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x0004ee8e	0x0005ee8e	__get_osfhandle	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x0004eeca	0x0005eeca	__open_osfhandle	external	D:\nt\private\crt32st\lowio\osfinfo.c	D:\nt\private\crt32st\lowio\osfinfo.c
+0x0004ef6e	0x0005ef6e	_SetStdHandle	external		
+0x0004ef74	0x0005ef74	__getbuf	external	D:\nt\private\crt32st\stdio\_getbuf.c	D:\nt\private\crt32st\stdio\_getbuf.c
+0x0004efc4	0x0005efc4	_fflush	external	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x0004f010	0x0005f010	__flush	external	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x0004f084	0x0005f084	__flushall	external	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x0004f090	0x0005f090	flsall	static	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x0004f10c	0x0005f10c	__endstdio	external	D:\nt\private\crt32st\stdio\fflush.c	D:\nt\private\crt32st\stdio\fflush.c
+0x0004f124	0x0005f124	__commit	external	D:\nt\private\crt32st\lowio\commit.c	D:\nt\private\crt32st\lowio\commit.c
+0x0004f194	0x0005f194	_FlushFileBuffers	external		
+0x0004f19a	0x0005f19a	__fcloseall	external	D:\nt\private\crt32st\stdio\closeall.c	D:\nt\private\crt32st\stdio\closeall.c
+0x0004f1ca	0x0005f1ca	__heap_init	external	D:\nt\private\crt32st\heap\heapinit.c	D:\nt\private\crt32st\heap\heapinit.c
+0x0004f1de	0x0005f1de	__heap_grow_emptylist	external	D:\nt\private\crt32st\heap\heapinit.c	D:\nt\private\crt32st\heap\heapinit.c
+0x0004f22a	0x0005f22a	_VirtualAlloc	external		
+0x0004f230	0x0005f230	__heap_abort	external	D:\nt\private\crt32st\heap\hpabort.c	D:\nt\private\crt32st\heap\hpabort.c
+0x0004f240	0x0005f240	__isatty	external	D:\nt\private\crt32st\lowio\isatty.c	D:\nt\private\crt32st\lowio\isatty.c
+0x0004f270	0x0005f270	__lseek	external	D:\nt\private\crt32st\lowio\lseek.c	D:\nt\private\crt32st\lowio\lseek.c
+0x0004f2f0	0x0005f2f0	_SetFilePointer	external		
+0x0004f2f6	0x0005f2f6	__read	external	D:\nt\private\crt32st\lowio\read.c	D:\nt\private\crt32st\lowio\read.c
+0x0004f536	0x0005f536	_ReadFile	external		
+0x0004f53c	0x0005f53c	__setargv	external	D:\nt\private\crt32st\startup\stdargv.c	D:\nt\private\crt32st\startup\stdargv.c
+0x0004f5e0	0x0005f5e0	parse_cmdline	static	D:\nt\private\crt32st\startup\stdargv.c	D:\nt\private\crt32st\startup\stdargv.c
+0x0004f75c	0x0005f75c	_GetModuleFileNameA	external		
+0x0004f762	0x0005f762	__setenvp	external	D:\nt\private\crt32st\startup\stdenvp.c	D:\nt\private\crt32st\startup\stdenvp.c
+0x0004f872	0x0005f872	__strdup	external	D:\nt\private\crt32st\string\strdup.c	D:\nt\private\crt32st\string\strdup.c
+0x0004f8d2	0x0005f8d2	__strupr	external	D:\nt\private\crt32st\string\strupr.c	D:\nt\private\crt32st\string\strupr.c
+0x0004f902	0x0005f902	__write	external	D:\nt\private\crt32st\lowio\write.c	D:\nt\private\crt32st\lowio\write.c
+0x0004fb02	0x0005fb02	_atof	external	D:\nt\private\crt32st\convert\atof.c	D:\nt\private\crt32st\convert\atof.c
+0x0004fb52	0x0005fb52	__fltin	external	D:\nt\private\fp32st\conv\cfin.c	D:\nt\private\fp32st\conv\cfin.c
+0x0004fc22	0x0005fc22	_atol	external	D:\nt\private\crt32st\convert\atox.c	D:\nt\private\crt32st\convert\atox.c
+0x0004fc9a	0x0005fc9a	_atoi	external	D:\nt\private\crt32st\convert\atox.c	D:\nt\private\crt32st\convert\atox.c
+0x0004fcb2	0x0005fcb2	_tablook	external	compiler_contribution_087 [_tablook, _looktab]	c:\c6\\cmerge\
+0x0004fcd6	0x0005fcd6	_looktab	external	compiler_contribution_087 [_tablook, _looktab]	c:\c6\\cmerge\
+0x0004fd12	0x0005fd12	_loop_opt	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0004fe1a	0x0005fe1a	_only_once	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0004fe5e	0x0005fe5e	_dom	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0004fe76	0x0005fe76	_iter_dom	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0004fe8a	0x0005fe8a	_exit_dom	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0004fef2	0x0005fef2	_is_outer	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0004ff22	0x0005ff22	_tree_dom	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0004ffb6	0x0005ffb6	_jmp_dom	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00050022	0x00060022	_loop_type	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005064e	0x0006064e	_long_lp_cnt	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00050652	0x00060652	_invar_chk	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000506be	0x000606be	_is_invar	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00050736	0x00060736	_invariants	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000509f6	0x000609f6	_inv_tree	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00050bb6	0x00060bb6	_lift_inv	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00050cca	0x00060cca	_find_op	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00050d2a	0x00060d2a	_cheap_invar	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00050d86	0x00060d86	_induc_chk	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00050ee6	0x00060ee6	_only_assign	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00050fae	0x00060fae	_addinduc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005104a	0x0006104a	_freeinduc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000510aa	0x000610aa	_addreduc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000511ca	0x000611ca	_is_induc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00051206	0x00061206	_is_vinduc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005125a	0x0006125a	_strn_reduce	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000514da	0x000614da	_find_reduc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005178e	0x0006178e	_do_reduc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00051d52	0x00061d52	_reduc_filter	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00051d86	0x00061d86	_namediff	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00051ed6	0x00061ed6	_make_addop	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00051efa	0x00061efa	_can_fold_induc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005204e	0x0006204e	_addinind	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000520de	0x000620de	_makeloopcnt	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000521a2	0x000621a2	_blkmove	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005247a	0x0006247a	_bm_induc_expr	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000525ea	0x000625ea	_chk_depend	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005273a	0x0006273a	_rminduc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005288a	0x0006288a	_dead_on_exit	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005293a	0x0006293a	_incr_val	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005298a	0x0006298a	_ind_remove	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00052ace	0x00062ace	_lftr	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00052cca	0x00062cca	_upper_bnd_ok	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00052dc2	0x00062dc2	_cvt_to_lcnt	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00052f7e	0x00062f7e	_dead_loop	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005306a	0x0006306a	_loop_remove	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000530fa	0x000630fa	_remove_blk	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000531a2	0x000631a2	_remove_blk_flow	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053242	0x00063242	_loop_cleanup	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053342	0x00063342	_header_cse	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000536d6	0x000636d6	_undagify	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005372a	0x0006372a	_undag1	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005384a	0x0006384a	_head_cprop	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005397a	0x0006397a	_tl_of	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005398e	0x0006398e	_bl_of	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000539d6	0x000639d6	_ghashdump	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053a1e	0x00063a1e	_prghbit	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053a6e	0x00063a6e	_prbbv	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053ace	0x00063ace	_prbdom	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053b0a	0x00063b0a	_prfg	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053b2e	0x00063b2e	_prflow	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053bbe	0x00063bbe	_prinduc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053bfa	0x00063bfa	_inddump	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053c22	0x00063c22	_prreduc	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053c82	0x00063c82	_reddump	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053caa	0x00063caa	_prloop	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053cde	0x00063cde	_bvtally	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053e46	0x00063e46	_global_opt	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00053ef2	0x00063ef2	_grstores	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000540aa	0x000640aa	_gcprop	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000541e6	0x000641e6	_gcse	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005425a	0x0006425a	_gcprop_tr	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005446a	0x0006446a	_gcse1	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005457e	0x0006457e	_gcse2	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054706	0x00064706	_find_cp_srcs	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000547f6	0x000647f6	_find_init	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054872	0x00064872	_last_asg	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000548c2	0x000648c2	_addmark	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000548fa	0x000648fa	_no_mark	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005490a	0x0006490a	_fixbits	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005494e	0x0006494e	_fixbits1	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005496a	0x0006496a	_clear_visited	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x000549de	0x000649de	_fixbits2	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054afe	0x00064afe	_unfixbits	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054b82	0x00064b82	_gh_enter	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054ba2	0x00064ba2	_hgh_enter	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054c72	0x00064c72	_gh_fix	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054c8a	0x00064c8a	_hoist_glob_marks	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054d4a	0x00064d4a	_bits_of	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054db6	0x00064db6	_nmoptimize	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054dda	0x00064dda	_extend_bvs	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054ec2	0x00064ec2	_calc_alt	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054f5e	0x00064f5e	_calc_pant	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054f7e	0x00064f7e	_p_uminus	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054f9a	0x00064f9a	_calc_lpant	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054fba	0x00064fba	_lp_uminus	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054fd6	0x00064fd6	_calc_ss	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00054ff2	0x00064ff2	_ss_uminus	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x0005500e	0x0006500e	_calc_pcomm	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00055146	0x00065146	_calc_av	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00055336	0x00065336	_calc_ant	external	compiler_contribution_088 [_loop_opt, _only_once, _dom...]	c:\c6\\cmerge\
+0x00055492	0x00065492	_children0	external	compiler_contribution_089 [_children0, _children]	c:\c6\\cmerge\
+0x0005553a	0x0006553a	_children	external	compiler_contribution_089 [_children0, _children]	c:\c6\\cmerge\
+0x000555f2	0x000655f2	_init_NDP	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055802	0x00065802	_init_fpcache	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055846	0x00065846	_set_fpreg_tolock	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000558da	0x000658da	_set_fpreg_toclr	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000559da	0x000659da	_find_fp	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055a5e	0x00065a5e	_find_fp_reg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055ad6	0x00065ad6	_kick_NDP	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055c8a	0x00065c8a	_fld_fpreg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055d56	0x00065d56	_fld_regvar	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055e1e	0x00065e1e	_pop_fpreg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055eea	0x00065eea	_commit_fp	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055f1e	0x00065f1e	_clearmap_fp	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055f52	0x00065f52	_reflreg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00055ffa	0x00065ffa	_do_reflreg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000560d6	0x000660d6	_rew_extrmem	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000563ba	0x000663ba	_handle_firstreg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000564ae	0x000664ae	_ffree_map	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00056552	0x00066552	_fxch_map	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00056612	0x00066612	_ndp_level	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005662a	0x0006662a	_patch_fpregs	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005671e	0x0006671e	_hi_fp	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00056762	0x00066762	_next_fp	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000567a6	0x000667a6	_fixdfpreg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000567d6	0x000667d6	_is_fpreg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00056816	0x00066816	_do_fpspill	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000568ce	0x000668ce	_newunl	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005691e	0x0006691e	_freeunl	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00056936	0x00066936	_pushunl	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005694e	0x0006694e	_popunl	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005698a	0x0006698a	_unloadfp	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00056cce	0x00066cce	_reloadfp	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00056e3e	0x00066e3e	_spill_enregd_var	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00056f4a	0x00066f4a	_spill_base	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00056ff2	0x00066ff2	_reload_all_enregd_vars	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000570d6	0x000670d6	_reload_fpregvar	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005720e	0x0006720e	_sort_fpregs	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00057366	0x00067366	_enregd_level	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000573de	0x000673de	_spill_partial	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00057442	0x00067442	_c_fstp	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005748a	0x0006748a	_c_fldt	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000574ba	0x000674ba	_c_fxch	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000574e6	0x000674e6	_c_fdup	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005753e	0x0006753e	_c_fld_reg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005756a	0x0006756a	_c_ffree	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00057596	0x00067596	_c_fldz	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000575ba	0x000675ba	_c_fstp0	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000575de	0x000675de	_c_fst	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00057616	0x00067616	_c_soft_fls	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x00057672	0x00067672	_is_inorder	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000576f2	0x000676f2	_prfpreg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005774e	0x0006774e	_dfpreg	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000577e2	0x000677e2	_drv	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000578be	0x000678be	_sanity_check_fpregs	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x0005796e	0x0006796e	_dunlstack	external	compiler_contribution_090 [_init_NDP, _init_fpcache, _set_fpreg_tolock...]	c:\c6\\cmerge\
+0x000579b2	0x000679b2	_cnstrpush	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x000579ea	0x000679ea	_cnstrpop	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057a16	0x00067a16	_constr	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057a22	0x00067a22	_constrdepth	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057a32	0x00067a32	_constrindex	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057a5a	0x00067a5a	_shorten	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057a82	0x00067a82	_maybereg	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057ade	0x00067ade	_maybeimmed	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057b2e	0x00067b2e	_doesnt_force	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057bea	0x00067bea	_comma_is	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057c0e	0x00067c0e	_needs_ax	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057e32	0x00067e32	_wants_ax	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057eae	0x00067eae	_is_mconst	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057eca	0x00067eca	_notemp	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057eee	0x00067eee	_maybe_half	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057f1a	0x00067f1a	_is_ndreg	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057f3a	0x00067f3a	_is_anyndreg	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00057f92	0x00067f92	_is_ndreg_internal	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x00058082	0x00068082	_colonpush	external	compiler_contribution_091 [_cnstrpush, _cnstrpop, _constr...]	c:\c6\\cmerge\
+0x000580e2	0x000680e2	_convert	external	compiler_contribution_092 [_convert, _coerce, _max_type...]	c:\c6\\cmerge\
+0x0005826e	0x0006826e	_coerce	external	compiler_contribution_092 [_convert, _coerce, _max_type...]	c:\c6\\cmerge\
+0x00058486	0x00068486	_max_type	external	compiler_contribution_092 [_convert, _coerce, _max_type...]	c:\c6\\cmerge\
+0x000585aa	0x000685aa	_remove_longaddr	external	compiler_contribution_092 [_convert, _coerce, _max_type...]	c:\c6\\cmerge\
+0x00058602	0x00068602	_typenode	external	compiler_contribution_092 [_convert, _coerce, _max_type...]	c:\c6\\cmerge\
+0x0005917e	0x0006917e	_typeintrinsicarg	external	compiler_contribution_092 [_convert, _coerce, _max_type...]	c:\c6\\cmerge\
+0x00059352	0x00069352	_reserve_reg	external	compiler_contribution_093 [_reserve_reg, _toocheap, _cheapmode...]	c:\c6\\cmerge\
+0x000593d6	0x000693d6	_toocheap	external	compiler_contribution_093 [_reserve_reg, _toocheap, _cheapmode...]	c:\c6\\cmerge\
+0x00059506	0x00069506	_cheapmode	external	compiler_contribution_093 [_reserve_reg, _toocheap, _cheapmode...]	c:\c6\\cmerge\
+0x0005963a	0x0006963a	_regsize	external	compiler_contribution_093 [_reserve_reg, _toocheap, _cheapmode...]	c:\c6\\cmerge\
+0x00059686	0x00069686	_constrain	external	compiler_contribution_093 [_reserve_reg, _toocheap, _cheapmode...]	c:\c6\\cmerge\
+0x00059a32	0x00069a32	_sucomp	external	compiler_contribution_094 [_sucomp, _order, _ltor...]	c:\c6\\cmerge\
+0x0005a0be	0x0006a0be	_order	external	compiler_contribution_094 [_sucomp, _order, _ltor...]	c:\c6\\cmerge\
+0x0005a0fa	0x0006a0fa	_ltor	external	compiler_contribution_094 [_sucomp, _order, _ltor...]	c:\c6\\cmerge\
+0x0005a12e	0x0006a12e	_rtol	external	compiler_contribution_094 [_sucomp, _order, _ltor...]	c:\c6\\cmerge\
+0x0005a186	0x0006a186	_rtol2	external	compiler_contribution_094 [_sucomp, _order, _ltor...]	c:\c6\\cmerge\
+0x0005a1ea	0x0006a1ea	_cqdef_update	external	compiler_contribution_094 [_sucomp, _order, _ltor...]	c:\c6\\cmerge\
+0x0005a24e	0x0006a24e	_cqref_update	external	compiler_contribution_094 [_sucomp, _order, _ltor...]	c:\c6\\cmerge\
+0x0005a27e	0x0006a27e	_numinregs	external	compiler_contribution_094 [_sucomp, _order, _ltor...]	c:\c6\\cmerge\
+0x0005a36a	0x0006a36a	_sufuncalc	external	compiler_contribution_094 [_sucomp, _order, _ltor...]	c:\c6\\cmerge\
+0x0005a402	0x0006a402	_type_args	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005a4f6	0x0006a4f6	_node_len	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005a53e	0x0006a53e	_new_op	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005a596	0x0006a596	_freeargs	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005a5ca	0x0006a5ca	_find_temp	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005a626	0x0006a626	_build_lentree	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005a65e	0x0006a65e	_attach_len	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005a67a	0x0006a67a	_do_intrinsic	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005b766	0x0006b766	_hoist_before_intrinsic	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005b786	0x0006b786	_in_hst	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005b7a6	0x0006b7a6	_in_cc	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005b7c6	0x0006b7c6	_is_icall	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005b7ea	0x0006b7ea	_in_name	external	compiler_contribution_095 [_type_args, _node_len, _new_op...]	c:\c6\\cmerge\
+0x0005b802	0x0006b802	_expandMD	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005ce1e	0x0006ce1e	_mcondMD	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005cf26	0x0006cf26	_leamult	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005d10a	0x0006d10a	_multcon	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005d246	0x0006d246	_multshift	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005d6f2	0x0006d6f2	_lea_or_mov	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005d83a	0x0006d83a	_sbbtrick	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005da46	0x0006da46	_shifttricks	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005da4a	0x0006da4a	_helper_size	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005da76	0x0006da76	_generate_vcall_thunk	external	compiler_contribution_096 [_expandMD, _mcondMD, _leamult...]	c:\c6\\cmerge\
+0x0005db42	0x0006db42	_fclose	external	D:\nt\private\crt32st\stdio\fclose.c	D:\nt\private\crt32st\stdio\fclose.c
+0x0005dc22	0x0006dc22	__freebuf	external	D:\nt\private\crt32st\stdio\_freebuf.c	D:\nt\private\crt32st\stdio\_freebuf.c
+0x0005dc52	0x0006dc52	xtoa	static	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+0x0005dcbe	0x0006dcbe	__itoa	external	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+0x0005dcea	0x0006dcea	__ltoa	external	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+0x0005dd1a	0x0006dd1a	__ultoa	external	D:\nt\private\crt32st\convert\xtoa.c	D:\nt\private\crt32st\convert\xtoa.c
+0x0005dd32	0x0006dd32	_remove	external	D:\nt\private\crt32st\dos\unlink.c	D:\nt\private\crt32st\dos\unlink.c
+0x0005dd6e	0x0006dd6e	__unlink	external	D:\nt\private\crt32st\dos\unlink.c	D:\nt\private\crt32st\dos\unlink.c
+0x0005dd82	0x0006dd82	_DeleteFileA	external		
+0x0005dd88	0x0006dd88	__fsopen	external	D:\nt\private\crt32st\stdio\fopen.c	D:\nt\private\crt32st\stdio\fopen.c
+0x0005dda8	0x0006dda8	_fopen	external	D:\nt\private\crt32st\stdio\fopen.c	D:\nt\private\crt32st\stdio\fopen.c
+0x0005ddc8	0x0006ddc8	__getstream	external	D:\nt\private\crt32st\stdio\stream.c	D:\nt\private\crt32st\stdio\stream.c
+0x0005de08	0x0006de08	__openfile	external	D:\nt\private\crt32st\stdio\_open.c	D:\nt\private\crt32st\stdio\_open.c
+0x0005df38	0x0006df38	__open	external	D:\nt\private\crt32st\lowio\open.c	D:\nt\private\crt32st\lowio\open.c
+0x0005df50	0x0006df50	__sopen	external	D:\nt\private\crt32st\lowio\open.c	D:\nt\private\crt32st\lowio\open.c
+0x0005e248	0x0006e248	_CreateFileA	external		
+0x0005e24e	0x0006e24e	_GetFileAttributesA	external		
+0x0005e254	0x0006e254	_SetEndOfFile	external		
+0x0005e25a	0x0006e25a	__access	external	D:\nt\private\crt32st\dos\access.c	D:\nt\private\crt32st\dos\access.c
+0x0005e2ba	0x0006e2ba	__chsize	external	D:\nt\private\crt32st\lowio\chsize.c	D:\nt\private\crt32st\lowio\chsize.c
+0x0005e40a	0x0006e40a	__setmode	external	D:\nt\private\crt32st\lowio\setmode.c	D:\nt\private\crt32st\lowio\setmode.c
+0x0005e49a	0x0006e49a	_fprintf	external	D:\nt\private\crt32st\stdio\fprintf.c	D:\nt\private\crt32st\stdio\fprintf.c
+0x0005e4da	0x0006e4da	__stbuf	external	D:\nt\private\crt32st\stdio\_sftbuf.c	D:\nt\private\crt32st\stdio\_sftbuf.c
+0x0005e572	0x0006e572	__ftbuf	external	D:\nt\private\crt32st\stdio\_sftbuf.c	D:\nt\private\crt32st\stdio\_sftbuf.c
+0x0005e5ca	0x0006e5ca	__output	external	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0005ed0a	0x0006ed0a	write_char	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0005ed56	0x0006ed56	write_multi_char	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0005ed82	0x0006ed82	write_string	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0005edb2	0x0006edb2	write_wstring	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0005ede6	0x0006ede6	get_int_arg	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0005edf6	0x0006edf6	get_long_arg	static	D:\nt\private\crt32st\stdio\output.c	D:\nt\private\crt32st\stdio\output.c
+0x0005ee0a	0x0006ee0a	_fread	external	D:\nt\private\crt32st\stdio\fread.c	D:\nt\private\crt32st\stdio\fread.c
+0x0005ef2a	0x0006ef2a	_free	external	D:\nt\private\crt32st\heap\free.c	D:\nt\private\crt32st\heap\free.c
+0x0005ef9a	0x0006ef9a	_fseek	external	D:\nt\private\crt32st\stdio\fseek.c	D:\nt\private\crt32st\stdio\fseek.c
+0x0005f02a	0x0006f02a	_ftell	external	D:\nt\private\crt32st\stdio\ftell.c	D:\nt\private\crt32st\stdio\ftell.c
+0x0005f18a	0x0006f18a	_fwrite	external	D:\nt\private\crt32st\stdio\fwrite.c	D:\nt\private\crt32st\stdio\fwrite.c
+0x0005f2da	0x0006f2da	_get_err	external	compiler_contribution_118 [_get_err, _get_msg, _get_message...]	c:\c6\\cmerge\
+0x0005f35a	0x0006f35a	_get_msg	external	compiler_contribution_118 [_get_err, _get_msg, _get_message...]	c:\c6\\cmerge\
+0x0005f3ee	0x0006f3ee	_get_message	external	compiler_contribution_118 [_get_err, _get_msg, _get_message...]	c:\c6\\cmerge\
+0x0005f45a	0x0006f45a	_get_int	external	compiler_contribution_118 [_get_err, _get_msg, _get_message...]	c:\c6\\cmerge\
+0x0005f49a	0x0006f49a	_mark_pos	external	compiler_contribution_118 [_get_err, _get_msg, _get_message...]	c:\c6\\cmerge\
+0x0005f4ee	0x0006f4ee	_nearest	external	compiler_contribution_118 [_get_err, _get_msg, _get_message...]	c:\c6\\cmerge\
+0x0005f56a	0x0006f56a	_fgets	external	D:\nt\private\crt32st\stdio\fgets.c	D:\nt\private\crt32st\stdio\fgets.c
+0x0005f5fa	0x0006f5fa	_getattrib	external	compiler_contribution_120 [_getattrib, _do_type, _p2type]	c:\c6\\cmerge\
+0x0005fbf2	0x0006fbf2	_do_type	external	compiler_contribution_120 [_getattrib, _do_type, _p2type]	c:\c6\\cmerge\
+0x0005fcee	0x0006fcee	_p2type	external	compiler_contribution_120 [_getattrib, _do_type, _p2type]	c:\c6\\cmerge\
+0x0005fdea	0x0006fdea	_getenv	external	D:\nt\private\crt32st\misc\getenv.c	D:\nt\private\crt32st\misc\getenv.c
+0x0005fe6a	0x0006fe6a	_optimize	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0005ff9a	0x0006ff9a	_walk_canon	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00060032	0x00070032	_walk_peeps	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000600b2	0x000700b2	_walk_fact	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00060132	0x00070132	_walk_fixup	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000601c6	0x000701c6	_opt_canon	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0006065a	0x0007065a	_distrib	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000606aa	0x000706aa	_push_invert	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000606fa	0x000706fa	_neg_const	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00060752	0x00070752	_push_convert	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000609a6	0x000709a6	_pop_convert	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00060c02	0x00070c02	_pop_it	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00060cae	0x00070cae	_less_precise	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00060d06	0x00070d06	_in_range	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00060dce	0x00070dce	_opt_vfact	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00060e42	0x00070e42	_fact_var	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00060fe6	0x00070fe6	_fact_vmult	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000612d2	0x000712d2	_fact_vexp	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000613de	0x000713de	_exp_build	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0006143a	0x0007143a	_opt_cfact	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000615be	0x000715be	_fact_const	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000617ce	0x000717ce	_rem_const	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000618ae	0x000718ae	_div_const	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00061936	0x00071936	_fact_split	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000619ee	0x000719ee	_rem_split	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00061ab2	0x00071ab2	_fact_unary	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00061b52	0x00071b52	_fact_xor	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00061c3e	0x00071c3e	_zap_var	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00061c86	0x00071c86	_zap_vwalk	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00061d0a	0x00071d0a	_opt_peeps	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0006298a	0x0007298a	_zap_cwalk	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00062bb2	0x00072bb2	_opt_band	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00062c2a	0x00072c2a	_fold_shift	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00062dea	0x00072dea	_band_val	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00062e36	0x00072e36	_rep_const	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00062e9e	0x00072e9e	_opt_fixup	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000633ca	0x000733ca	_pop_unary	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000633fa	0x000733fa	_pop_binary	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0006345a	0x0007345a	_fold_name	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0006357e	0x0007357e	_local_fold_neg	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x000635a6	0x000735a6	_fold_neg	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063722	0x00073722	_fold_neg_hack	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0006376a	0x0007376a	_nice_neg	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0006389a	0x0007389a	_fold_compl	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063922	0x00073922	_fold_invert	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063a5e	0x00073a5e	_const_sign	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063b0e	0x00073b0e	_is_pos	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063bbe	0x00073bbe	_nop_val	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063c76	0x00073c76	_nop_const	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063c92	0x00073c92	_shrink_val	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063cda	0x00073cda	_int_const	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063d22	0x00073d22	_is_const	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063d8e	0x00073d8e	_new_const	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063db6	0x00073db6	_StoM	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063e16	0x00073e16	_log2	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063e3a	0x00073e3a	_pushU	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063e62	0x00073e62	_pushL	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063e8e	0x00073e8e	_pushR	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063eba	0x00073eba	_pushLR	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063ef6	0x00073ef6	_popL	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063f22	0x00073f22	_popR	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063f4e	0x00073f4e	_popLR	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063f82	0x00073f82	_freeL	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063fce	0x00073fce	_freeR	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x00063ffa	0x00073ffa	_freeS	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0006401e	0x0007401e	_skip1cv	external	compiler_contribution_122 [_optimize, _walk_canon, _walk_peeps...]	c:\c6\\cmerge\
+0x0006405a	0x0007405a	_longjmp	external		
+0x00064060	0x00074060	_malloc	external	D:\nt\private\crt32st\heap\malloc.c	D:\nt\private\crt32st\heap\malloc.c
+0x000640f8	0x000740f8	__heap_split_block	external	D:\nt\private\crt32st\heap\malloc.c	D:\nt\private\crt32st\heap\malloc.c
+0x00064160	0x00074160	__heap_grow	external	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+0x000641d4	0x000741d4	_heap_new_region	static	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+0x00064260	0x00074260	__heap_grow_region	external	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+0x00064334	0x00074334	__heap_free_region	external	D:\nt\private\crt32st\heap\heapgrow.c	D:\nt\private\crt32st\heap\heapgrow.c
+0x00064390	0x00074390	_VirtualFree	external		
+0x00064396	0x00074396	__heapadd	external	D:\nt\private\crt32st\heap\heapadd.c	D:\nt\private\crt32st\heap\heapadd.c
+0x000643c2	0x000743c2	__heap_addblock	external	D:\nt\private\crt32st\heap\heapadd.c	D:\nt\private\crt32st\heap\heapadd.c
+0x00064596	0x00074596	_before	static	D:\nt\private\crt32st\heap\heapadd.c	D:\nt\private\crt32st\heap\heapadd.c
+0x00064636	0x00074636	__heap_findaddr	external	D:\nt\private\crt32st\heap\findaddr.c	D:\nt\private\crt32st\heap\findaddr.c
+0x000646b6	0x000746b6	__heap_search	external	D:\nt\private\crt32st\heap\heapsrch.c	D:\nt\private\crt32st\heap\heapsrch.c
+0x000647d6	0x000747d6	_mem_size	external	compiler_contribution_128 [_mem_size]	c:\c6\\cmerge\
+0x000647e6	0x000747e6	_memchr	external	D:\nt\private\crt32st\string\memchr.c	D:\nt\private\crt32st\string\memchr.c
+0x00064826	0x00074826	_memcpy	external	D:\nt\private\crt32st\string\memcpy.c	D:\nt\private\crt32st\string\memcpy.c
+0x00064856	0x00074856	_memmove	external	D:\nt\private\crt32st\string\memmove.c	D:\nt\private\crt32st\string\memmove.c
+0x000648b6	0x000748b6	_memset	external	D:\nt\private\crt32st\string\memset.c	D:\nt\private\crt32st\string\memset.c
+0x000648e6	0x000748e6	_op_size	external	compiler_contribution_133 [_op_size, _c_size, _ea_size...]	c:\c6\\cmerge\
+0x00064ad6	0x00074ad6	_c_size	external	compiler_contribution_133 [_op_size, _c_size, _ea_size...]	c:\c6\\cmerge\
+0x000654b2	0x000754b2	_ea_size	external	compiler_contribution_133 [_op_size, _c_size, _ea_size...]	c:\c6\\cmerge\
+0x000655ca	0x000755ca	_imm_size	external	compiler_contribution_133 [_op_size, _c_size, _ea_size...]	c:\c6\\cmerge\
+0x000655f2	0x000755f2	_sign_extend	external	compiler_contribution_133 [_op_size, _c_size, _ea_size...]	c:\c6\\cmerge\
+0x00065616	0x00075616	_our_ltoa	external	compiler_contribution_134 [_our_ltoa]	c:\c6\\cmerge\
+0x00065696	0x00075696	_printf	external	D:\nt\private\crt32st\stdio\printf.c	D:\nt\private\crt32st\stdio\printf.c
+0x000656d6	0x000756d6	_sumaxset	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065722	0x00075722	_susumset	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065796	0x00075796	_suconflict	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065852	0x00075852	_suheuristics	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x000658ca	0x000758ca	_sutovect	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065952	0x00075952	_suhoru	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065a86	0x00075a86	_suheld	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065b6a	0x00075b6a	_suuses	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065c4e	0x00075c4e	_sufun	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065c5e	0x00075c5e	_regtosuv	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065d66	0x00075d66	_cnsttovect	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065dbe	0x00075dbe	_suinit	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065df2	0x00075df2	_setavail	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065e4a	0x00075e4a	_prsuvect	external	compiler_contribution_136 [_sumaxset, _susumset, _suconflict...]	c:\c6\\cmerge\
+0x00065ec6	0x00075ec6	_sorttree	external	compiler_contribution_137 [_sorttree, _skipcvt, _compute_complexity...]	c:\c6\\cmerge\
+0x00065fe6	0x00075fe6	_skipcvt	external	compiler_contribution_137 [_sorttree, _skipcvt, _compute_complexity...]	c:\c6\\cmerge\
+0x0006605e	0x0007605e	_compute_complexity	external	compiler_contribution_137 [_sorttree, _skipcvt, _compute_complexity...]	c:\c6\\cmerge\
+0x00066242	0x00076242	_sortassoc	external	compiler_contribution_137 [_sorttree, _skipcvt, _compute_complexity...]	c:\c6\\cmerge\
+0x00066296	0x00076296	_sortcomm	external	compiler_contribution_137 [_sorttree, _skipcvt, _compute_complexity...]	c:\c6\\cmerge\
+0x0006631a	0x0007631a	_sortswap	external	compiler_contribution_137 [_sorttree, _skipcvt, _compute_complexity...]	c:\c6\\cmerge\
+0x0006636a	0x0007636a	_relopposite	external	compiler_contribution_137 [_sorttree, _skipcvt, _compute_complexity...]	c:\c6\\cmerge\
+0x000663b6	0x000763b6	_setbuf	external	D:\nt\private\crt32st\stdio\setbuf.c	D:\nt\private\crt32st\stdio\setbuf.c
+0x000663e6	0x000763e6	_setjmp	external		
+0x000663ec	0x000763ec	_setvbuf	external	D:\nt\private\crt32st\stdio\setvbuf.c	D:\nt\private\crt32st\stdio\setvbuf.c
+0x000664bc	0x000764bc	_sprintf	external	D:\nt\private\crt32st\stdio\sprintf.c	D:\nt\private\crt32st\stdio\sprintf.c
+0x0006652c	0x0007652c	_sscanf	external	D:\nt\private\crt32st\stdio\sscanf.c	D:\nt\private\crt32st\stdio\sscanf.c
+0x0006657c	0x0007657c	__input	external	D:\nt\private\crt32st\stdio\input.c	D:\nt\private\crt32st\stdio\input.c
+0x00066dc0	0x00076dc0	_hextodec	static	D:\nt\private\crt32st\stdio\input.c	D:\nt\private\crt32st\stdio\input.c
+0x00066de0	0x00076de0	_inc	static	D:\nt\private\crt32st\stdio\input.c	D:\nt\private\crt32st\stdio\input.c
+0x00066e00	0x00076e00	_un_inc	static	D:\nt\private\crt32st\stdio\input.c	D:\nt\private\crt32st\stdio\input.c
+0x00066e18	0x00076e18	_whiteout	static	D:\nt\private\crt32st\stdio\input.c	D:\nt\private\crt32st\stdio\input.c
+0x00066e3c	0x00076e3c	_strcat	external	D:\nt\private\crt32st\string\strcat.c	D:\nt\private\crt32st\string\strcat.c
+0x00066e64	0x00076e64	_strcpy	external	D:\nt\private\crt32st\string\strcat.c	D:\nt\private\crt32st\string\strcat.c
+0x00066e8c	0x00076e8c	_strcmp	external	D:\nt\private\crt32st\string\strcmp.c	D:\nt\private\crt32st\string\strcmp.c
+0x00066edc	0x00076edc	_strlen	external	D:\nt\private\crt32st\string\strlen.c	D:\nt\private\crt32st\string\strlen.c
+0x00066efc	0x00076efc	_strncmp	external	D:\nt\private\crt32st\string\strncmp.c	D:\nt\private\crt32st\string\strncmp.c
+0x00066f3c	0x00076f3c	_caseindex	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00066f7c	0x00076f7c	_cnt_cases	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00066fb0	0x00076fb0	_gencase	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00066fdc	0x00076fdc	_emit_label	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00066ffc	0x00076ffc	_linearsearch	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x000670dc	0x000770dc	_jumptable	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00067308	0x00077308	_binsearch	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x000673d4	0x000773d4	_switch_code	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x000676cc	0x000776cc	_switches	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x000677a8	0x000777a8	_num_common	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x000678c0	0x000778c0	_scale_switch	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x0006795c	0x0007795c	_split	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00067a6c	0x00077a6c	_divide	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00067b1c	0x00077b1c	_reattach	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00067b74	0x00077b74	_num_const_diff	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00067bc4	0x00077bc4	_scale_multi_switch	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00067c28	0x00077c28	_determine_scalability	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00067f38	0x00077f38	_tweak_multi_arm	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x0006813c	0x0007813c	_signed_short	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00068150	0x00078150	_order_on_order	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x00068214	0x00078214	_reorder	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x000682c0	0x000782c0	_collect_cases	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x000683b4	0x000783b4	_show	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x000683f4	0x000783f4	_card	external	compiler_contribution_147 [_caseindex, _cnt_cases, _gencase...]	c:\c6\\cmerge\
+0x0006842c	0x0007842c	_emit_jmp	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x0006844c	0x0007844c	_emit_jumptable	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x0006865c	0x0007865c	_emit_bcc	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x000686d0	0x000786d0	_emit_div	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x00068904	0x00078904	_emit_sub	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x00068a20	0x00078a20	_emit_cmp	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x00068ab0	0x00078ab0	_emit_push	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x00068acc	0x00078acc	_emit_pop	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x00068ae8	0x00078ae8	_emit_shift	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x00068df0	0x00078df0	_init_reg_cond	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x00068e30	0x00078e30	_switch_use_reg	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x00068fbc	0x00078fbc	_switch_free_reg	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x00069118	0x00079118	_switch_choose_reg	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x000691b8	0x000791b8	_adjust_reg	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x0006930c	0x0007930c	_emit_mask	external	compiler_contribution_148 [_emit_jmp, _emit_jumptable, _emit_bcc...]	c:\c6\\cmerge\
+0x000693bc	0x000793bc	_ungetc	external	D:\nt\private\crt32st\stdio\ungetc.c	D:\nt\private\crt32st\stdio\ungetc.c
+0x0006942c	0x0007942c	_vprintf	external	D:\nt\private\crt32st\stdio\vprintf.c	D:\nt\private\crt32st\stdio\vprintf.c
