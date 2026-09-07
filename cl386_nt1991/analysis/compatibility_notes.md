@@ -20,10 +20,14 @@ The old exception helper calls `RtlUnwind` with three arguments. The modern rout
 
 ## What CL386-WIN32.EXE changes
 
+- expands the shortened 0xA8/9-directory prototype optional header to canonical PE32 0xE0/16-directory form;
+- preserves the historical `0x00010000` ImageBase;
 - converts old section `PhysicalAddress` semantics to modern `VirtualSize`;
 - represents `.bss` as virtual-only data;
-- converts 2,184 old type-3 relocations into 12 standard HIGHLOW page blocks;
+- converts 2,184 old type-3 relocations into 12 standard HIGHLOW page blocks while preserving the original `.reloc` mapped extent;
 - redirects both old DLL descriptors to `CL386COMPAT.DLL`;
 - leaves imported function names, compiler code, COFF symbols, line records, and debug payload intact.
 
-The converted EXE and DLL both parse as ordinary PE32/i386 with GNU PE tooling. They have **not been executed on a Windows host in this environment**, so this is a structurally validated compatibility build rather than a claim of completed runtime testing. The remaining external runtime dependency is the compiler pass/tool set (`c1_386.exe`, `c2_386.exe`, `c3_386.exe`, linker/assembler as selected by the driver).
+The corrected EXE and DLL parse as ordinary PE32/i386 and are **runtime-validated on 64-bit Windows 10 build 19045.6466**. CL386 and the corrected C1/C2/C3 passes successfully compiled the multi-file `phoon` program.
+
+The native-Windows test also exposed a converter bug in the pass executables: compacting relocation data had incorrectly shrunk `.reloc` VirtualSize and introduced 64-KB RVA holes. Wine accepted those images while Windows rejected them at `CreateProcess` with error 5. CL386 did not fail only because its relocation section remained inside one alignment unit. `tools/modernize_pe.py` now preserves the original relocation mapped extent and asserts section adjacency for consistency. See `windows10_loader_validation.md`.

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Convert the Dec-1991 transitional PE used by CL386 to a modern-loadable PE32.
 
-This does NOT rewrite compiler code. It normalizes old PE/COFF section and base
-relocation metadata and redirects the two imported system DLL descriptors to
-CL386COMPAT.DLL, which adapts the early NT cdecl API ABI to modern Win32.
+This does NOT rewrite compiler code. It canonicalizes the shortened prototype
+PE32 header, normalizes old PE/COFF section and base-relocation metadata, and
+redirects the two imported system DLL descriptors to CL386COMPAT.DLL, which
+adapts the early NT cdecl API ABI to modern Win32.  The original ImageBase and
+original .reloc mapped extent are deliberately preserved.
 """
 from pathlib import Path
 import struct, collections, argparse
@@ -18,6 +20,24 @@ def main(src: Path, out: Path):
     opt=fh+20; assert struct.unpack_from('<H',b,opt)[0]==0x10b
     imagebase=struct.unpack_from('<I',b,opt+28)[0]
     assert imagebase==0x10000
+
+    # Canonicalize the shortened Dec-1991 PE32 optional header.  The prototype
+    # uses SizeOfOptionalHeader=0xA8 and only 9 data directories.  Contemporary
+    # PE32 normally uses 0xE0/16.  There is sufficient zero/header slack before
+    # the first raw section, so move only the section-table headers; section raw
+    # data and all file offsets remain unchanged.
+    old_sh=opt+optsz
+    old_section_table=bytes(b[old_sh:old_sh+nsec*40])
+    raw_ptrs=[struct.unpack_from('<I',old_section_table,i*40+20)[0] for i in range(nsec)]
+    first_raw=min(x for x in raw_ptrs if x)
+    new_optsz=0xe0; new_sh=opt+new_optsz
+    assert new_sh+nsec*40<=first_raw
+    b[new_sh:new_sh+nsec*40]=old_section_table
+    b[old_sh:new_sh]=b'\0'*(new_sh-old_sh)
+    struct.pack_into('<H',b,fh+16,new_optsz)
+    struct.pack_into('<I',b,opt+92,16)
+    b[opt+96+9*8:opt+96+16*8]=b'\0'*(7*8)
+    optsz=new_optsz
 
     # Modern COFF executable/i386 flags. Preserve relocations (not stripped).
     struct.pack_into('<H',b,fh+18,0x0102)
@@ -92,7 +112,25 @@ def main(src: Path, out: Path):
     assert len(nr)<=relalloc
     b[relraw:relraw+relalloc]=nr+b'\0'*(relalloc-len(nr))
     struct.pack_into('<II',b,dd,old_rva,len(nr))
-    struct.pack_into('<I',b,sec['.reloc'][0]+8,len(nr)) # VirtualSize
+    # Keep the compact relocation-directory size above, but retain the original
+    # .reloc mapped extent. CL386 happened to fit in one 64-KB alignment unit, so
+    # the old bug did not prevent it launching; preserving the extent keeps all
+    # four compiler components structurally consistent.
+    struct.pack_into('<I',b,sec['.reloc'][0]+8,relalloc)
+
+    section_alignment=struct.unpack_from('<I',b,opt+32)[0]
+    align=lambda x,a:(x+a-1)&~(a-1)
+    mapped=[]
+    sh=opt+optsz
+    for i in range(nsec):
+        o=sh+i*40
+        name=bytes(b[o:o+8]).split(b'\0')[0].decode('ascii')
+        vs,rva=struct.unpack_from('<II',b,o+8)
+        mapped.append((name,rva,vs))
+    for (n0,r0,v0),(n1,r1,v1) in zip(mapped,mapped[1:]):
+        assert align(r0+v0,section_alignment)==r1, (n0,n1,hex(r0),hex(v0),hex(r1))
+    size_image=struct.unpack_from('<I',b,opt+56)[0]
+    assert align(mapped[-1][1]+mapped[-1][2],section_alignment)==size_image
 
     out.write_bytes(b)
     print(f'{out}: {len(b)} bytes; {len(rels)} HIGHLOW relocations in {len(pages)} blocks ({len(nr):#x} bytes)')

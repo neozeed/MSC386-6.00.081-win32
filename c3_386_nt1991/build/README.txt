@@ -1,9 +1,11 @@
-C3_386 modern-Win32 experiment
+C3_386 modern Win32 build
 
-C3_386-WIN32.EXE   Modernized/rebased transitional PE image.
+C3_386-WIN32.EXE   Corrected modern PE32/i386 image.
 C3_386COMPAT.DLL   cdecl-to-modern-Win32 ABI compatibility layer.
-C23_386.ERR         Shared Phase 2/3 diagnostic catalogue.
+C23_386.ERR        Shared Phase 2/3 diagnostic catalogue.
 C3_386_rebuilt.EXE Exact reconstruction of the historical input, for verification only.
 
-To let CL386/C2 invoke the converted last pass, copy C3_386-WIN32.EXE as C3_386.EXE in a clean test directory together with C3_386COMPAT.DLL and C23_386.ERR.
-The modernized pair is structurally validated but has not been executed in this Linux environment.
+Copy/rename C3_386-WIN32.EXE to C3_386.EXE for the converted compiler pipeline.
+Runtime validated on 64-bit Windows 10 build 19045.6466 during the optimized phoon
+build. The corrected image preserves .reloc VirtualSize 0x14C00 and no longer
+contains the 64-KB RVA hole that native Windows rejected with error 5.

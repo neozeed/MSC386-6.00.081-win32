@@ -18,9 +18,19 @@ This bundle analyzes the uploaded 1991 NT `CL386.EXE`, aligns it with the previo
 
 Original SHA-256: `0c28c9222c55783a8c9cfc2f11a61c987f03f86f23d73fbc05744453871d8730`
 
-## Important runtime caveat
+## Runtime validation
 
-The compatibility pair is structurally validated as modern PE32, but this environment has no Windows/Wine runtime, so it has not yet been launch-tested. CL386 is a driver: useful compilation also requires its external pass executables such as `c1_386.exe`, `c2_386.exe`, `c3_386.exe` and whatever linker/assembler path the chosen options invoke.
+The corrected compatibility build is **runtime-validated on 64-bit Windows 10
+(10.0.19045.6466)**.  CL386 and the corrected C1/C2/C3 passes successfully
+compiled the multi-file `phoon` program with optimization, after which the
+historical linker produced a working Win32 executable.
+
+An important loader bug was found during that validation: shrinking the converted
+`.reloc` section's `VirtualSize` to the compact relocation payload created
+64-KB-aligned RVA holes in C1/C2/C3. Wine accepted those images; Windows rejected
+them at `CreateProcess` with `ERROR_ACCESS_DENIED`. CL386 happened not to expose the
+bug because its relocation section remained within one 64-KB mapping quantum. See
+`analysis/windows10_loader_validation.md`.
 
 ## Files
 
@@ -30,6 +40,7 @@ The compatibility pair is structurally validated as modern PE32, but this enviro
 - `analysis/os2_alignment.md` — why the earlier reverse is such a useful baseline.
 - `analysis/pe_layout.md` — prototype PE and old relocation analysis.
 - `analysis/compatibility_notes.md` — calling convention/structure ABI issues and the shim design.
+- `analysis/windows10_loader_validation.md` — Windows 10 loader diagnosis and full compiler regression test.
 - `analysis/message_diffs.md` — exact differences between OS/2 and NT message/error files.
 - `compat/cl386_compat.c` / `.def` — source for the compatibility DLL.
 - `tools/modernize_pe.py` — deterministic prototype-PE -> modern-PE converter.

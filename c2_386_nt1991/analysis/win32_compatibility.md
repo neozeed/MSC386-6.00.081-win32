@@ -10,12 +10,13 @@ The original image imports 22 names from `base.dll` and four from `ntdll.dll`: `
 
 `tools/modernize_c2_386.py` performs these narrow transformations:
 
-1. Changes preferred ImageBase from `0x00010000` to `0x00400000`.
-2. Validates every active old relocation before changing it. There are 15,190 records, of which 15,184 are active type 3; all active entries validate as `stored DWORD == old ImageBase + relocation Value`.
-3. Rebases each validated absolute DWORD by the ImageBase delta.
+1. Preserves the historical preferred ImageBase `0x00010000`.
+2. Expands the shortened 0xA8/9-directory prototype optional header to canonical PE32 0xE0/16-directory form, explicitly zeroing the later directories including CLR.
+3. Validates all 15,184 active type-3 relocations as `stored DWORD == ImageBase + relocation Value`.
 4. Converts those sites into 108 normal PE `IMAGE_BASE_RELOCATION` page blocks using `IMAGE_REL_BASED_HIGHLOW` entries.
-5. Normalizes section `VirtualSize` fields and makes `.bss` virtual-only (`SizeOfRawData = 0`).
-6. Points both old import descriptors at `C2_386COMPAT.DLL` without changing the compiler's IAT layout or code.
+5. Keeps the relocation data-directory size at the compact modern byte count while preserving `.reloc` section VirtualSize at the original `0x2CA00` mapped extent.
+6. Normalizes section `VirtualSize` fields and makes `.bss` virtual-only (`SizeOfRawData = 0`).
+7. Points both old import descriptors at `C2_386COMPAT.DLL` without changing the compiler's IAT layout or code.
 
 ## ABI translation
 
@@ -30,6 +31,10 @@ The shim also handles:
 
 ## Status
 
-The generated EXE parses as an ordinary PE32/i386 Windows 4.0 console executable, and its relocation table parses as modern HIGHLOW blocks. The compatibility DLL is a normal PE32 DLL and exports every name required by the converted executable.
+The corrected EXE parses as an ordinary PE32/i386 Windows 4.0 console executable and the compatibility DLL exports every required name.
 
-There is no Windows/Wine runtime in the analysis environment, so **runtime execution has not been certified**. The setjmp/longjmp bridge is the most important item to exercise on Windows because it participates in compiler recovery/error paths.
+Runtime testing on **64-bit Windows 10 build 19045.6466** is successful.  The earlier converter made `.reloc` VirtualSize equal to the compact relocation byte count (`0x7A5C`), which caused two 64-KB virtual holes before `.debug`; Wine accepted the image but native Windows rejected it at `CreateProcess` with error 5.  Restoring `.reloc` VirtualSize to `0x2CA00` fixed the loader failure.
+
+C2 then participated successfully in the full optimized CL386/C1/C2/C3 compilation of the multi-file `phoon` program.  See `windows10_loader_validation.md`.
+
+SHA-256 of corrected `build/C2_386-WIN32.EXE`: `162e57282ae686d184bcfc32e9638762ceebb10bd1e60480c1ca90572ba260be`.

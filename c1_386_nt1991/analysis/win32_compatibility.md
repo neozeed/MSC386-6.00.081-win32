@@ -6,10 +6,12 @@ The Dec-1991 C1 image is already recognisably PE32/i386, but it predates the fin
 
 `build/C1_386-WIN32.EXE` retains the compiler code and data but normalises the loader-facing representation:
 
-* preferred ImageBase moved from `0x00010000` to `0x00400000`;
-* all **6646** active old type-3 absolute relocation sites were verified (`stored DWORD == old ImageBase + relocation.Value`) and adjusted by the base delta;
+* historical preferred ImageBase `0x00010000` is preserved;
+* all **6646** active old type-3 absolute relocation sites were verified (`stored DWORD == ImageBase + relocation.Value`);
 * the old 12-byte relocation records were converted to modern page-grouped `IMAGE_BASE_RELOCATION` / `IMAGE_REL_BASED_HIGHLOW` entries;
+* the shortened 0xA8/9-directory prototype optional header is expanded to canonical 0xE0/16-directory PE32 form;
 * obsolete COFF executable characteristics and zero `PhysicalAddress`/modern `VirtualSize` fields were normalised;
+* the compact relocation directory is kept, but `.reloc` VirtualSize remains the original `0x13800` mapping extent so no 64-KB RVA hole is created before `.debug`;
 * `base.dll` and `ntdll.dll` descriptors are redirected to `C1_386COMPAT.DLL` while keeping every imported function name unchanged.
 
 ## Why a compatibility DLL is needed
@@ -25,12 +27,14 @@ Two concrete ABI translations are also required:
 
 ## Validation status
 
-The converted EXE parses as a normal PE32/i386 console executable with **6646 HIGHLOW relocations**, and the DLL parses as a PE32/i386 DLL exporting all **30 imported names** (duplicates across the two original descriptors collapse to the same export set where applicable).
+The corrected EXE parses as a normal PE32/i386 console executable with **6646 HIGHLOW relocations**, and the DLL parses as a PE32/i386 DLL exporting all **30 imported names**.
 
-This environment does **not** contain Windows/Wine, so actual process execution has not been runtime-certified here. Put `C1_386-WIN32.EXE`, `C1_386COMPAT.DLL`, and `C1_386.ERR` together. C1 is normally invoked by the compiler driver and expects its compiler intermediate/input conventions; using the modernised CL386 driver with the rest of the matching pass executables is the meaningful integration test.
+It is also **runtime-certified on 64-bit Windows 10 build 19045.6466** as part of the complete compiler pipeline.  The first converted C1 image was rejected by native Windows with `Access is denied` / error 5 because shrinking `.reloc` VirtualSize to the compact relocation payload created a 64-KB virtual hole before `.debug`; Wine had accepted that malformed mapping.  Preserving the original `.reloc` mapped extent fixed the native loader failure.
+
+The complete CL386/C1/C2/C3 toolchain then compiled and linked the multi-file `phoon` program successfully, and the resulting executable ran correctly.  See `windows10_loader_validation.md`.
 
 SHA-256:
 
 * original C1: `9bfb785e5b08298be94f44256812378c094e0abd0a69e66f8d1ce2ba3745b933`
-* modernised C1: `f624d0b1527ca62eedf1152d300855c6427dc76c5320b978067b2748937a69bd`
+* corrected modernised C1: `df9d1fc72958712276d66b4d19529690ca4712a7540f5099e39800f99ba80ed7`
 * compatibility DLL: `7fddb6709d5132dca78bbaaae4545643cc9adff0b403854c483feaf624357b61`

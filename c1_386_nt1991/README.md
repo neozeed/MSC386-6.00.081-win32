@@ -24,7 +24,9 @@ See `analysis/ROUNDTRIP_OK.txt`.
 
 ## Modern Win32 build
 
-`build/C1_386-WIN32.EXE` + `build/C1_386COMPAT.DLL` are the conversion pair. The converter rewrites the old relocation format, rebases the image to `0x00400000`, normalises section metadata, and redirects the early BASE/NTDLL ABI through the compatibility DLL. See `analysis/win32_compatibility.md` for the ABI details and validation limits.
+`build/C1_386-WIN32.EXE` + `build/C1_386COMPAT.DLL` are the conversion pair. The converter preserves the historical `0x00010000` ImageBase, expands the shortened prototype optional header to canonical PE32 form, converts the old relocation format to standard HIGHLOW blocks, preserves the original `.reloc` mapped extent, normalises section metadata, and redirects the early BASE/NTDLL ABI through the compatibility DLL.
+
+This corrected build is **runtime-validated on 64-bit Windows 10 (10.0.19045.6466)** as part of the complete CL386/C1/C2/C3 pipeline and successfully compiled the multi-file `phoon` program. See `analysis/windows10_loader_validation.md`.
 
 ## Useful files
 
@@ -38,5 +40,6 @@ See `analysis/ROUNDTRIP_OK.txt`.
 * `analysis/message_differences.md` — OS/2 vs NT `.ERR` differences
 * `analysis/old_relocations.tsv` — all old relocation records and verification
 * `analysis/win32_compatibility.md` — modernisation rationale
+* `analysis/windows10_loader_validation.md` — native Windows loader bug, fix, and Phoon validation
 * `tools/modernize_c1_386.py` — reproducible PE converter
 * `compat/c1_386_compat.c` / `.def` — compatibility DLL source

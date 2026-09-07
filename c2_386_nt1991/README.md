@@ -35,16 +35,20 @@ The resulting executable is byte-for-byte identical to the supplied file; see
 ## Modern Win32 build
 
 `build/C2_386-WIN32.EXE` converts the old relocation representation to modern
-page-based HIGHLOW relocations, rebases the image to 0x00400000, normalizes old
-section semantics, and redirects the old BASE/NTDLL import surfaces to
-`build/C2_386COMPAT.DLL`.
+page-based HIGHLOW relocations, preserves the historical `0x00010000` ImageBase,
+expands the shortened prototype optional header to canonical PE32 form, preserves
+the original `.reloc` mapped extent, normalizes old section semantics, and
+redirects the old BASE/NTDLL import surfaces to `build/C2_386COMPAT.DLL`.
 
 The compatibility DLL translates caller-cleanup 1991 API calls to current Win32,
 translates the old STARTUPINFO and RtlUnwind forms, and supplies a local x86
 setjmp/longjmp pair because C2 imports those from early NTDLL.
 
-This pair is structurally validated but was not runtime-tested because the analysis
-environment has no Windows or Wine installation. See `analysis/win32_compatibility.md`.
+This corrected pair is **runtime-validated on 64-bit Windows 10
+(10.0.19045.6466)**.  It participated in a complete optimized build of the
+multi-file `phoon` program through CL386/C1/C2/C3.  See
+`analysis/windows10_loader_validation.md` for the loader failure that Wine had
+masked and the exact `.reloc` VirtualSize fix.
 
 ## Useful files
 
@@ -57,5 +61,6 @@ environment has no Windows or Wine installation. See `analysis/win32_compatibili
 - `analysis/error_catalog.tsv` — parsed C23_386.ERR catalogue.
 - `analysis/imports.tsv` — original early-NT imports.
 - `analysis/old_relocations.tsv` — all transitional relocation records and validation.
+- `analysis/windows10_loader_validation.md` — native Windows loader fix and full-pipeline validation.
 - `tools/modernize_c2_386.py` — reproducible Win32 conversion.
 - `compat/` — source and build script for C2_386COMPAT.DLL.

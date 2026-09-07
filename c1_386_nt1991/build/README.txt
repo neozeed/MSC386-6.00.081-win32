@@ -7,10 +7,10 @@ Keep these files together:
   C1_386COMPAT.DLL
   C1_386.ERR
 
-C1_386 is compiler Pass 1, not normally a standalone user-facing compiler.
-The useful test is to place it in the matching toolchain and have the
-modernised CL386 driver invoke it with the original compiler pass arguments.
+For the historical driver, copy/rename C1_386-WIN32.EXE to C1_386.EXE.
 
-The EXE has been structurally converted and validated as PE32/i386, but this
-bundle was produced in a non-Windows environment without Wine, so execution on
-Windows has not been runtime-certified here.
+This corrected image is runtime-validated on 64-bit Windows 10 build 19045.6466.
+It participated in the complete CL386/C1/C2/C3 optimized build of phoon.  The
+important native-Windows fix preserves the original 0x13800 .reloc VirtualSize
+while the relocation data directory itself contains only the compact modern
+HIGHLOW blocks. See ../analysis/windows10_loader_validation.md.

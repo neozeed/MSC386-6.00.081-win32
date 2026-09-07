@@ -33,11 +33,11 @@ The surviving original names identify Pass 3 as the final post-optimizer/object-
 
 ## Modern Win32 conversion
 
-`build/C3_386-WIN32.EXE` has been rebased to `0x00400000`, the old relocation array converted to 7,064 standard HIGHLOW relocations in 36 page blocks, section semantics normalized, and both early import descriptors redirected to `C3_386COMPAT.DLL`.
+`build/C3_386-WIN32.EXE` preserves the historical `0x00010000` ImageBase, expands the shortened prototype optional header to canonical PE32 form, converts the old relocation array to 7,064 standard HIGHLOW relocations in 36 page blocks, preserves the original `.reloc` mapped extent, normalizes section semantics, and redirects both early import descriptors to `C3_386COMPAT.DLL`.
 
 The shim handles the old caller-cleanup API convention, the old small STARTUPINFO layout, and the old three-argument `RtlUnwind`.  C3 does not need C2's custom setjmp/longjmp bridge.
 
-**Runtime status:** PE/import/relocation structure and the DLL exports are validated here, but no Windows/Wine runtime is available in this environment, so actual execution still needs a real Windows test.
+**Runtime status:** the corrected build is **validated on native 64-bit Windows 10 (10.0.19045.6466)** and participated successfully in the complete optimized CL386/C1/C2/C3 build of `phoon`.  See `analysis/windows10_loader_validation.md` for the section-layout bug that Windows rejected with error 5 while Wine accepted it.
 
 ## Useful files
 
@@ -47,6 +47,7 @@ The shim handles the old caller-cleanup API convention, the old small STARTUPINF
 - `analysis/diagnostic_call_refs.tsv` — direct C23 diagnostic calls
 - `analysis/c2_c3_symbol_crosswalk.tsv` — same-name C2/C3 routines
 - `analysis/win32_compatibility.md` — conversion details and caveats
+- `analysis/windows10_loader_validation.md` — native Windows loader fix and Phoon regression test
 - `analysis/ROUNDTRIP_OK.txt` — exact reconstruction proof
 - `tools/modernize_c3_386.py` — reproducible modernizer
 - `compat/` — source and build script for the compatibility DLL

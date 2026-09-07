@@ -3,13 +3,13 @@
 ## Result
 
 A modernized PE32 image and a dedicated compatibility DLL are included in `build/`.
-The conversion is structurally validated but **not runtime-certified**, because this environment has no Windows/Wine runtime.
+The corrected pair is structurally validated and **runtime-certified on 64-bit Windows 10 build 19045.6466** as part of the complete CL386/C1/C2/C3 pipeline.
 
 ## Transitional PE details
 
 - Original SHA-256: `337cbe52d9075b73948bf42512d3983b2effa3f9e23df8b2687d7e1acb6f8b23`
 - Original ImageBase: `0x00010000`
-- Modernized ImageBase: `0x00400000`
+- Modernized ImageBase: `0x00010000` (historical base preserved)
 - Old relocation records: 7,067
 - Active type-3 relocation records: 7,064
 - Inactive records: 3
@@ -17,7 +17,7 @@ The conversion is structurally validated but **not runtime-certified**, because 
 - Modern HIGHLOW page blocks: 36
 - Imported names: 25 (23 from `base.dll`, 2 from `ntdll.dll`)
 
-Every active old relocation was accepted only after confirming that the DWORD at its relocation RVA equalled `old_ImageBase + relocation.Value`.  Those absolute values were then rebased and the old record array was replaced with standard PE `IMAGE_BASE_RELOCATION` page blocks.
+Every active old relocation was accepted only after confirming that the DWORD at its relocation RVA equalled `ImageBase + relocation.Value`.  The old record array was then replaced with standard PE `IMAGE_BASE_RELOCATION` page blocks without rebasing the compiler image.  The compact relocation data-directory size is independent of `.reloc` section VirtualSize, which remains the original `0x14C00` mapped extent.
 
 ## Why a compatibility DLL is required
 
@@ -45,3 +45,11 @@ C23_386.ERR
 ```
 
 For a complete compiler pipeline, use the previously modernized CL386/C1/C2 executables as well.  Keep the original historical binaries elsewhere so the expected historical filenames can be used by the converted driver.
+
+## Windows 10 loader correction
+
+The first C3 modernizer set `.reloc` VirtualSize to the compact relocation payload size `0x3878`.  With 64-KB SectionAlignment that made the mapped relocation section end at RVA `0x80000` even though `.debug` begins at `0x90000`. Wine accepted the gap; native Windows returned `ERROR_ACCESS_DENIED` before C3's entry point ran.
+
+The corrected build keeps the relocation directory compact but restores `.reloc` VirtualSize to its original `0x14C00`.  C3 then ran successfully in the real compiler pipeline and emitted object code for the `phoon` regression build. See `windows10_loader_validation.md`.
+
+Corrected EXE SHA-256: `1700daf68cd7ab32b875b9899bece1f59020280fe461084d14efed7ec7b5507b`.

@@ -1,10 +1,13 @@
-Modern Win32 structural validation
+Modern Win32 structural + runtime validation
 
-C3_386-WIN32.EXE SHA-256: 3cf70c25377c8a5c514aab8dccd5f15c2fbc26002b8b44a4a702872369ae4c96
+C3_386-WIN32.EXE SHA-256: 1700daf68cd7ab32b875b9899bece1f59020280fe461084d14efed7ec7b5507b
 C3_386COMPAT.DLL SHA-256: 6a2b73830013506734f5e3a0350f56c4e97bc2c6fecf497a8d46c66c1bca6779
 EXE imported names: 25
 DLL declared exports: 25
 Missing imports from DLL export list: []
-objdump parses modernized EXE: yes
-objdump parses compatibility DLL: yes
-runtime execution tested: no (no Windows/Wine runtime in environment)
+objdump/file parse modernized EXE: yes
+objdump/file parse compatibility DLL: yes
+runtime execution tested: yes
+runtime host: 64-bit Windows 10, version 10.0.19045.6466
+full-pipeline regression: CL386/C1/C2/C3 successfully compiled optimized multi-file phoon; linked executable ran successfully
+native-loader correction: .reloc VirtualSize restored to 0x14C00; compact relocation data-directory size remains 0x3878
