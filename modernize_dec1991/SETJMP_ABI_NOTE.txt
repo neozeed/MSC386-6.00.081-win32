@@ -1,0 +1,22 @@
+setjmp/longjmp ABI note
+========================
+
+R7's 24-byte jmp_buf fix is not COFF-only.
+
+The original C2_386.EXE retained COFF symbols show:
+
+    _Out_o_mem_jmp_buf  value 0x70868
+    _P2spot             value 0x70880
+
+Difference: 0x18 bytes.
+
+A second C2 setjmp buffer is:
+
+    _spill_buf           value 0x71124
+    _Bytes_left          value 0x7113c
+
+Again: exactly 0x18 bytes.
+
+So the previous experimental +0x18 FS:[0] save was also one DWORD beyond C2's
+historical jmp_buf. The R7 24-byte setjmp/longjmp implementation is therefore
+the better common 1991 ABI for both C2 and COFF.

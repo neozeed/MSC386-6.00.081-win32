@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CL386.EXE",
+    "source_sha256": "0c28c9222c55783a8c9cfc2f11a61c987f03f86f23d73fbc05744453871d8730",
+    "output_sha256": "74289a24f72bf7a14e1adc49b4d649c502401c47174e8cacf925193c093ff013",
+    "size": 112128
+  },
+  {
+    "file": "C1_386.EXE",
+    "source_sha256": "9bfb785e5b08298be94f44256812378c094e0abd0a69e66f8d1ce2ba3745b933",
+    "output_sha256": "f071267aa77c0d44a078e4dd2643b6878bb4aeb25c3532ef4c94f03241bd14d9",
+    "size": 336896
+  },
+  {
+    "file": "C2_386.EXE",
+    "source_sha256": "64aa0b3bbd0ef4d691515b7d56d62f6403f08c2af36b9712d13c7e847f7eae7a",
+    "output_sha256": "e5c6e3f94546b843af205f9dd46b51e03c7a7345f417b2b63f0543b72ea29ac3",
+    "size": 749568
+  },
+  {
+    "file": "C3_386.EXE",
+    "source_sha256": "337cbe52d9075b73948bf42512d3983b2effa3f9e23df8b2687d7e1acb6f8b23",
+    "output_sha256": "b94e37eca379c5c594816750ebf6ca3345a3e5e64776e75acf256c7e794df2eb",
+    "size": 302592
+  },
+  {
+    "file": "LINK.EXE",
+    "source_sha256": "3679c1dbe1eb433cbfad647e138d8214a6b0b55b4caefc67f8e29a0a5aef3362",
+    "output_sha256": "741fe3c5f07fd639a943ea822e72aef6915e4a05ec4b1d6ebe1815f7dce22af5",
+    "size": 57856
+  },
+  {
+    "file": "COFF.EXE",
+    "source_sha256": "02c3f7bc69e87818646d9f7719f3790cb47f7aaaeaf980beaa50f86c603090e8",
+    "output_sha256": "d32e5eb4cc22fe312773aaf840d38b90dfcd86d06ef8c79d8de4161553607143",
+    "size": 275968
+  },
+  {
+    "file": "CVTOMF.EXE",
+    "source_sha256": "33b1ee4841d457fd8b9d4d43ee1240ed7901fb4525f79fe0b402662fba4b2be4",
+    "output_sha256": "54e52a85d4b0bf17a1eb8d08f3b77b8540eb222ded36a63075f66c0863d8acca",
+    "size": 107008
+  }
+]
